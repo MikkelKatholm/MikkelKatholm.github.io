@@ -3,7 +3,7 @@ let targetSpirit
 
 function getJson() {
     // read local JSON file in javascript
-    fetch("/recipies.json")
+    fetch("../cocktailbook/recipies.json")
         .then(function (response) {
             return response.json();
         })

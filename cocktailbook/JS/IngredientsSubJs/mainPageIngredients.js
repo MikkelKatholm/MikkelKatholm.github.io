@@ -3,7 +3,7 @@ let jsonData
 
 function getJson() {
     // read local JSON file in javascript
-    fetch("/recipies.json")
+    fetch("../cocktailbook/recipies.json")
         .then(function (response) {
             return response.json();
         })
@@ -15,7 +15,7 @@ function getJson() {
 
 function getJsonIngredients() {
     // read local JSON file in javascript
-    fetch('/Ingredients.json')
+    fetch('../cocktailbook/Ingredients.json')
         .then(function (response) {
             return response.json();
         })
