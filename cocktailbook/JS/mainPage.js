@@ -144,7 +144,7 @@ function generateRecipeCard(recipe) {
     let site = recipe.Title.replace(/ /g, '_');
     const anchor = document.createElement('a');
     anchor.classList.add("column", "is-one-third");
-    anchor.href = `/RecipeSites/${site}.html`;
+    anchor.href = `../cocktailbook/RecipeSites/${site}.html`;
 
 
     // get grid container and append card
