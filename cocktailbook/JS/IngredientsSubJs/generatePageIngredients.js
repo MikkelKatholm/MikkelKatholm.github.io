@@ -5,7 +5,7 @@ let jsonData
 
 function getJson() {
     // read local JSON file in javascript
-    fetch("../cocktailbook/recipies.json")
+    fetch("/cocktailbook/recipies.json")
         .then(function (response) {
             return response.json();
         })
@@ -17,7 +17,7 @@ function getJson() {
 
 function getJsonIngredients() {
     // read local JSON file in javascript
-    fetch('../cocktailbook/Ingredients.json')
+    fetch('/cocktailbook/Ingredients.json')
         .then(function (response) {
             return response.json();
         })
@@ -81,7 +81,7 @@ async function generateRecipePage(name) {
     //Add the image to the column
     const divForImage = document.createElement('div');
     divForImage.classList.add('image', 'rounded-image', "image-container");
-    divForImage.style.backgroundImage = "url('" + recipe.Img + "')";
+    divForImage.style.backgroundImage = "url('/cocktailbook/" + recipe.Img + "')";
 
 
     columnForImage.appendChild(divForImage);
@@ -186,7 +186,7 @@ async function generateRecipePage(name) {
         //Link to a subpage for the ingredient//
         if (ingredient.link != undefined) {
             let link = document.createElement('a');
-            link.href = 'Ingredients/' + ingredient.link;
+            link.href = '/cocktailbook/Ingredients/' + ingredient.link;
             ingredientsList.appendChild(link);
             link.appendChild(listItem);
         }

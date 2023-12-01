@@ -50,7 +50,7 @@ async function clickButton() {
     let surpiceMeButton = document.getElementById("surpiceMe");
     surpiceMeButton.onclick = function () {
         let randomCocktail = Math.floor(Math.random() * jsonData.Cocktails.length);
-        let path = "/RecipeSites/" + jsonData.Cocktails[randomCocktail].Title.replace(/ /g, '_') + '.html';
+        let path = "/cocktailbook/RecipeSites/" + jsonData.Cocktails[randomCocktail].Title.replace(/ /g, '_') + '.html';
 
         location.href = path;
         console.log(path);
