@@ -1,26 +1,22 @@
-# CocktailBook
+# Cocktail book website for now
 
 
 ## Git
 ```
 cd existing_repo
-git add .
-git commmit -m "Comment"
-git push origin BranchName
+gitpush.bat
 ```
 To recuce file sizes use
 ```	
-cd repo
+cd image repo
 for %i in (*.jpg) do ffmpeg -i "%~i" -y "%~i"
 ```
 To remove metadata from all images in a folder
 ```
-cd repo
+cd image repo
 for %i in (*.jpg) do ffmpeg -i "%i" -map_metadata -1 -c copy -y "%i"
 ```
 
-## Name
-The cocktail book
 
 ## Description
 This is a cocktail cook/website based on some of the most popular cocktails in the world. The website will be a place where you can find the recipe for your favorite cocktail and also find new cocktails to try out.
@@ -32,8 +28,11 @@ When adding a new recipe make sure to make a new html file in the `RecipeSite` f
 
 
 ## Running
-To run the webpage I use the NodeJS http servise, to run type `http-server` in the terminal in the working directory. This will start a server on port 8080. You can now go to `localhost:8080` in your browser to see the webpage.
-download nodejs here: https://nodejs.org/en/download/
+i'm currently using my personal github pages to host the website. You can find the website here: https://MikkelKatholm.github.io/CocktailBook/index.html
+
+To run the webpage locally you need to clone the repository and then run the a servise like nodejs 'http-server' and then open the webpage on http://localhost:8080. 
+
+Download nodejs here: https://nodejs.org/en/download/
 
 
 ## Project status
