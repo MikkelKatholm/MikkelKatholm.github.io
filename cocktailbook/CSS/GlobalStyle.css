@@ -1,0 +1,9 @@
+.column {
+    display: block
+}
+
+/*make the font inter */
+@import url('https://rsms.me/inter/inter.css');
+body {
+    font-family: 'Inter', sans-serif;
+}  

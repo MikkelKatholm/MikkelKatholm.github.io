@@ -1,0 +1,65 @@
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/index.html" id="logo">
+      <img src="/Images/Logo.jpg" width="40" height="28">
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="/index.html">
+        Home/Cocktails
+      </a>
+
+      <a class="navbar-item" href="/RecipeSites/Ingredients/HomemadeIngredients.html">
+        Homemade Ingredients
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Spirits
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="/RecipeSites/Ingredients/Gin.html">
+            Gin
+          </a>
+          <a class="navbar-item" href="/RecipeSites/Ingredients/Vodka.html">
+            Vodka
+          </a>
+          <a class="navbar-item" href="/RecipeSites/Ingredients/Rum.html">
+            Rum
+          </a>
+          <a class="navbar-item" href="/RecipeSites/Ingredients/BourbonWhiskey.html">
+            Bourbon/Whiskey
+          </a>
+          <a class="navbar-item" href="/RecipeSites/Ingredients/Tequila.html">
+            Tequila
+          </a>
+          <a class="navbar-item" href="/RecipeSites/Ingredients/Liqueurs.html">
+            Liqueurs
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary" id="surpiceMe">
+            <strong>Surprise me</strong>
+          </a>
+        </div>
+      </div>
+      <div class="navbar-item">
+        <input id="searchBox" class="input is-rounded" onkeyup="searchBox()" type="text" placeholder="Search"
+          autocomplete="off" spellcheck="false" style="position: relative; vertical-align: top;" dir="auto">
+      </div>
+    </div>
+  </div>
+</nav>

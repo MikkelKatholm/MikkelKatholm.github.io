@@ -1,0 +1,434 @@
+{
+    "Ingredi": [
+        {
+            "Title": "Date Syrup",
+            "Time": "1 hour",
+            "ShelfLife": "1 month",
+            "Img": "/Images/Date_Syrup.jpg",
+            "Ingredients": [
+                {
+                    "name": "Water",
+                    "quantity": "100 grams"
+                },
+                {
+                    "name": "Demerara sugar",
+                    "quantity": "100 grams"
+                },
+                {
+                    "name": "Dates",
+                    "quantity": "30 grams"
+                },
+                {
+                    "name": "Cinnamon stick",
+                    "quantity": "1-2 grams"
+                },
+                {
+                    "name": "Orange zest",
+                    "quantity": "1/6 of an orange"
+                }
+            ],
+            "HowTo": [
+                "Add all ingredients to a saucepan and bring to a boil over medium heat.",
+                "Reduce heat and simmer for 50 minutes with a lid.",
+                "Remove from heat and let cool.",
+                "Strain and store in a clean container."
+            ]
+        },
+        {
+            "Title": "Raspberry Syrup",
+            "Time": "15 min",
+            "ShelfLife": "1 month",
+            "Img": "/Images/Raspberry_Syrup.jpg",
+            "Ingredients": [
+                {
+                    "name": "Water",
+                    "quantity": "50 grams"
+                },
+                {
+                    "name": "White sugar",
+                    "quantity": "100 grams"
+                },
+                {
+                    "name": "Raspberries",
+                    "quantity": "50 grams"
+                }
+            ],
+            "HowTo": [
+                "Add all ingredients to a saucepan and bring to a boil over medium heat.",
+                "Reduce heat and simmer for 10 minutes.",
+                "Remove from heat and let cool.",
+                "Strain and store in a clean container."
+            ]
+        },
+        {
+            "Title": "Rhubarb Syrup",
+            "Time": "40 min",
+            "ShelfLife": "1 month",
+            "Img": "/Images/Rhubarb_Syrup.jpg",
+            "Ingredients": [
+                {
+                    "name": "Water",
+                    "quantity": "150 grams"
+                },
+                {
+                    "name": "White sugar",
+                    "quantity": "100 grams"
+                },
+                {
+                    "name": "Rhubarb",
+                    "quantity": "100 grams"
+                }
+            ],
+            "HowTo": [
+                "Add all ingredients to a saucepan and bring to a boil over medium heat.",
+                "Reduce heat and simmer for 40 minutes.",
+                "Remove from heat and let cool.",
+                "Strain and store in a clean container."
+            ]
+        },
+        {
+            "Title": "Mango Syrup",
+            "Time": "20 min",
+            "ShelfLife": "1 month",
+            "Img": "/Images/Mango_Syrup.jpg",
+            "Ingredients": [
+                {
+                    "name": "Water",
+                    "quantity": "100 grams"
+                },
+                {
+                    "name": "White sugar",
+                    "quantity": "100 grams"
+                },
+                {
+                    "name": "Mango",
+                    "quantity": "100 grams"
+                }
+            ],
+            "HowTo": [
+                "Peal and cut mango into small pieces.",
+                "Add all ingredients to a saucepan and bring to a boil over medium heat.",
+                "Reduce heat and simmer for 20 minutes.",
+                "Remove from heat and let cool.",
+                "Strain and store in a clean container."
+            ]
+        },
+        {
+            "Title": "Pineapple Rum",
+            "Time": "10 days",
+            "ShelfLife": "Indefinite",
+            "Img": "/Images/Pineapple_Rum.jpg",
+            "Ingredients": [
+                {
+                    "name": "Light rum",
+                    "quantity": "750 ml"
+                },
+                {
+                    "name": "Pineapple",
+                    "quantity": "1"
+                }
+            ],
+            "HowTo": [
+                "Peal and cut pineapple into small pieces.",
+                "Add pineapple and rum to a clean container.",
+                "Let sit for 10 days.",
+                "Shake the container daily.",
+                "Strain and store in a clean container."
+            ]
+        },
+        {
+            "Title": "Popcorn Syrup",
+            "Time": "10 days",
+            "ShelfLife": "1 month",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Demerara sugar",
+                    "quantity": "100 grams"
+                },
+                {
+                    "name": "Water",
+                    "quantity": "400 grams"
+                },
+                {
+                    "name": "Popcorn unsalted",
+                    "quantity": "50 grams"
+                }
+            ],
+            "HowTo": [
+                "Pop the popcorn and blend with 300 ml water",
+                "Strain the mixture, it will be thick and creamy.",
+                "Add mixture, sugar and the remaining water to a saucepan and heat till sugar is dissolved.",
+                "Strain and store in a clean container."
+            ]
+        },
+        {
+            "Title": "Popcorn Washed Aged Rum",
+            "Time": "10 days",
+            "ShelfLife": "Indefinite",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Aged rum",
+                    "quantity": "375 ml"
+                },
+                {
+                    "name": "Popcorn unsalted",
+                    "quantity": "50 grams"
+                }
+            ],
+            "HowTo": [
+                "Blend popcorn and rum in a blender.",
+                "Let sit for 10 days.",
+                "Shake the container daily.",
+                "Strain and store in a clean container."
+            ]
+        },
+        {
+            "Title": "Earl Grey Infused Gin",
+            "Time": "1.5 hours",
+            "ShelfLife": "Indefinite",
+            "Img": "/Images/Earl_Grey_Infused_Gin.jpg",
+            "Ingredients": [
+                {
+                    "name": "London dry gin",
+                    "quantity": "375 ml"
+                },
+                {
+                    "name": "Earl grey tea",
+                    "quantity": "1 bag"
+                }
+            ],
+            "HowTo": [
+                "Add gin and tea to a clean container.",
+                "Let sit for about 1 hour.",
+                "Taste the gin and remove the tea bag when desired taste is reached.",
+                "Strain and store in a clean container."
+            ],
+            "Notes": [
+                "We own the foto."
+            ]
+        },
+        {
+            "Title": "Acacia Honey Syrup",
+            "Time": "10 days",
+            "ShelfLife": "1 month",
+            "Img": "/Images/pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Acacia honey",
+                    "quantity": "100 grams"
+                },
+                {
+                    "name": "Water",
+                    "quantity": "50 grams"
+                }
+            ],
+            "HowTo": [
+                "Boil the water.",
+                "Add honey to a clean container.",
+                "Add water to the container and stir until honey is dissolved."
+            ]
+        },
+        {
+            "Title": "Elderflower Vodka",
+            "Time": "3 months",
+            "ShelfLife": "Indefinite",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": "700s ml"
+                },
+                {
+                    "name": "Elderflower",
+                    "quantity": "15 heads"
+                },
+                {
+                    "name": "Lemon zest",
+                    "quantity": "1 lemon"
+                }
+            ],
+            "HowTo": [
+                "Pick the elderflower heads in the morning when they are fresh and fragrant.",
+                "Shake the heads to remove bugs, and remove the majority of the stems.",
+                "Add elderflower and vodka to a clean container making sure the elderflower is submerged.",
+                "Let sit for 4-6 weeks in a cool dark place.",
+                "After 4-6 weeks strain the vodka and store in a clean container.",
+                "Let the vodka sit for 2 months in order to let the flavors meture."
+            ]
+        },
+        {
+            "Title": "Rhubarb Bitters",
+            "Time": "2 weeks",
+            "ShelfLife": "Indefinite",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Rhubarb stalks",
+                    "quantity": "3"
+                },
+                {
+                    "name": "Vodka 60%",
+                    "quantity": "750 ml"
+                },
+                {
+                    "name": "Allspice berries",
+                    "quantity": "5"
+                },
+                {
+                    "name": "Star anise",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Cloves",
+                    "quantity": "3"
+                },
+                {
+                    "name": "Navel Orange Zest",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Ruby Grapefruit Zest",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Cinnamon stick",
+                    "quantity": "1"
+                }
+            ],
+            "HowTo": [
+                "Peal and cut rhubarb into small pieces.",
+                "Zest the orange and grapefruit.",
+                "Add the vodka, zest, rhubarb, cinnamon and star anise to a clean container.",
+                "After 2-3 days remove the star anise. Taste it before removing.",
+                "Let sit for a week.",
+                "Add the remaining spices and let sit for another week.",
+                "Strain into a clean container and add 60 ml of agave syrup."
+            ]
+        },
+        {
+            "Title": "Ginger Syrup",
+            "Time": "15 minutes",
+            "ShelfLife": "1 month",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Ginger",
+                    "quantity": "50 grams"
+                },
+                {
+                    "name": "Water",
+                    "quantity": "100 grams"
+                },
+                {
+                    "name": "Demerara sugar",
+                    "quantity": "100 grams"
+                }
+            ],
+            "HowTo": [
+                "Peal and cut the ginger into small pieces.",
+                "Add ginger and water to a saucepan.",
+                "Bring to a boil and let simmer for 10 minutes.",
+                "Add the sugar and stir until dissolved.",
+                "Strain and store in a clean container."
+            ]
+        },
+        {
+            "Title": "Honey Syrup",
+            "Time": "5 minutes",
+            "ShelfLife": "1 month",
+            "Img": "/Images/Honey_Syrup.jpg",
+            "Ingredients": [
+                {
+                    "name": "Honey",
+                    "quantity": "50 grams"
+                },
+                {
+                    "name": "Water",
+                    "quantity": "50 grams"
+                }
+            ],
+            "HowTo": [
+                "Boil the water.",
+                "Add honey and water to a clean container.",
+                "Shake until honey is dissolved.",
+                "Store in a clean container."
+            ],
+            "Notes":[
+                "We own the foto."
+            ],
+            "About": [
+                "Honey syrup is a great alternative to simple syrup. It has a more complex flavor and is less sweet.",
+                "The ratio of honey to water can be adjusted to taste, some cocktail are 4:1 recommended."
+            ]
+        },
+        {
+            "Title": "Funderberg",
+            "Time": "4 weeks",
+            "ShelfLife": "Indefinite",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Vodka 50%",
+                    "quantity": "300 grams"
+                },
+                {
+                    "name": "Water",
+                    "quantity": "60 grams"
+                },
+                {
+                    "name": "White sugar",
+                    "quantity": "33 grams"
+                },
+                {
+                    "name": "Charred oak",
+                    "quantity": "15 grams"
+                },
+                {
+                    "name": "Gentian root",
+                    "quantity": "4 grams"
+                },
+                {
+                    "name": "Dried ginger",
+                    "quantity": "5 grams"
+                },
+                {
+                    "name": "Fennel seeds",
+                    "quantity": "2 grams"
+                },
+                {
+                    "name": "Dried spearmint (Mentha spicata)",
+                    "quantity": "1 gram"
+                },
+                {
+                    "name": "Cloves",
+                    "quantity": "2 grams"
+                },
+                {
+                    "name": "Anis seeds",
+                    "quantity": "1 gram"
+                },
+                {
+                    "name": "Star anise",
+                    "quantity": "1 gram"
+                },
+                {
+                    "name": "Dried american wintergreen (Gaultheria procumbens)",
+                    "quantity": "0.5 gram"
+                }
+            ],
+            "HowTo": [
+                "Add all the dry ingredients to a clean container.",
+                "Pour in the vodka.",
+                "Let sit for 2 weeks.",
+                "Strain the vodka off and set aside in a clean container.",
+                "Bring the water to a boil and pour over the solids.",
+                "Let sit for 3 days.",
+                "Strain the water and save for later.",
+                "Mix the infused vodka, sugar and 45 grams of the water.",
+                "Strain and store in a clean container."
+            ]
+        }
+    ]
+}

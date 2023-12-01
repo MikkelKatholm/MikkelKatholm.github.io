@@ -1,0 +1,48 @@
+#navbar-container {
+    padding-bottom: 50px;
+}
+
+.rounded-image {
+    border-radius: 8px;
+}
+
+.image-container {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    /* Maintains the aspect ratio of a square image */
+}
+
+/* Makes sure it looks nice on ipad and smaller */
+@media (max-width: 1025px) {
+    .columns {
+        flex-wrap: wrap;
+    }
+
+    .column.is-2,
+    .column.is-8,
+    .column.is-6 {
+        width: 100%;
+    }
+
+    .column.is-6 {
+        flex-basis: 50%;
+    }
+
+    .column.is-2 {
+        display: none !important;
+    }
+}
+
+#searchBox {
+    display: none !important;
+}
+
+/*Lock the the page so scrolling on the horisontal axis is not possible without adding a second scroolbar for the div*/
+#lockScroll {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+}

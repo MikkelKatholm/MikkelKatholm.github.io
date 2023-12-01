@@ -1,0 +1,3090 @@
+{
+    "Cocktails": [
+        {
+            "Title": "Basil Smash",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Basil_Smash.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Basil",
+                    "quantity": "3-5",
+                    "unit": "leaves of"
+                }
+            ],
+            "Garnish": [
+                "Basil leaves"
+            ],
+            "HowTo": [
+                "Lightly muddle the lime juice and basil leaves in the shaker.",
+                "Add simple syrup and gin to the shaker along with ice.",
+                "Shake the shaker.",
+                "Strain into a coupe and garnish with some basil."
+            ],
+            "About": [
+                "The Basil Smash is a cocktail created in 2008 by Jörg Meyer at the Bar Le Lion in Hamburg, Germany. It is a variant of a gin sour, with basil as its primary ingredient.",
+                "This simple cocktail has become a modern classic, as it is refreshing, delicious and easy to make.",
+                "Meyer originally called it the Gin Pesto, a name that surely was fitting, but it seems that the name transformed into description of the cocktail, as it is now known as the Basil Smash.",
+                "Smashes are a family of cocktails that involve muddeled herbs and or citrus, which might also be the reason for the name change. Speaking of the name, when it comes to the amount of basil, you really can't add to much, so smash away!"
+            ]
+        },
+        {
+            "Title": "Clover Club",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Clover_Club.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Raspberry syrup",
+                    "quantity": 2,
+                    "unit": "cl",
+                    "link": "Syrup/Raspberry_Syrup.html"
+                },
+                {
+                    "name": "Egg white",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "3 Raspberrys"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker along with ice.",
+                "Shake the shaker.",
+                "Strain into a coupe and garnish the raspberrys in a cocktail skewer."
+            ],
+            "About": [
+                "The delightful Clover Club is a cocktail that dates back to the late 1800s when it made its first appearance at the bar of the Bellevue-Stratford Hotel in Philadelphia.",
+                "The Bellevue was the favored meeting place of the Clover Club, an all-male members-only club. Later, the cocktail was named after the club when the owner of the hotel was recruited by the Waldorf Astoria Hotel in New York City. Not long after the recruitment, a recipe for the Clover Club cocktail was published in the New York Press.",
+                "After a national ban on alcohol in the US, the promotion of the cocktail began once again. Women started enjoying cocktails like never before, and the pink-colored Clover Club became a popular choice. It was so popular that its history as a drink invented in a men's club was forgotten."
+            ]
+        },
+        {
+            "Title": "Gin Peach Sour",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Gin_Peach_Sour.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Peach liqueur",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Egg white",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "A slice of peach"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake without ice until it feals foamy",
+                "Now shake with ice.",
+                "Strain into a coupe and garnish a slice of peach."
+            ]
+        },
+        {
+            "Title": "Floradora",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake, Top",
+            "Img": "/Images/Floradora.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Rhubarb syrup",
+                    "quantity": 3,
+                    "unit": "cl",
+                    "link": "Syrup/Rhubarb_Syrup.html"
+                },
+                {
+                    "name": "Ginger beer",
+                    "quantity": 9,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lime",
+                "Raspberry"
+            ],
+            "HowTo": [
+                "Add all the ingredients except the ginger beer to the shaker.",
+                "Shake with ice.",
+                "Strain into a wine glass with ice and the ginger beer.",
+                "Garnish with the lime."
+            ],
+            "About": [
+                "The Floradora, also known as the perfect summer drink, has a beautiful pink color and a refreshing taste, making it perfect for a hot summer day. The original recipe calls for raspberry syrup, but we have chosen to use rhubarb syrup instead, as it provides a more complex acidity while still adding a nice sweetness.",
+                "This lovely cocktail was inspired by a Broadway show from the early 1900s called 'Floradora'. Originally, the cocktail is served in a highball glass, but we have chosen to serve it in a wine glass instead, as it is a bit more elegant and ladylike.",
+                "Feel free to use raspberry syrup instead of rhubarb syrup, or even make your own syrup with your favorite berries. The Floradora is a very versatile cocktail, so feel free to experiment with it, just be aware of the spicy kick from the ginger beer."
+            ]
+        },
+        {
+            "Title": "SeaThornDora",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake, Top",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Sea ​​buckthorn liqueur",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Gin",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Ginger beer",
+                    "quantity": 4,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lime"
+            ],
+            "HowTo": [
+                "Add all the ingredients except the ginger beer to the shaker.",
+                "Shake with ice.",
+                "Strain into a wine glass with ice and the ginger beer.",
+                "Garnish with the lime."
+            ],
+            "About": [
+                "This cocktail is a variation of the Floradora, where we change up some things. Instead of using dark berries, we use a sea buckthorn liqueur, which gives the cocktail a new but still refreshing taste. We also use a bit less ginger beer so we don't overpower the sea buckthorn. As always, we use some simple syrup to sweeten it, and lastly, we use a bit more gin to give it a bit more kick.",
+                "As expected, the SeaThornDora is a very Nordic cocktail, and it is a perfect drink for a hot summer day when you want something refreshing. If you want to tone down the sea buckthorn a bit, you can use a bit more ginger beer. You can also use a bit less sea buckthorn liqueur.",
+                "Finally, there is not much history behind this cocktail as it is a variation of the Floradora made spontaneously, but we hope you will enjoy it as much as we do."
+            ]
+        },
+        {
+            "Title": "French 75",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake, Top",
+            "Img": "/Images/French_75.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Prosecco",
+                    "quantity": 9,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lemon spiral"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker and shake with ice.",
+                "Strain into a champagne flute.",
+                "Add the procsecco.",
+                "Garnish with a lemon sprital."
+            ],
+            "About": [
+                "The origin of the French 75 is a bit unclear, but it is believed to have been created in 1915 at the New York Bar in Paris. The cocktail was named after the French 75 mm field gun, which was the main artillery piece of the French army during World War I. The cocktail is said to have such a kick that it felt like being hit by the French 75 mm field gun.",
+                "The French 75 has had many variations and names over the years. The original name, 'Soixante-Quinze,' means 75 in French. This was later changed to '75 Cocktail' and then to 'French 75' as we know it today. The original recipe calls for dry gin, applejack bonded, lemon juice, and grenadine. The recipe has changed over the years, but the only thing that has stayed the same is that all the variations are made with gin."
+            ]
+        },
+        {
+            "Title": "Gin Hass",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Gin_Hass.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Mango syrup",
+                    "quantity": 3,
+                    "unit": "cl",
+                    "link": "Syrup/Mango_Syrup.html"
+                },
+                {
+                    "name": "Lemon soda",
+                    "quantity": 9,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lime"
+            ],
+            "HowTo": [
+                "Add all the ingredients except the soda to the shaker.",
+                "Shake with ice.",
+                "Strain into a highball with ice and the lemon soda.",
+                "Garnish with a lime."
+            ],
+            "About": [
+                "The Gin Hass is a relatively new cocktail, which was invented in 2007 in Odense, Denmark by a bartender named Kim Hass, which also is where the name comes from. The cocktail has become so popular that he has now added 'Gin' as his middle name, and is now known as Kim Gin Hass.",
+                "The cocktail was invented when Kim hosted a cocktail workshop and was asked to make a cocktail when the workshop was coming to an end. The participants were tired and wanted something refreshing, so he made a cocktail with gin, lime, and mango syrup, and topped it with lemon soda. The cocktail was a huge success and has since become a very popular cocktail in most of the world."
+            ]
+        },
+        {
+            "Title": "Gin & Tonic",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Build",
+            "Img": "/Images/Gin_&_Tonic.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Tonic",
+                    "quantity": 15,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lime",
+                "Cucumber"
+            ],
+            "HowTo": [
+                "Add ice to a Gin & Tonic glass.",
+                "Add all the ingredients to the glass.",
+                "Garnish with a lime and/or cucumber."
+            ],
+            "About": [
+                "The Gin & Tonic is a very popular cocktail, and it is one of the most popular cocktails in the world. The cocktail is said to have been invented by officers of the military force of the British East India Company in the 1700s. The British East India Company was the first company to import quinine to Europe, which was used to treat malaria. The quinine was very bitter, so the British East India Company mixed it with sugar, water, lime, and gin to make it more palatable. This was the birth of the Gin & Tonic.",
+                "The Gin & Tonic has been a very popular cocktail ever since, and it is still one of the most popular cocktails in the world. The Gin & Tonic is a very simple cocktail, but it is very refreshing and easy to make. It is also a very versatile cocktail, and you can make it with many different gins and tonics or even add flavorings as different syrups or liqueurs. You can also add different garnishes to make it more interesting."
+            ]
+        },
+        {
+            "Title": "Classic Martini",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Stir",
+            "Img": "/Images/Classic_Martini.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 9,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Dry vermouth",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Orange bitter",
+                    "quantity": 1,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "2-3 Spanish pitted olives"
+            ],
+            "HowTo": [
+                "Add ice and water to the serving glass",
+                "Add the gin, dry vermouth, and orange bitters into a mixing glass with ice and stir until very cold.",
+                "Discard of the ice and water in the serving glass and strain the drink into the glass.",
+                "Garnish with a a cocktail skewer with olives."
+            ],
+            "About": [
+                "The origin of the Martini is quite unclear. Some believe it was invented in the 1860s in Martinez, California, while others believe the name may derive from the Martini brand of vermouth.",
+                "In 1887, Jerry Thomas was the first to publish a recipe for the 'Martinez Cocktail' in his book 'The Bartender's Guide: How to Mix All Kinds of Plain and Fancy Drinks'. Over the years, the recipe has changed, and many variations have been made. The easiest and perhaps the most popular variation is the dirty Martini, where you simply add 1-2 ml of olive brine to the cocktail."
+            ]
+        },
+        {
+            "Title": "Southside",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Southside.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Mint",
+                    "quantity": 6,
+                    "unit": "leaves of"
+                }
+            ],
+            "Garnish": [
+                "Mint leaves"
+            ],
+            "HowTo": [
+                "Add ice and water to the serving glass",
+                "Add mint leaves lime juice, lemon juice and simples syrup to the shaker and muddle lightly.",
+                "Add gin and shake with ice.",
+                "Discard of the ice and water in the serving glass and strain the drink into the glass.",
+                "Garnish with some mint."
+            ],
+            "About": [
+                "As with many other cocktails, the origin of the Southside is debatable. The most common story is that it was named after the Southside district of Chicago and was invented to mask the taste of the poor-quality gin that was available during the Prohibition era. Perhaps this is the most well-known story due to the connection to the notorious gangster Al Capone in Chicago during Prohibition. Al Capone was rumored to have supplied Chicago with his so-called 'bathtub gin,' which was of very poor quality. However, as fun as this story may be, it might just be that—a story.",
+                "Today, fortunately, we have access to much better quality gin, so please don't start making your own bathtub gin, as fun as it may sound. And if you like mint, go crazy! You can't have too much mint in this cocktail."
+            ]
+        },
+        {
+            "Title": "Vesper Martini",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Vesper_Martini.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 9,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Vodka",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lillet Blanc",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lemon twist"
+            ],
+            "HowTo": [
+                "Add ice and water to the serving glass",
+                "Add all the ingredients to the shaker along with ice.",
+                "Shake until the shaker is ice cold.",
+                "Discard of the ice and water in the serving glass and strain the drink into the glass.",
+                "Garnish with a lemon twist."
+            ],
+            "About": [
+                "The Vesper Martini, 'Shaken, not stirred,' is the signature drink of James Bond, it was invented by Ian Fleming in the 1953 novel Casino Royale. In the novel, Bond orders the Vesper Martini while he is playing a game of baccarat with the villain Le Chiffre. The drink is named after Bond's love interest, Vesper Lynd, and it is a variation of the classic Martini.",
+                "Bond orders the drink while playing baccarat. It is believed that he orders such a strong drink shaken, in hopes that the other players also order it and do not notice the amount of alcohol in it. In the movie, we notice that Bond barely touches his drink while all the other players are drinking away.",
+                "The original recipe calls for 3 measures of Gordon's gin, 1 measure of vodka, and half a measure of Kina Lillet. However, Kina Lillet is no longer produced. Lillet Blanc is the closest substitute, and it is what we use in this recipe. If you want to make the original recipe, you have to look for a bottle of Kina Lillet on the internet or perhaps in your grandparents' liquor cabinet."
+            ]
+        },
+        {
+            "Title": "Tom Collins",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake, Top",
+            "Img": "/Images/Tom_Collins.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Club soda",
+                    "quantity": 12,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lemon twist"
+            ],
+            "HowTo": [
+                "Add all the ingredients except the soda to the shaker.",
+                "Shake with ice.",
+                "Strain into a highball with ice and the soda.",
+                "Garnish with a lemon twist."
+            ]
+        },
+        {
+            "Title": "Bird of Paradise",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Bird_of_Paradise.jpg",
+            "Ingredients": [
+                {
+                    "name": "Light rum",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Aperol",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Pineapple juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lime twist"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker along with ice.",
+                "Shake until the shaker is ice cold.",
+                "Strain into a coupe and garnish with a lime twist."
+            ],
+            "About": [
+                "The Bird of Paradise, invented by Alex Holder a bartender at The Pool Burger in Austin, Texas. He was inspired by the Jungle Bird, a cocktail that is very similar to this one. The Bird of Paradise is a tropical cocktail that is perfect for a hot summer day. It is a refreshing drink with a nice balance between sweet, sour, and bitter. The Aperol gives the drink a nice bitter orange flavor, and the pineapple juice adds a nice sweetness to it. The lime juice adds a nice sourness to the drink, and the rum gives it a nice kick. The Bird of Paradise is a great cocktail for those who like tropical and tiki drinks.",
+                "I you like this cocktail, you should also try the Jungle Bird, the Aperol Spritz, and the Negroni Sbagliato."
+            ]
+        },
+        {
+            "Title": "Banana Daiquiri",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Aged rum",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Banana liqueur",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Pineaaple leaf",
+                "Lime wheel"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker along with ice.",
+                "Shake until the shaker is ice cold.",
+                "Strain into a hurricane glass filled with crushed ice.",
+                "Garnish with a lime wheel and a pineapple leaf."
+            ]
+        },
+        {
+            "Title": "Dark'n Stormy",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake, Top",
+            "Img": "/Images/Darkn_Stormy.jpg",
+            "Ingredients": [
+                {
+                    "name": "Aged rum",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Ginger beer",
+                    "quantity": 12,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lime wheel"
+            ],
+            "HowTo": [
+                "Add all the ingredients except the ginger beer to the shaker.",
+                "Shake with ice.",
+                "Strain into a highball with ice and the ginger beer.",
+                "Garnish with a lime wheel."
+            ],
+            "About": [
+                "The Dark 'n Stormy, also known as the unofficial drink of Bermuda, is a classic highball originally made from spicy ginger beer and Gosling's Black Seal dark rum. The Dark 'n Stormy supposedly gets its name from an old sailor who compared the drink's color to the color of the clouds before a storm. As with many other cocktails, the name comes from an old saying. However, the connection between the drink and the ocean and sailing is well documented.",
+                "In 1806, James Gosling came to Bermuda from England and quickly became one of the most prominent families on the island. They began formulating rum, and it did not take long for the Goslings to start adding their rum to the ginger beer that was brewed on the island. The Dark 'n Stormy was born, and it quickly became the national drink of Bermuda."
+            ]
+        },
+        {
+            "Title": "Partly Cloudy",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake, Top",
+            "Img": "/Images/Partly_Cloudy.jpg",
+            "Ingredients": [
+                {
+                    "name": "Aged rum",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Pineapple juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Honey Syrup",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Ginger beer",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lemon wheel"
+            ],
+            "HowTo": [
+                "Add all the ingredients except the ginger beer to the shaker.",
+                "Shake with ice.",
+                "Strain into a highball with ice and top with ginger beer.",
+                "Garnish with a lemon wheel."
+            ],
+            "Notes": [
+                "We own the foto."
+            ],
+            "About": [
+                "The Partly Cloudy is a cocktail created by a tiktok user The Cocktail Couple. It is a variation of the Dark 'n Stormy, where we change the rum to an aged rum and add some pineapple juice and honey syrup. The pineapple juice adds a nice sweetness to the cocktail, and the honey gives it a pleasant aftertaste. The Partly Cloudy is a great cocktail for those who like tropical and tiki drinks."
+            ]
+        },
+        {
+            "Title": "Hummer",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Blend",
+            "Img": "/Images/Hummer.jpg",
+            "Ingredients": [
+                {
+                    "name": "Aged rum",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Coffee liqueur",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cocunut rum",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Vanilla ice cream",
+                    "quantity": "2",
+                    "unit": "scoops"
+                }
+            ],
+            "Garnish": [
+                "Grated chocolate"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the blender along with an icecube or two.",
+                "Blend until smooth.",
+                "Pour into a coupe and garnish with grated chocolate."
+            ],
+            "About": [
+                "The Hummer is a creamy dessert cocktail that is perfect for a hot summer day, originally created in Detroit in the 1960s. Two bartenders, Jerome Adams and Farouk Elhaje has both been credited with creating the drink by two different news papers.",
+                "The Hummer quickly spread to bars, restaurants and private clubs across the Detroit area. It became a popular drink across Michigan, and then in other places around the Midwest, no doubt requested by Detroiters who traveled to Chicago, Cleveland and elsewhere"
+            ]
+        },
+        {
+            "Title": "Hurricane",
+            "Type": "Alcoholic",
+            "Ice": "Crushed ice",
+            "Method": "Shake",
+            "Img": "/Images/Hurricane.jpg",
+            "Ingredients": [
+                {
+                    "name": "Aged rum",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Light rum",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Passion fruit pure",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Orange juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Orange wheel",
+                "Cherry"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker along with ice.",
+                "Shake until the shaker is ice cold.",
+                "Strain into a hurricane glass filled with crushed ice.",
+                "Garnish with an orange wheel and a cherry."
+            ]
+        },
+        {
+            "Title": "Manolito's Swampwater",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Blend",
+            "Img": "/Images/Manolitos_Swampwater.jpg",
+            "Ingredients": [
+                {
+                    "name": "Green Chartreuse",
+                    "quantity": 7.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Pineapple juice",
+                    "quantity": 2.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Aged rum",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Ice cubes",
+                    "quantity": 425,
+                    "unit": "grams"
+                },
+                {
+                    "name": "Basil",
+                    "quantity": "2-5",
+                    "unit": "leaves of"
+                }
+            ],
+            "Garnish": [
+                "Mint leaves"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the blender.",
+                "Blend until smooth.",
+                "Pour into a smoothie jar",
+                "Float the rum on the top.",
+                "Garnish with mint leaves."
+            ],
+            "About": [
+                "The Manolito's Swampwater is a cocktail created by the bartenders at Manolito in New Orleans. It is a variation of the classic Swampwater, but with the ratio of the ingredients changed.",
+                "The original Swampwater was created by Chartreuse's U.S. marketing team to promote green Chartreuse after sales took a dive in the 1970s. The team made a so-called 'party mix' with 12 branded jars, napkins, and even postcards to use as invitations. There was even an option to add a floor-sized original Swampwater game with dice and mini-alligators to use as playing pieces. The rules of the game are no longer known, but supposedly players were to move through the swamp filled with alligators, snakes, and hippos."
+            ]
+        },
+        {
+            "Title": "Mojito",
+            "Type": "Alcoholic",
+            "Ice": "Crushed ice",
+            "Method": "Build",
+            "Img": "/Images/Mojito.jpg",
+            "Ingredients": [
+                {
+                    "name": "Light rum",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Club soda",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Mint",
+                    "quantity": "6-10",
+                    "unit": "leaves of"
+                }
+            ],
+            "Garnish": [
+                "Mint leaves"
+            ],
+            "HowTo": [
+                "Add the mint leaves and lime juice to a highball and muddle them.",
+                "Add the rum and simple syrup to the glass.",
+                "Fill the glass with crushed ice and stir.",
+                "Top with Club soda.",
+                "Garnish with a mint sprig."
+            ]
+        },
+        {
+            "Title": "Old Cuban",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake, Top",
+            "Img": "/Images/Old_Cuban.jpg",
+            "Ingredients": [
+                {
+                    "name": "Aged rum",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Angostura bitters",
+                    "quantity": 2,
+                    "unit": "dash"
+                },
+                {
+                    "name": "Champagne",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Mint ",
+                    "quantity": "6-10",
+                    "unit": "leaves of"
+                }
+            ],
+            "Garnish": [
+                "Mint leaves"
+            ],
+            "HowTo": [
+                "Add all the ingredients except the champagne to the shaker.",
+                "Shake with ice.",
+                "Strain into a coupe.",
+                "Top with champagne.",
+                "Garnish with a mint sprig."
+            ],
+            "Notes": [
+                "We own the foto."
+            ],
+            "About": [
+                "Despite the name, the Old Cuban is a relatively new cocktail, created in 2001 by Audrey Saunders at the famous Pegu Club in New York City. The Old Cuban takes inspiration from the all-time classic Mojito, but adds a touch deeper flavor and complexity by using aged rum and bitter. The champagne adds a touch of luxury and makes the cocktail more festive.",
+                "At first the cocktail was set the be called El Cubano, however, the name was changed to Old Cuban since the cocktail uses aged rum she thought it would be more fitting to name it the Old Cuban.",
+                "Audrey Saunders still owns the Pegu Club, and regularly finds herself on the list of the world’s best bartenders, perhaps because of her ability to create new classics like the Old Cuban."
+            ]
+        },
+        {
+            "Title": "Peach Daiquiri",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Peach_Daiquiri.jpg",
+            "Ingredients": [
+                {
+                    "name": "Light rum",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Peach liqueur",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Orange juice",
+                    "quantity": 6,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "A slice of peach"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker and shake with ice.",
+                "Pour into a coupe and garnish with a slice of peach."
+            ]
+        },
+        {
+            "Title": "Rum Sour",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Rum_Sour.jpg",
+            "Ingredients": [
+                {
+                    "name": "Aged rum",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Angostura bitters",
+                    "quantity": 2,
+                    "unit": "dash"
+                },
+                {
+                    "name": "Egg white",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "A drop of Angostura bitters"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake without ice to emulsify the egg white.",
+                "Shake with ice.",
+                "Strain into a coupe.",
+                "Garnish with a drop of Angostura bitters."
+            ]
+        },
+        {
+            "Title": "Yellow Bird",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Yellow_Bird.jpg",
+            "Ingredients": [
+                {
+                    "name": "Light rum",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Galliano",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cointreau",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "A slice of lime"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled coupe.",
+                "Garnish with a slice of lime."
+            ]
+        },
+        {
+            "Title": "Cosmopolitan",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Cosmopolitan.jpg",
+            "Ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cointreau",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cranberry juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lime twist"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled martini glass.",
+                "Garnish with a twisted lime."
+            ]
+        },
+        {
+            "Title": "Espresso Martini",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Espresso_Martini.jpg",
+            "Ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Coffee liqueur",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Espresso",
+                    "quantity": 4,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "3 Coffee beans"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled martini glass.",
+                "Garnish with 3 coffee beans."
+            ]
+        },
+        {
+            "Title": "Garden of Eden",
+            "Type": "Alcoholic",
+            "Ice": "Crushed ice",
+            "Method": "Shake",
+            "Img": "/Images/Garden_of_Eden.jpg",
+            "Ingredients": [
+                {
+                    "name": "Elderflower Vodka",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Apple juice",
+                    "quantity": 15,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Elderflower syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "A slice of apple",
+                "Lime wheel"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled highball glass.",
+                "Garnish with a slice of apple and a lime wheel."
+            ]
+        },
+        {
+            "Title": "Old Man's Dessert",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Old_Mans_Dessert.jpg",
+            "Ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Coffee liqueur",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Baileys",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cocunut rum",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Milk",
+                    "quantity": 9,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Chocolate syrup"
+            ],
+            "HowTo": [
+                "Drissel the chocolate syrup on the inside of a highball.",
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into the glass."
+            ]
+        },
+        {
+            "Title": "Moscow Mule",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake, Top",
+            "Img": "/Images/Moscow_Mule.jpg",
+            "Ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Ginger beer",
+                    "quantity": 15,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lime wheel",
+                "Mint sprig"
+            ],
+            "HowTo": [
+                "Add vodka, lime juice and simple syrup to the shaker.",
+                "Shake with ice.",
+                "Strain into a copper mug with ice.",
+                "Top with ginger beer.",
+                "Garnish with a lime wheel and a mint sprig."
+            ]
+        },
+        {
+            "Title": "Sour Flower",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Sour_Flour.jpg",
+            "Ingredients": [
+                {
+                    "name": "Elderflower Vodka",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Elderflower liqueur",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Egg white",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Small edible flowers"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake without ice.",
+                "Shake with ice.",
+                "Strain into a chilled coupe.",
+                "Garnish with small edible flowers."
+            ]
+        },
+        {
+            "Title": "Vodka Martini",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Stir",
+            "Img": "/Images/Vodka_Martini.jpg",
+            "Ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": 8,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Dry vermouth",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lemon twist"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the mixing glass.",
+                "Stir with ice.",
+                "Strain into a chilled martini glass.",
+                "Garnish with a lemon twist.",
+                "(Optional: Add 1-2 cl olive brine to make it a dirty martini.)"
+            ]
+        },
+        {
+            "Title": "White Russian",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Build",
+            "Img": "/Images/White_Russian.jpg",
+            "Ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Coffee liqueur",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Milk",
+                    "quantity": 3,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "None"
+            ],
+            "HowTo": [
+                "Add all the ingredients to a rocks glass with ice.",
+                "Stir to mix",
+                "Enjoy!"
+            ],
+            "About": [
+                "The White Russian, traditionally named the Black Russian, created in 1949, it later became the White Russen when the cream was added to the drink. One might think that the drink originates from russia, but nothing suggest this, insted it is believed the names comes from the use of vodka, a russian spirit."
+            ]
+        },
+        {
+            "Title": "White Russian With A Twist",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Build",
+            "Img": "/Images/White_Russian_With_A_Twist.jpg",
+            "Ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Coffee liqueur",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Baileys",
+                    "quantity": 3,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "None"
+            ],
+            "HowTo": [
+                "Add all the ingredients to a rocks glass with ice.",
+                "Stir to mix",
+                "Enjoy!"
+            ]
+        },
+        {
+            "Title": "John Collins",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake, Top",
+            "Img": "/Images/John_Collins.jpg",
+            "Ingredients": [
+                {
+                    "name": "Bourbon",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Club soda",
+                    "quantity": 12,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Angostura bitters",
+                    "quantity": 2,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "Lemon wheel",
+                "Maraschino cherry"
+            ],
+            "HowTo": [
+                "Add bourbon, lemon juice and simple syrup to the shaker.",
+                "Shake with ice.",
+                "Strain into a highball glass with ice.",
+                "Top with Club soda.",
+                "Add 2 dash of Angostura bitters.",
+                "Garnish with a lemon wheel and a maraschino cherry."
+            ]
+        },
+        {
+            "Title": "Kentucky Mule",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake, Top",
+            "Img": "/Images/Kentucky_Mule.jpg",
+            "Ingredients": [
+                {
+                    "name": "Bourbon",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Ginger beer",
+                    "quantity": 15,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lemon wheel",
+                "Mint sprig"
+            ],
+            "HowTo": [
+                "Add bourbon, lime juice and simple syrup to the shaker.",
+                "Shake with ice.",
+                "Strain into a copper mug with ice.",
+                "Top with ginger beer.",
+                "Garnish with a lime wheel and a mint sprig."
+            ]
+        },
+        {
+            "Title": "Manhattan",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Stir",
+            "Img": "/Images/Manhattan.jpg",
+            "Ingredients": [
+                {
+                    "name": "Rye whiskey",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Sweet vermouth",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Angostura bitters",
+                    "quantity": 2,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "Maraschino cherry"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the mixing glass.",
+                "Stir with ice.",
+                "Strain into a chilled coupe.",
+                "Garnish with a maraschino cherry on a cocktail shewer."
+            ]
+        },
+        {
+            "Title": "The Revolver",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Stir",
+            "Img": "/Images/The_Revolver.jpg",
+            "Ingredients": [
+                {
+                    "name": "Bourbon",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Coffee liqueur",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Orange bitter",
+                    "quantity": 2,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "Orange peel"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the mixing glass.",
+                "Stir with ice.",
+                "Strain into a chilled coupe.",
+                "Flame an orange peel over the drink and drop it in."
+            ]
+        },
+        {
+            "Title": "T Stagg Slide",
+            "Type": "Alcoholic",
+            "Ice": "Crushed ice",
+            "Method": "Shake",
+            "Img": "/Images/T_Stagg_Slide.jpg",
+            "Ingredients": [
+                {
+                    "name": "Bourbon",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Coffee liqueur",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Date syrup",
+                    "quantity": 3,
+                    "unit": "cl",
+                    "link": "Syrup/Date_Syrup.html"
+                },
+                {
+                    "name": "Baileys",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cream",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 1,
+                    "unit": "pinch"
+                }
+            ],
+            "Garnish": [
+                "Mint sprig"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice until it feals creamy.",
+                "Strain into a chilled glass.",
+                "Garnish with a mint sprig."
+            ]
+        },
+        {
+            "Title": "Clarafied Pina Colada",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Serves": 8,
+            "Method": "Clarafied",
+            "Img": "/Images/Clarafied_Pina_Colada.jpg",
+            "Ingredients": [
+                {
+                    "name": "Aged rum",
+                    "quantity": 42,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Coconut water",
+                    "quantity": 24,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Velvet falernum",
+                    "quantity": 12,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Demerara syrup",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Pineapple juice",
+                    "quantity": 12,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 9,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Milk",
+                    "quantity": 18,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Pineapple wedge",
+                "Maraschino cherry"
+            ],
+            "HowTo": [
+                "Pour the rum, coconut water, Velvet falernum, pineapple juice, lime juice, and demerara syrup into a mixing bowl.",
+                "In another large bowl add the milk.",
+                "Pour the first bowl into the second bowl.",
+                "Let sit in for at least 3 hour.",
+                "Get a coffee filter and a funnel.",
+                "Place the filter in the funnel.",
+                "Wet the filter with some water, then pour the mixture into the filter.",
+                "The first few drops will be cloudy, so when the mixture is clear, change the container.",
+                "When all the mixture is filtered, pour it into a bottle, the mixture is now shelf stable.",
+                "When ready to serve, pour 12 cl in a mixing glass with ice.",
+                "Stir until cold.",
+                "Serve in a chilled glass with a big ice cube.",
+                "Garnish with a pineapple wedge and a maraschino cherry."
+            ],
+            "Notes": [
+                "Maybe add some overproof rum and a little less velvet falernum",
+                "First batch really clear, but the second is not clear or see through"
+            ],
+            "About": [
+                "This cocktail takes what we know as a nice refreshing summer drink and turns it into a nice, rich, and smooth complex cocktail. The milk removes the acidity from the pineapple and lime juice, and the fat in the milk gives the cocktail a nice mouthfeel.",
+                "The cocktail is not what people normally think of when they think of a Piña Colada, but it maintains the same flavors with an added level of complexity.",
+                "When making this cocktail, make sure to do it in a large batch (this makes about 1 liter) as it takes quite some time to make, and it is shelf-stable when stored in a cool, dark place, so don't worry about it going bad."
+            ]
+        },
+        {
+            "Title": "Whiskey Sour",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Whiskey_Sour.jpg",
+            "Ingredients": [
+                {
+                    "name": "Bourbon",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Demerara syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Angostura bitters",
+                    "quantity": 2,
+                    "unit": "dash"
+                },
+                {
+                    "name": "Egg white",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Orange half wheel",
+                "Maraschino cherry"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake without ice to emulsify the egg white.",
+                "Shake with ice.",
+                "Strain into a coupe.",
+                "Garnish with an orange half wheel and a maraschino cherry on a cocktail shewer."
+            ]
+        },
+        {
+            "Title": "Old Fashioned",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Stir",
+            "Img": "/Images/Old_Fashioned.jpg",
+            "Ingredients": [
+                {
+                    "name": "Bourbon",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Demerara syrup",
+                    "quantity": 1,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Angostura bitters",
+                    "quantity": 2,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "Orange peel"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the mixing glass.",
+                "Stir with ice.",
+                "Strain into a chilled rocks glass with a big ice cube.",
+                "Express an orange peel over the drink, run it around the rim and drop it in."
+            ]
+        },
+        {
+            "Title": "Gin Old Fashioned",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Stir",
+            "Img": "/Images/Gin_Old_Fashioned.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Demerara syrup",
+                    "quantity": 1,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Angostura bitters",
+                    "quantity": 1,
+                    "unit": "dash"
+                },
+                {
+                    "name": "Black walnut bitters",
+                    "quantity": 1,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "Orange peel"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the mixing glass.",
+                "Stir with ice.",
+                "Strain into a chilled rocks glass with a big ice cube.",
+                "Express a orange peel over the drink, run it around the rim and drop it in."
+            ]
+        },
+        {
+            "Title": "Margarita",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Margarita.jpg",
+            "Ingredients": [
+                {
+                    "name": "Tequila",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cointreau",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Agave syrup",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lime wheel"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled Margarita glass with a salted rim.",
+                "Garnish with a lime wheel."
+            ]
+        },
+        {
+            "Title": "Tequila Sunrise",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Tequila_Sunrise.jpg",
+            "Ingredients": [
+                {
+                    "name": "Tequila",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Orange juice",
+                    "quantity": 12,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Grenadine",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Orange half wheel"
+            ],
+            "HowTo": [
+                "Add tequila and orange juice to the shaker.",
+                "Shake with ice.",
+                "Strain into a highball with ice.",
+                "Carefully pour the grenadine in the glass. It will sink to the bottom and create a sunrise effect.",
+                "Garnish with a orange half wheel."
+            ]
+        },
+        {
+            "Title": "Paloma",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake, Top",
+            "Img": "/Images/Paloma.jpg",
+            "Ingredients": [
+                {
+                    "name": "Tequila",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Grape soda",
+                    "quantity": 12,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Grapefruit half wheel"
+            ],
+            "HowTo": [
+                "Add tequila and lime to the shaker.",
+                "Shake with ice.",
+                "Strain into a highball with ice.",
+                "Top with grape soda.",
+                "Garnish with a grapefruit half wheel."
+            ]
+        },
+        {
+            "Title": "Amaretto Sour",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Amaretto_Sour.jpg",
+            "Ingredients": [
+                {
+                    "name": "Amaretto",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Demerara syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Egg white",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Angostura bitters",
+                    "quantity": 2,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "Orange peel",
+                "Maraschino cherry"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake without ice to emulsify the egg white.",
+                "Shake with ice.",
+                "Strain into a chilled rocks glass with a big ice cube.",
+                "Garnish with an orange peel and a maraschino cherry on a cocktail shewer."
+            ]
+        },
+        {
+            "Title": "Toasted Almond",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Toasted_Almond.jpg",
+            "Ingredients": [
+                {
+                    "name": "Amaretto",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Coffee liqueur",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Milk",
+                    "quantity": 6,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "None"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled rocks glass with ice."
+            ]
+        },
+        {
+            "Title": "Aperol Spritz",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Build",
+            "Img": "/Images/Aperol_Spritz.jpg",
+            "Ingredients": [
+                {
+                    "name": "Aperol",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Prosecco",
+                    "quantity": 9,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Club soda",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Orange half wheel"
+            ],
+            "HowTo": [
+                "Build this cocktail in a wine glass.",
+                "Add all the ingredients to the glass along with some ice.",
+                "Stir gently.",
+                "Garnish with an orange half wheel."
+            ]
+        },
+        {
+            "Title": "Can Can",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake, Top",
+            "Img": "/Images/Can_Can.jpg",
+            "Ingredients": [
+                {
+                    "name": "Sloe gin",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Pimm's No. 1",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Demerara syrup",
+                    "quantity": 1,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Ginger beer",
+                    "quantity": 9,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Orange half wheel",
+                "Lemon half wheel",
+                "Lime half wheel",
+                "Cucumber spiral",
+                "Powdered sugar",
+                "Mint sprig"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker except the ginger beer.",
+                "Shake with ice.",
+                "Strain into a tin can.",
+                "Top with ginger beer.",
+                "Make a citrus fan by layering the orange, lemon and lime half wheels on top of each other.",
+                "Place the fan on top of some of the ice",
+                "Add a sprig of mint and a cucumber spiral so it covers most of the cocktail.",
+                "Dust the mint with powdered sugar."
+            ],
+            "About": [
+                "Created at Gedulgt in Aarhus, Denmark. The cocktail takes inspiration from the classic Pimm's Cup"
+            ]
+        },
+        {
+            "Title": "Hugo",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Build",
+            "Img": "/Images/Hugo.jpg",
+            "Ingredients": [
+                {
+                    "name": "Elderflower liqueur",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Prosecco",
+                    "quantity": 12,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Club soda",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Mint",
+                    "quantity": "5-6",
+                    "unit": "leaves of"
+                }
+            ],
+            "Garnish": [
+                "Lime wedge",
+                "Mint sprig"
+            ],
+            "HowTo": [
+                "Add the mint leaves to the glass.",
+                "Add the elderflower liqueur and muddle the mint leaves gently.",
+                "Add ice to the glass.",
+                "Add the prosecco and club soda.",
+                "Stir gently.",
+                "Garnish with a lime wedge and a mint sprig."
+            ]
+        },
+        {
+            "Title": "Japanese Slipper",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Japanese_Slipper.jpg",
+            "Ingredients": [
+                {
+                    "name": "Midori",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cointreau",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 4,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Maraschino cherry"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with a maraschino cherry."
+            ]
+        },
+        {
+            "Title": "Mimosa",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Build",
+            "Img": "/Images/Mimosa.jpg",
+            "Ingredients": [
+                {
+                    "name": "Orange juice",
+                    "quantity": 1,
+                    "unit": "part"
+                },
+                {
+                    "name": "Prosecco",
+                    "quantity": 1,
+                    "unit": "part"
+                }
+            ],
+            "Garnish": [
+                "Orange half wheel"
+            ],
+            "HowTo": [
+                "Build this cocktail in a wine glass.",
+                "Add the orange juice to the glass.",
+                "Top with prosecco.",
+                "Garnish with an orange half wheel."
+            ]
+        },
+        {
+            "Title": "Pop Pop Popcorn",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Popcorn washed aged rum",
+                    "quantity": 5,
+                    "unit": "cl",
+                    "link": "Syrup/Popcorn_washed_aged_rum.html"
+                },
+                {
+                    "name": "Popcorn syrup",
+                    "quantity": 3,
+                    "unit": "cl",
+                    "link": "Syrup/Popcorn_Syrup.html"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Black walnut bitters",
+                    "quantity": 2,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "Popcorn"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled highball.",
+                "Place glass in popcorn cup.",
+                "Garnish with popcorn."
+            ]
+        },
+        {
+            "Title": "American Beauty",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Serves": 4,
+            "Method": "Build",
+            "Img": "/Images/American_Beauty.jpg",
+            "Ingredients": [
+                {
+                    "name": "Earl Grey infused gin",
+                    "quantity": 25,
+                    "unit": "cl",
+                    "link": "Syrup/Earl_Grey_Infused_Gin.html"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 7,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 7,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Demerara syrup",
+                    "quantity": 16,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Acacia honey syrup",
+                    "quantity": 8,
+                    "unit": "cl",
+                    "link": "Syrup/Acacia_Honey_Syrup.html"
+                },
+                {
+                    "name": "Egg white",
+                    "quantity": 10,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cream",
+                    "quantity": 12,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Orange flower water",
+                    "quantity": 24,
+                    "unit": "dash"
+                },
+                {
+                    "name": "Fever Tree Rose & Raspberry Lemonade",
+                    "quantity": "1/3",
+                    "unit": "part"
+                }
+            ],
+            "Garnish": [
+                "Rose petal"
+            ],
+            "HowTo": [
+                "Add all the ingredients to a siphon except the rose lemonade.",
+                "Chill the siphon in the fridge.",
+                "Charge with a CO2 cartridge.",
+                "Shake the siphon.",
+                "Add ice to a bathtub.",
+                "Spray the cocktail from the siphon into the bathtub.",
+                "Pour the rose lemonade into the bathtub.",
+                "The ratio should be 1/3 rose lemonade and 2/3 cocktail.",
+                "Garnish with a rose petal."
+            ],
+            "About": [
+                "Another original cocktail from the great minds at Gedulgt in Aarhus, Denmark. As expected, this cocktail takes inspiration from the iconic bathtub scene in the movie 'American Beauty,' and when garnished with a rose petal, it is a beautiful cocktail indeed.",
+                "As the garnish suggests, the cocktail has beautiful floral notes from the orange flower water, the rose lemonade, and the honey syrup. The citrus notes from the lemon and lime juice are also very present, and the cocktail has a nice sweetness from the honey syrup and the rose lemonade. The cocktail is very well balanced, and the egg white and cream give it a nice texture.",
+                "It is really more of a refreshing dessert than a cocktail, and it is a great cocktail to serve to guests at the end of the night."
+            ]
+        },
+        {
+            "Title": "Pimm's Cup",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Build",
+            "Img": "/Images/Pimms_Cup.jpg",
+            "Ingredients": [
+                {
+                    "name": "Pimm's No. 1",
+                    "quantity": 4,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Ginger beer",
+                    "quantity": 6,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Cucumber slice",
+                "Strawberry",
+                "Mint sprig"
+            ],
+            "HowTo": [
+                "Build this cocktail in a highball.",
+                "Add the Pimm's and lemon juice to the glass.",
+                "Add ice to the glass.",
+                "Top with ginger ale.",
+                "Garnish with a cucumber slice, strawberry and mint sprig."
+            ]
+        },
+        {
+            "Title": "Daiquiri",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "White rum",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Demerara syrup",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lime wheel"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled cocktail glass.",
+                "Garnish with a lime wheel."
+            ]
+        },
+        {
+            "Title": "Silent Pride",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Vodka",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Aperol",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Pineapple juice",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lemon twist"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake hard with ice.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with a lemon twist."
+            ]
+        },
+        {
+            "Title": "Black Caramel Ginger Sour",
+            "Type": "Non alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Black_Caramel_Ginger_Sour.jpg",
+            "Ingredients": [
+                {
+                    "name": "Black Toffee Tea",
+                    "quantity": 12,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Ginger Syrup",
+                    "quantity": 1.5,
+                    "unit": "cl",
+                    "link": "Syrup/Ginger_Syrup.html"
+                },
+                {
+                    "name": "Honey Syrup",
+                    "quantity": 1.5,
+                    "unit": "cl",
+                    "link": "Syrup/Honey_Syrup.html"
+                },
+                {
+                    "name": "Egg white",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Orange bitter",
+                    "quantity": 2,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "Candied ginger",
+                "Orange bitter"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake hard with ice.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with a lemon twist."
+            ]
+        },
+        {
+            "Title": "Trinidad Sour",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Trinidad_Sour.jpg",
+            "Ingredients": [
+                {
+                    "name": "Angostura bitters",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Rye whiskey",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Orgeat syrup",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 2.25,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lemon twist"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake hard with ice.",
+                "Strain into a chilled Nick & Nora glass.",
+                "Garnish with a lemon twist."
+            ]
+        },
+        {
+            "Title": "Jungle Bird",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Jungle_Bird.jpg",
+            "Ingredients": [
+                {
+                    "name": "Dark rum",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Campari",
+                    "quantity": 2.25,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Pineapple juice",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Demerara syrup",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Pineapple leaf"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled lowball with ice.",
+                "Garnish with a pineapple leaf."
+            ],
+            "Notes": [
+                "First try: 4.5 cl dark rum, 2.25 cl Campari, 4.5 cl pineapple juice, 1.5 cl lime juice, 1.5 cl demerara syrup. Liked the overall taste but, the drink was a bit tart and bitter, the Campari was too dominant. Next time try with 1.5 cl Campari."
+            ]
+        },
+        {
+            "Title": "Industry Sour",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Industry_Sour.jpg",
+            "Ingredients": [
+                {
+                    "name": "Fernet Branca",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Green Chartreuse",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 3,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Dehydrated lime wheel"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake hard with ice.",
+                "Strain into a chilled Nick & Nora glass.",
+                "Garnish with a dehydrated lime wheel."
+            ]
+        },
+        {
+            "Title": "White Linen",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/White_Linen.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Elderflower liqueur",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cucumber",
+                    "quantity": 3,
+                    "unit": "slices"
+                },
+                {
+                    "name": "Club soda",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Cucumber slice"
+            ],
+            "HowTo": [
+                "Add the cucumber slices to the shaker.",
+                "Muddle the cucumber slices.",
+                "Add the rest of the ingredients except the club soda.",
+                "Shake with ice.",
+                "Pour the club soda into the a highball filled with ice.",
+                "Double strain into a the glass.",
+                "Garnish with a cucumber slice."
+            ],
+            "About":[
+                "This refreshing summer cocktail was created by Rene Dominguez, while working at Ella Dining Room in Sacramento, California in 2008. It got really popular locally, and it didn't take long before it known all over the world. It even got so popular they made a ready to drink version of it in 2017.",
+                "If you have it available, you can use Hendrick's gin, which is infused with cucumber and rose petals. It is a great gin for this cocktail, but any gin will do."
+            ]
+        },
+        {
+            "Title": "Bicycle Thief",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Bicycle_Thief.jpg",
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Campari",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Grapefruit juice",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Club soda",
+                    "quantity": 3,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Grapefruit half wheel"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker except the club soda.",
+                "Shake with ice.",
+                "Pour the club soda into a highball filled with ice.",
+                "Double strain into the glass.",
+                "Garnish with a grapefruit half wheel."
+            ],
+            "Notes": [
+                "It is quite bitter"
+            ]
+        }
+    ],
+    "Comment": "All liquid ingredients are per 100 ml.",
+    "IngredientsInfo": [
+        {
+            "Name": "Acacia Honey Syrup",
+            "Abv": 0,
+            "Calories": 300,
+            "Cost": 10
+        },
+        {
+            "Name": "Agave syrup",
+            "Abv": 0,
+            "Calories": 270,
+            "Cost": 15
+        },
+        {
+            "Name": "Aged Rum",
+            "Abv": 40,
+            "Calories": 230,
+            "Cost": 24
+        },
+        {
+            "Name": "Amaretto",
+            "Abv": 28,
+            "Calories": 310,
+            "Cost": 24
+        },
+        {
+            "Name": "Angostura bitters",
+            "Abv": 44.7,
+            "Calories": 180,
+            "Cost": 70
+        },
+        {
+            "Name": "Aperol",
+            "Abv": 11,
+            "Calories": 100,
+            "Cost": 10
+        },
+        {
+            "Name": "Apple juice",
+            "Abv": 0,
+            "Calories": 46,
+            "Cost": 0.7
+        },
+        {
+            "Name": "Baileys",
+            "Abv": 17,
+            "Calories": 330,
+            "Cost": 12.8
+        },
+        {
+            "Name": "Banana Liqueur",
+            "Abv": 17,
+            "Calories": 220,
+            "Cost": 15
+        },
+        {
+            "Name": "Black Toffee Tea",
+            "Abv": 0,
+            "Calories": 0,
+            "Cost": 0.5
+        },
+        {
+            "Name": "Blue Curacao",
+            "Abv": 25,
+            "Calories": 220,
+            "Cost": 15
+        },
+        {
+            "Name": "Bourbon",
+            "Abv": 45,
+            "Calories": 250,
+            "Cost": 28.5
+        },
+        {
+            "Name": "Campari",
+            "Abv": 25,
+            "Calories": 266,
+            "Cost": 15.6
+        },
+        {
+            "Name": "Champagne",
+            "Abv": 12,
+            "Calories": 80,
+            "Cost": 42
+        },
+        {
+            "Name": "Club Soda",
+            "Abv": 0,
+            "Calories": 0,
+            "Cost": 0.3
+        },
+        {
+            "Name": "Cocunut Rum",
+            "Abv": 21,
+            "Calories": 220,
+            "Cost": 20
+        },
+        {
+            "Name": "Coconut Water",
+            "Abv": 0,
+            "Calories": 20,
+            "Cost": 4.5
+        },
+        {
+            "Name": "Coffee Liqueur",
+            "Abv": 21,
+            "Calories": 250,
+            "Cost": 13
+        },
+        {
+            "Name": "Cointreau",
+            "Abv": 40,
+            "Calories": 290,
+            "Cost": 21
+        },
+        {
+            "Name": "Cranberry Juice",
+            "Abv": 0,
+            "Calories": 46,
+            "Cost": 3
+        },
+        {
+            "Name": "Cream",
+            "Abv": 0,
+            "Calories": 320,
+            "Cost": 4
+        },
+        {
+            "Name": "Date Syrup",
+            "Abv": 0,
+            "Calories": 250,
+            "Cost": 1
+        },
+        {
+            "Name": "Demerara Syrup",
+            "Abv": 0,
+            "Calories": 170,
+            "Cost": 0.7
+        },
+        {
+            "Name": "Dry Vermouth",
+            "Abv": 18,
+            "Calories": 110,
+            "Cost": 25
+        },
+        {
+            "Name": "Earl Grey Infused Gin",
+            "Abv": 40,
+            "Calories": 230,
+            "Cost": 15
+        },
+        {
+            "Name": "Egg White",
+            "Abv": 0,
+            "Calories": 50,
+            "Cost": 2.5
+        },
+        {
+            "Name": "Elderflower Liqueur",
+            "Abv": 17,
+            "Calories": 190,
+            "Cost": 22
+        },
+        {
+            "Name": "Elderflower Syrup",
+            "Abv": 0,
+            "Calories": 170,
+            "Cost": 4.3
+        },
+        {
+            "Name": "Elderflower Vodka",
+            "Abv": 40,
+            "Calories": 230,
+            "Cost": 9.5
+        },
+        {
+            "Name": "Espresso",
+            "Abv": 0,
+            "Calories": 10,
+            "Cost": 10
+        },
+        {
+            "Name": "Fever Tree Rose & Raspberry Lemonade",
+            "Abv": 0,
+            "Calories": 18,
+            "Cost": "Undefined"
+        },
+        {
+            "Name": "Fernet Branca",
+            "Abv": 39,
+            "Calories": 229,
+            "Cost": 17.9
+        },
+        {
+            "Name": "Galliano",
+            "Abv": 43,
+            "Calories": 333,
+            "Cost": 17
+        },
+        {
+            "Name": "Gin",
+            "Abv": 40,
+            "Calories": 230,
+            "Cost": 15
+        },
+        {
+            "Name": "Ginger Beer",
+            "Abv": 0,
+            "Calories": 60,
+            "Cost": 1
+        },
+        {
+            "Name": "Ginger Syrup",
+            "Abv": 0,
+            "Calories": 250,
+            "Cost": 2
+        },
+        {
+            "Name": "Grapefruit juice",
+            "Abv": 0,
+            "Calories": 42,
+            "Cost": 5.8
+        },
+        {
+            "Name": "Grape soda",
+            "Abv": 0,
+            "Calories": 30,
+            "Cost": 4
+        },
+        {
+            "Name": "Green Chartreuse",
+            "Abv": 55,
+            "Calories": 220,
+            "Cost": 45.8
+        },
+        {
+            "Name": "Grenadine",
+            "Abv": 0,
+            "Calories": 250,
+            "Cost": 2
+        },
+        {
+            "Name": "Honey Syrup",
+            "Abv": 0,
+            "Calories": 220,
+            "Cost": 6
+        },
+        {
+            "Name": "Lemon Juice",
+            "Abv": 0,
+            "Calories": 22,
+            "Cost": 11.5
+        },
+        {
+            "Name": "Lemon Soda",
+            "Abv": 0,
+            "Calories": 30,
+            "Cost": 1.2
+        },
+        {
+            "Name": "Light Rum",
+            "Abv": 40,
+            "Calories": 230,
+            "Cost": 13
+        },
+        {
+            "Name": "Lillet Blanc",
+            "Abv": 17,
+            "Calories": 130,
+            "Cost": 22.7
+        },
+        {
+            "Name": "Lime Juice",
+            "Abv": 0,
+            "Calories": 25,
+            "Cost": 11.7
+        },
+        {
+            "Name": "Mango Syrup",
+            "Abv": 0,
+            "Calories": 330,
+            "Cost": 2
+        },
+        {
+            "Name": "Midori",
+            "Abv": 21,
+            "Calories": 270,
+            "Cost": 27
+        },
+        {
+            "Name": "Milk",
+            "Abv": 0,
+            "Calories": 42,
+            "Cost": 1.2
+        },
+        {
+            "Name": "Orange Bitter",
+            "Abv": 7,
+            "Calories": 0,
+            "Cost": 119
+        },
+        {
+            "Name": "Orange Juice",
+            "Abv": 0,
+            "Calories": 46,
+            "Cost": 1
+        },
+        {
+            "Name": "Orgeat syrup",
+            "Abv": 0,
+            "Calories": 293,
+            "Cost": 10
+        },
+        {
+            "Name": "Passion Fruit Pure",
+            "Abv": 0,
+            "Calories": 60,
+            "Cost": 10
+        },
+        {
+            "Name": "Peach Liqueur",
+            "Abv": 17,
+            "Calories": 200,
+            "Cost": 18
+        },
+        {
+            "Name": "Pimm's no. 1",
+            "Abv": 25,
+            "Calories": 160,
+            "Cost": 21.5
+        },
+        {
+            "Name": "Pineapple juice",
+            "Abv": 0,
+            "Calories": 60,
+            "Cost": 2
+        },
+        {
+            "Name": "Popcorn Syrup",
+            "Abv": 0,
+            "Calories": 170,
+            "Cost": 1
+        },
+        {
+            "Name": "Popcorn washed aged rum",
+            "Abv": 40,
+            "Calories": 230,
+            "Cost": 24
+        },
+        {
+            "Name": "Prosecco",
+            "Abv": 11,
+            "Calories": 80,
+            "Cost": 12.8
+        },
+        {
+            "Name": "Raspberry Syrup",
+            "Abv": 0,
+            "Calories": 200,
+            "Cost": 2
+        },
+        {
+            "Name": "Rhubarb Syrup",
+            "Abv": 0,
+            "Calories": 200,
+            "Cost": 2
+        },
+        {
+            "Name": "Rye Whiskey",
+            "Abv": 40,
+            "Calories": 230,
+            "Cost": 40
+        },
+        {
+            "Name": "Sea ​​buckthorn liqueur",
+            "Abv": 17,
+            "Calories": 200,
+            "Cost": 20
+        },
+        {
+            "Name": "Simple Syrup",
+            "Abv": 0,
+            "Calories": 170,
+            "Cost": 1
+        },
+        {
+            "Name": "Sloe Gin",
+            "Abv": 26,
+            "Calories": 230,
+            "Cost": 31.5
+        },
+        {
+            "Name": "Sweet Vermouth",
+            "Abv": 17,
+            "Calories": 140,
+            "Cost": 22.8
+        },
+        {
+            "Name": "Tequila",
+            "Abv": 40,
+            "Calories": 230,
+            "Cost": 35
+        },
+        {
+            "Name": "Tonic",
+            "Abv": 0,
+            "Calories": 1,
+            "Cost": 1.8
+        },
+        {
+            "Name": "Vanilla Ice Cream",
+            "Abv": 0,
+            "Calories": 200,
+            "Cost": 2.8
+        },
+        {
+            "Name": "Velvet Falernum",
+            "Abv": 11,
+            "Calories": 220,
+            "Cost": 28.5
+        },
+        {
+            "Name": "Vermouth",
+            "Abv": 17,
+            "Calories": 120,
+            "Cost": 22
+        },
+        {
+            "Name": "Vodka",
+            "Abv": 40,
+            "Calories": 210,
+            "Cost": 9.5
+        },
+        {
+            "Name": "Whiskey",
+            "Abv": 45,
+            "Calories": 250,
+            "Cost": 28.5
+        }
+    ]
+}
