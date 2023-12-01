@@ -235,6 +235,6 @@ async function runFunctions() {
     getJson()
     getJsonIngredients()
     await generateRecipePage(pageName);
-    await fixImageIfNotThere()
+    //await fixImageIfNotThere()
 }
 runFunctions()
