@@ -3,7 +3,7 @@ let jsonData
 
 function getJson() {
     // read local JSON file in javascript
-    fetch("../cocktailbook/recipies.json")
+    fetch("/cocktailbook/recipies.json")
         .then(function (response) {
             return response.json();
         })
@@ -15,7 +15,7 @@ function getJson() {
 
 function getJsonIngredients() {
     // read local JSON file in javascript
-    fetch('../cocktailbook/Ingredients.json')
+    fetch('/cocktailbook/Ingredients.json')
         .then(function (response) {
             return response.json();
         })
@@ -72,7 +72,7 @@ function generateRecipeCard(recipe) {
     let site = recipe.Title.replace(/ /g, '_');
     const anchor = document.createElement('a');
     anchor.classList.add("column", "is-one-third");
-    anchor.href = `/RecipeSites/Ingredients/Syrup/${site}.html`;
+    anchor.href = `/cocktailbook/RecipeSites/Ingredients/Syrup/${site}.html`;
     
 
     // get grid container and append card
