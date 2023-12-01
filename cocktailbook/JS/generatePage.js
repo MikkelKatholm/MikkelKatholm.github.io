@@ -68,7 +68,7 @@ async function generateRecipePage(name) {
     //Add the image to the column
     const divForImage = document.createElement('div');
     divForImage.classList.add('image', 'rounded-image', "image-container");
-    divForImage.style.backgroundImage = "url('../cocktailbook" + recipe.Img + "')";
+    divForImage.style.backgroundImage = "url('/cocktailbook" + recipe.Img + "')";
     columnForImage.appendChild(divForImage);
 
     //Add the text to the column
@@ -171,7 +171,7 @@ async function generateRecipePage(name) {
         //Link to a subpage for the ingredient//
         if (ingredient.link != undefined) {
             let link = document.createElement('a');
-            link.href = '../cocktailbook/RecipeSites/Ingredients/' + ingredient.link;
+            link.href = '/cocktailbook/RecipeSites/Ingredients/' + ingredient.link;
             ingredientsList.appendChild(link);
             link.appendChild(listItem);
         }
