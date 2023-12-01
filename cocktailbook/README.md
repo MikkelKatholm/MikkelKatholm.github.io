@@ -13,6 +13,11 @@ To recuce file sizes use
 cd repo
 for %i in (*.jpg) do ffmpeg -i "%~i" -y "%~i"
 ```
+To remove metadata from all images in a folder
+```
+cd repo
+for %i in (*.jpg) do ffmpeg -i "%i" -map_metadata -1 -c copy -y "%i"
+```
 
 ## Name
 The cocktail book
