@@ -2040,6 +2040,50 @@
             ]
         },
         {
+            "Title": "Intro To Aperol",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Bird_of_Paradise.jpg",
+            "Ingredients": [
+                {
+                    "name": "Aperol",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 2.25,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 2.25,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Gin",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Angostura bitters",
+                    "quantity": 2,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "Lemon twist"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled coupe.",
+                "Garnish with a lemon twist."
+            ]
+            
+        },
+        {
             "Title": "Hugo",
             "Type": "Alcoholic",
             "Ice": "Ice cubes",
@@ -2302,7 +2346,7 @@
             "Img": "/Images/Pending.jpg",
             "Ingredients": [
                 {
-                    "name": "White rum",
+                    "name": "Light rum",
                     "quantity": 6,
                     "unit": "cl"
                 },
@@ -2697,13 +2741,56 @@
                 "Add all the ingredients to the shaker.",
                 "Add ice to the shaker.",
                 "Shake hard.",
-                "Dust the glass with cocoa powder and powdered sugar.",
+                "Dust the glass with cocoa powder, cinammon and powdered sugar.",
                 "Double strain into the glass.",
                 "Garnish with a chard marshmallow."
             ],
             "About": [
                 "This cocktail was created by the great minds at Gedulgt in Aarhus, Denmark. It is a very complex cocktail with a lot of different flavors. It is a very sweet cocktail, but the mezcal and the portwine gives it a nice balance. The marshmallow reduction gives it a nice texture, and the chard marshmallow is a great garnish.",
-                "In order to make it just like the original, you need to use Derrumbes Durange mezcal, it is however a bit expensive (550 kr). You can use any other mezcal you like."
+                "In order to make it just like the original, you need to use ruby port and Derrumbes Durange mezcal, it is however a bit expensive (550 kr). You can use any other mezcal you like."
+            ]
+        },
+        {
+            "Title": "Daisy De Santiago",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Daisy_De_Santiago.jpg",
+            "Ingredients": [
+                {
+                    "name": "Light rum",
+                    "quantity": 5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Yellow Chartreuse",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 2.25,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 1,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Angostura bitters",
+                    "quantity": 1,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "Lime twist"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake hard with ice.",
+                "Strain into a chilled Nick & Nora glass.",
+                "Garnish with a lime twist."
             ]
         }
     ],
@@ -3182,6 +3269,12 @@
             "Abv": 45,
             "Calories": 250,
             "Cost": 28.5
+        },
+        {
+            "Name": "Yellow Chartreuse",
+            "Abv": 43,
+            "Calories": 220,
+            "Cost": 47
         }
     ]
 }

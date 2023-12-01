@@ -72,7 +72,7 @@ Garnish: Mint leaves
  - 2 cl Lime juice
  - 2 cl Ginger syrup
  - 5 cl Pisco
- - 3 cl Club soda (Sub for ginger beer???)
+ - 3 cl Club soda
     
 Garnish: Lime wheel, Candied ginger
 
@@ -156,3 +156,175 @@ https://punchdrink.com/recipes/chartreuse-swizzle/
  - 2 cl Lime juice
  - Handfull of mint leaves
 
+---
+### Midori Sour
+ - 1.5 oz Mezcal
+ - 0.75 oz Midori
+ - 0.5 oz Lemon juice
+ - 0.5 oz Pineapple juice
+ - 0.25 oz Simple syrup
+ - 1 Egg white
+
+Dry shake, shake with ice, strain into a chilled glass and garnish
+
+---
+### Fields forever by NotJustABartender
+ - 1.5 oz Strawberry & lemongrass vodka
+ - 0.75 oz Lemon juice
+ - 0.75 Yuzu liqueur
+ - 0.5 oz Ginger syrup
+ - 1 dash Saline solution
+
+Shake with ice, strain into a chilled glass and garnish
+ #### Rapid infused strawberry & lemongrass vodka
+  - 80 g Lemongrass
+  - 120 g Strawberries
+  - 500 g Vodka (37.5%)
+
+Half the lemongrass lengthwise and cut the strawberries in small slices. Add the lemongrass and strawberries to a whipping siphon and add the vodka. Charge the siphon (0.5L) with a N2O cartridges and shake for 30 seconds. Let it sit for 1 hour and then release the pressure. Strain the vodka through a fine mesh strainer.
+
+---
+### PampleMousse
+ - 1 oz Gin
+ - 0.5 oz Acido adjusted grapefruit juice
+ - 0.5 oz Simple syrup
+ - 1 Egg white
+ - (1 barspoon of campari)
+ - Prosecco to top
+
+ Shake with ice, strain into a chilled glass top with prosecco and garnish
+
+ #### Acid adjusted grapefruit juice
+  - 100 ml Grapefruit juice
+  - 4 g Citric acid
+
+Add the citric acid to the grapefruit juice and stir until it's dissolved.
+
+---
+### Enzoni
+ - 1 oz Gin
+ - 1 oz Campari
+ - 0.75 oz Lemon juice
+ - 0.5 oz Simple syrup
+ - 5-6 Green grapes
+
+Muddle the grapes, shake with ice, strain into a chilled glass and garnish
+
+---
+### Clarified Raspberry Buck
+ - 480 ml whole milk
+ - 480 ml Bourbon
+ - 240 ml Lemon juice
+ - 240 ml Raspberry syrup
+ - 8 dashes Angostura bitters
+
+Mix everything except the milk. Add the mix to the milk. Let sit. Strain through a coffee filter.
+
+#### Ginger Earl Grey Foam
+ - 1.5 oz Ginger syrup
+ - 1.5 oz Earl grey tea
+ - 1.5 oz Lemon juice
+ - 1.5 oz Dry vermouth
+ - 2 Egg whites gently beaten
+
+Add everything to a whipping siphon and charge with a N2O cartridge. Shake, charge again, shake, store in the fridge for 30 min before use.
+
+To serve add the clarified raspberry buck to a chilled glass and top with the ginger earl grey foam.
+
+--- 
+### Caprese
+ - 90 ml whiskey
+ - 3 oz Tomato water (blend and strain tomatoes) 
+ - 0.5 oz LimeGrapefruit juice (1:1)
+ - 1.5 oz basil syrup
+ - 2 oz Whole milk
+
+Mix everything except the milk. Add the mix to the milk. Let sit. Strain through a coffee filter. To serve add 105 ml to a mixing tin and throw it. Pour into a chilled glass and garnish with a basil leaf.
+
+#### Basil syrip
+ - 120 g sugar
+ - 120 g water
+ - 20 g basil
+
+Add everything to a jar, sous vide @ 55C for 2h and then strain.
+
+---
+### Cigarettes after sex
+ - 3-4 dashes of Tobacco bitters
+ - 1.5 oz Mezcal
+ - 0.75 Coffee Oloroso sherry
+ - 0.5 oz Creme de cacao
+
+Stir with ice, strain into a chilled Nick and Nora glass
+
+#### Coffee oloroso sherry
+ - 50 g spent coffee grounds (medium roast)
+ - 500 ml Oloroso sherry
+
+Sous @ 70C for 1h, strain through a coffee filter.
+
+--- 
+### Gin Sangria
+ - 1.5 oz Hayman's Sloe Gin
+ - 0.75 oz Sweet vermouth
+ - 0.75 oz Port & Sherry reduction
+ - 0.5 oz Vanilla cordial
+ - 1 oz Lemon juice
+ - 2 oz Orange juice
+
+Shake with ice, strain into a chilled glass and garnish
+
+--- 
+### Queens Park Swizzle
+ - 2 oz Rum
+ - 0.75 oz Lime juice
+ - 0.5 oz Rich demerara syrup
+ - 8-10 Mint leaves
+ - Angostura bitters
+
+Muddle the mint leaves, add everything except the bitters to a glass and fill with crushed ice. Swizzle and top with more crushed ice. Add the bitters and garnish
+
+---
+### Summer at the Sea
+ - 1 oz Grapefruit juice
+ - 1 oz Lime juice
+ - Handfull of Basil leaves
+ - 2 dashes of orange flower water
+ - 0.5 oz Honey syrup
+ - 1.75 oz aged rum
+ - 0.25 oz Menthe de Pastille
+
+Shake with ice, double strain into a chilled glass and garnish with basil grapefruit and a smoking cinnamon stick
+
+---
+### Key Garden
+ - 2 oz Rum
+ - 0.75 oz Lime juice
+ - 0.5 oz Simple syrup
+ - 0.5 oz Elderflower liqueur
+ - 3 Cucumber slices
+ - 8 Mint leaves
+ - Club soda
+
+ Muddle the cucumber and mint leaves. Shake with ice, strain into a chilled glass and top with club soda. Garnish.
+
+---
+### The Tzatziki
+ - 4 oz Gin
+ - 1.5 oz Dry vermouth
+ - 50 g full fat greek yogurt
+ - 1 bunch of dill
+ - 3 lemon peels
+ - 4-5 cucumber slices
+ - Ground black pepper (one twist)
+
+ Mix everything, Stit, let sit for 1h, strain through a coffee filter. 
+
+#### To serve
+  - 2 oz Tzatziki
+  - 0.5 oz Gin
+  - 0.25 oz olive brine
+  - 1 barspoon of Green Chartreuse
+  - 1 lemon peel
+
+Stir with ice and the lemon peel, strain into a chilled glass and garnish with a few drops of olive oil.
