@@ -121,7 +121,7 @@ function generateRecipeCard(recipe) {
     const figure = document.createElement('figure');
     figure.classList.add('image', 'is-square');
     const image = document.createElement('img');
-    image.src = recipe.Img;
+    image.src = "../cocktailbook/" + recipe.Img;
     figure.appendChild(image);
     cardImage.appendChild(figure);
 
