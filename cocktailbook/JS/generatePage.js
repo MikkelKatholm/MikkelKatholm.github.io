@@ -4,7 +4,7 @@ let jsonData
 
 function getJson() {
     // read local JSON file in javascript
-    fetch("../cocktailbook/recipies.json")
+    fetch("/cocktailbook/recipies.json")
         .then(function (response) {
             return response.json();
         })
