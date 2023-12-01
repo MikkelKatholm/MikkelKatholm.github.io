@@ -328,3 +328,20 @@ Shake with ice, double strain into a chilled glass and garnish with basil grapef
   - 1 lemon peel
 
 Stir with ice and the lemon peel, strain into a chilled glass and garnish with a few drops of olive oil.
+
+---
+### Tan Mexican
+ - 1 oz Espresso
+ - 0.75 oz Liquor 43
+ - 1.5 Spiced rum
+ - 2 dashes of chocolate bitters
+ - Foam to top
+
+Shake with ice, strain into a chilled glass and top with foam. Garnish with chocolate or nutmeg shavings.
+
+#### Foam
+ - 1 tablespoon of sugar
+ - 1 tablespoon of Instant coffee
+ - Enough water 
+
+Mix everything and froth with a milk frother.
