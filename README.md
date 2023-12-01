@@ -77,15 +77,6 @@ Garnish: Mint leaves
 Garnish: Lime wheel, Candied ginger
 
 ---
-### Oolong cordinal
-- 28 grams oolong tea   7 grams per 250 ml
-- 1 L water             250 ml
-- 17.6 grams sugar      4.4 grams per 250 ml
-- 14 grams citric acid  3.5 grams per 250 ml
-
-Make the tea as you would normally do. Add the sugar and citric acid and stir until it's dissolved. Let it cool down and then bottle it.
-
----
 ### Pomergrante gin ann tonic perls
  - 3 g sodium alginate 
  - 230 ml pomergrante juice reduction
@@ -165,10 +156,3 @@ https://punchdrink.com/recipes/chartreuse-swizzle/
  - 2 cl Lime juice
  - Handfull of mint leaves
 
----
-
-- https://www.reddit.com/r/cocktails/comments/s75of4/marg_simpson/
-- https://www.reddit.com/r/cocktails/comments/om2p5j/clear_mojito_with_clarified_mint_lime_cordial_and/
-- https://www.reddit.com/r/cocktails/comments/j8we20/pomegranate_gin_and_tonic_pearls_inside_a_white/
-- https://www.reddit.com/r/cocktails/comments/ik55ca/clarified_jungle_bird/
-- https://craftandcocktails.co/2018/09/02/pineapple-clarified-milk-punch-how-to-clarify-cocktails/

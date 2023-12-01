@@ -429,6 +429,59 @@
                 "Mix the infused vodka, sugar and 45 grams of the water.",
                 "Strain and store in a clean container."
             ]
+        },
+        {
+            "Title": "Stout & Marshmallow reduction",
+            "Time": "1 hour",
+            "ShelfLife": "1 month",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Stout",
+                    "quantity": "500 ml"
+                },
+                {
+                    "name": "White sugar",
+                    "quantity": "50 grams"
+                },
+                {
+                    "name": "Marshmallows",
+                    "quantity": "50 grams"
+                }
+            ],
+            "HowTo": [
+                "Add the stout to a saucepan and bring to a boil.",
+                "Add the sugar and recuce heat to a simmer.",
+                "Let the mixture reduce an appropriate amount.",
+                "Add the marshmallows and stir until dissolved.",
+                "Strain and store in a clean container."
+            ]
+        },
+        {
+            "Title": "Tonka Bean Syrup",
+            "Time": "1 hour",
+            "ShelfLife": "1 month",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Water",
+                    "quantity": "100 grams"
+                },
+                {
+                    "name": "White sugar",
+                    "quantity": "100 grams"
+                },
+                {
+                    "name": "Tonka bean",
+                    "quantity": "1"
+                }
+            ],
+            "HowTo": [
+                "Finley grate the tonka bean and add to a saucepan along with the water and sugar.",
+                "Bring to a simmer untill the sugar is dissolved, it should be a dark rich brown color.",
+                "Let the syrup cool and sit for at least a hour.",
+                "Strain throgh a coffee filter and store in a clean container."
+            ]
         }
     ]
 }

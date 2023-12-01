@@ -2644,6 +2644,67 @@
             "Notes": [
                 "It is quite bitter"
             ]
+        },
+        {
+            "Title": "From Dust Till Dawn",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/From_Dust_Till_Dawn.jpg",
+            "Ingredients": [
+                {
+                    "name": "Mezcal",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Stout & Marshmallow reduction",
+                    "link": "Syrup/Stout_Marshmallow_Reduction.html",
+                    "quantity": 2.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Tonka bean syrup",
+                    "link": "Syrup/Tonka_Bean_Syrup.html",
+                    "quantity": 2,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Creme de cacao",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Portwine",
+                    "quantity": 1,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cream",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Egg yolk",
+                    "quantity": 2,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Chard marshmallow"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Add ice to the shaker.",
+                "Shake hard.",
+                "Dust the glass with cocoa powder and powdered sugar.",
+                "Double strain into the glass.",
+                "Garnish with a chard marshmallow."
+            ],
+            "About": [
+                "This cocktail was created by the great minds at Gedulgt in Aarhus, Denmark. It is a very complex cocktail with a lot of different flavors. It is a very sweet cocktail, but the mezcal and the portwine gives it a nice balance. The marshmallow reduction gives it a nice texture, and the chard marshmallow is a great garnish.",
+                "In order to make it just like the original, you need to use Derrumbes Durange mezcal, it is however a bit expensive (550 kr). You can use any other mezcal you like."
+            ]
         }
     ],
     "Comment": "All liquid ingredients are per 100 ml.",
