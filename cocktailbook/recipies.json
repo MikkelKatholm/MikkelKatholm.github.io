@@ -2659,7 +2659,7 @@
                 },
                 {
                     "name": "Stout & Marshmallow reduction",
-                    "link": "Syrup/Stout_Marshmallow_Reduction.html",
+                    "link": "Syrup/Stout_&_Marshmallow_Reduction.html",
                     "quantity": 2.5,
                     "unit": "cl"
                 },
@@ -2675,7 +2675,7 @@
                     "unit": "cl"
                 },
                 {
-                    "name": "Portwine",
+                    "name": "Port wine",
                     "quantity": 1,
                     "unit": "cl"
                 },
@@ -2685,7 +2685,7 @@
                     "unit": "cl"
                 },
                 {
-                    "name": "Egg yolk",
+                    "name": "Egg Yolk",
                     "quantity": 2,
                     "unit": "cl"
                 }
@@ -2836,6 +2836,12 @@
             "Cost": 4
         },
         {
+            "Name": "Creme de cacao",
+            "Abv": 24,
+            "Calories": 320,
+            "Cost": 25
+        },
+        {
             "Name": "Date Syrup",
             "Abv": 0,
             "Calories": 250,
@@ -2863,6 +2869,12 @@
             "Name": "Egg White",
             "Abv": 0,
             "Calories": 50,
+            "Cost": 2.5
+        },
+        {
+            "Name": "Egg Yolk",
+            "Abv": 0,
+            "Calories": 300,
             "Cost": 2.5
         },
         {
@@ -2992,6 +3004,12 @@
             "Cost": 2
         },
         {
+            "Name": "Mezcal",
+            "Abv": 42,
+            "Calories": 230,
+            "Cost": 43
+        },
+        {
             "Name": "Midori",
             "Abv": 21,
             "Calories": 270,
@@ -3058,6 +3076,12 @@
             "Cost": 24
         },
         {
+            "Name": "Port wine",
+            "Abv": 20,
+            "Calories": 160,
+            "Cost": 20
+        },
+        {
             "Name": "Prosecco",
             "Abv": 11,
             "Calories": 80,
@@ -3100,6 +3124,12 @@
             "Cost": 31.5
         },
         {
+            "Name": "Stout & Marshmallow Reduction",
+            "Abv": 0,
+            "Calories": 200,
+            "Cost": 7.5
+        },
+        {
             "Name": "Sweet Vermouth",
             "Abv": 17,
             "Calories": 140,
@@ -3116,6 +3146,12 @@
             "Abv": 0,
             "Calories": 1,
             "Cost": 1.8
+        },
+        {
+            "Name": "Tonka Bean Syrup",
+            "Abv": 0,
+            "Calories": 200,
+            "Cost": 2
         },
         {
             "Name": "Vanilla Ice Cream",
