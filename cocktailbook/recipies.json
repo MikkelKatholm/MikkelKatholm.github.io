@@ -696,7 +696,7 @@
                     "unit": "cl"
                 },
                 {
-                    "name": "Cocunut rum",
+                    "name": "Coconut Rum",
                     "quantity": 2,
                     "unit": "cl"
                 },
@@ -1178,7 +1178,7 @@
                     "unit": "cl"
                 },
                 {
-                    "name": "Cocunut rum",
+                    "name": "Coconut Rum",
                     "quantity": 2,
                     "unit": "cl"
                 },
@@ -2792,6 +2792,60 @@
                 "Strain into a chilled Nick & Nora glass.",
                 "Garnish with a lime twist."
             ]
+        },
+        {
+            "Title": "Tan Mexican",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Tan_Mexican.jpg",
+            "Ingredients":[
+                {
+                    "name":"Aged rum",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Espresso",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Licor 43",
+                    "quantity": 2.25,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cocoa bitters",
+                    "quantity": 2,
+                    "unit": "dash"
+                },
+                {
+                    "name": "Instant coffee",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Nutmeg"
+            ],
+            "HowTo": [
+                "Mix everything except the instant coffee and sugar in a shaker.",
+                "Shake with ice.",
+                "Strain into a chilled lowball with ice.",
+                "Rinse the shaker and add the instant coffee and sugar.",
+                "Add a little bit of hot water and foam the coffee and sugar. I use a handheld milk frother.",
+                "Pour the coffee foam on top of the cocktail.",
+                "Garnish some freshly grated nutmeg."
+            ],
+            "Notes": [
+                "We own the foto."
+            ]
         }
     ],
     "Comment": "All liquid ingredients are per 100 ml.",
@@ -2887,7 +2941,13 @@
             "Cost": 0.3
         },
         {
-            "Name": "Cocunut Rum",
+            "Name": "Cocoa bitters",
+            "Abv": 48,
+            "Calories": 180,
+            "Cost": 100
+        },
+        {
+            "Name": "Coconut Rum",
             "Abv": 21,
             "Calories": 220,
             "Cost": 20
@@ -3065,6 +3125,12 @@
             "Abv": 0,
             "Calories": 30,
             "Cost": 1.2
+        },
+        {
+            "Name": "Licor 43",
+            "Abv": 31,
+            "Calories": 310,
+            "Cost": 25
         },
         {
             "Name": "Light Rum",

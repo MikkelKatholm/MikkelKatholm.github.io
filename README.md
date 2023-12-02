@@ -345,3 +345,14 @@ Shake with ice, strain into a chilled glass and top with foam. Garnish with choc
  - Enough water 
 
 Mix everything and froth with a milk frother.
+
+---
+### Beehive
+ - 1.5 oz Jamaican rum (Smith & Cross)
+ - 0.5 oz Fernet Branca
+ - 0.75 oz honey syrup
+ - 0.75 oz Lime juice
+
+Shake with ice, strain into a nick and nora.
+
+---
