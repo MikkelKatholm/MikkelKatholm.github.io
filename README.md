@@ -373,3 +373,23 @@ Shake with ice, Coupe, Lemon twist
  - 2 dash chocolate bitters
 
 Stir with ice, Nick and Nora or rocks glass with a big ice cube, orange twist
+
+---
+### The Last Word
+ - 0.75 oz Gin
+ - 0.75 oz Green Chartreuse
+ - 0.75 oz Maraschino liqueur
+ - 0.75 oz Lime juice
+
+Shake with ice, Coupe, Lime twist
+
+---
+### The Forbidden One
+ - 1 oz Angostura bitters
+ - 1 oz Cold brew concentrate
+ - 1 oz Rye whiskey
+ - 0.5 Rich demerara
+ - 1 whole egg
+
+Reverse dry shake, Rocks glass, grated nutmeg and coffee beans (or a tonka bean)
+
