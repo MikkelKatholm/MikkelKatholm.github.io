@@ -73,7 +73,6 @@ function containsWord(targetWord, inputString) {
 // function to filter the json data by spirit and return the filtered data in a new json object
 function filterJsonBySpirit(spirit) {
     let filteredData = { "Cocktails": [] }
-    console.log(spirit)
     if (spirit === "Rum") {
         for (cocktail of jsonData.Cocktails) {
             if (cocktail.Ingredients.some(ingredient => containsWord(spirit, ingredient.name))) {
@@ -88,7 +87,7 @@ function filterJsonBySpirit(spirit) {
             } 
         }
     } else if (spirit === "Liqueurs") {
-        let spirits = ["Rum", "Bourbon", "Whiskey", "Vodka", "Gin", "Tequila"];
+        let spirits = ["Rum", "Bourbon", "Whiskey", "Vodka", "Gin", "Tequila", "Mezcal"];
         for (cocktail of jsonData.Cocktails) {
             let shouldMake = true;
             for (sp of spirits) {
@@ -102,7 +101,9 @@ function filterJsonBySpirit(spirit) {
         }
     } else {
         for (cocktail of jsonData.Cocktails) {
-            if (cocktail.Ingredients.some(ingredient => containsWord(spirit, ingredient.name))) {
+            var containsMezcal = cocktail.Ingredients.some(ingredient => containsWord("Mezcal", ingredient.name))
+            var containsTequila = cocktail.Ingredients.some(ingredient => containsWord(spirit, ingredient.name))
+            if (containsTequila || containsMezcal) {
                 filteredData.Cocktails.push(cocktail)
             }
         }

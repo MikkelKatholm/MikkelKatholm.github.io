@@ -356,3 +356,20 @@ Mix everything and froth with a milk frother.
 Shake with ice, strain into a nick and nora.
 
 ---
+### The Ealdorman
+ - 0.75 oz Gin
+ - 0.75 oz Green Chartreuse
+ - 0.75 oz St. Germain
+ - 0.75 oz Lemon juice
+ - 2 dash orange bitters
+
+Shake with ice, Coupe, Lemon twist
+
+---
+### Oompa Loompa (By reddit user u/winetequiladiscgolf)
+ - 1.25 oz Bourbon (Bulleit)
+ - 1 oz Aperol
+ - 0.5 oz cremé de cacao
+ - 2 dash chocolate bitters
+
+Stir with ice, Nick and Nora or rocks glass with a big ice cube, orange twist
