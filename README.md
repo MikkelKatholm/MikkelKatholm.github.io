@@ -384,7 +384,7 @@ Stir with ice, Nick and Nora or rocks glass with a big ice cube, orange twist
 Shake with ice, Coupe, Lime twist
 
 ---
-### The Forbidden One
+### The Forbidden One (By reddit user u/Stoic-Wanderer007)
  - 1 oz Angostura bitters
  - 1 oz Cold brew concentrate
  - 1 oz Rye whiskey

@@ -272,13 +272,13 @@ function calculateCocktailInfo(Cocktail) {
         console.log(ing.name + " " + cost)
     }
 
-    //Account for the dilution
+/*     //Account for the dilution
     let method = Cocktail.Method;
     if (method === "Shake" || method === "Shake, Top") {
         volume += 3;
     } else if (method === "Stir") {
         volume += 2;
-    }
+    } */
     
     //Convert to units
     units = ((units * 0.789) / 12)
