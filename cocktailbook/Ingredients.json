@@ -482,6 +482,39 @@
                 "Let the syrup cool and sit for at least a hour.",
                 "Strain throgh a coffee filter and store in a clean container."
             ]
+        },
+        {
+            "Title": "Rich Spiced Syrup",
+            "Time": "1 hour",
+            "ShelfLife": "3 month",
+            "Img": "/Images/Date_Syrup.jpg",
+            "Ingredients": [
+                {
+                    "name": "Demerara sugar",
+                    "quantity": "100 grams"
+                },
+                {
+                    "name": "Water",
+                    "quantity": "50 grams"
+                },
+                {
+                    "name": "Cinnamon stick",
+                    "quantity": "12 grams"
+                },
+                {
+                    "name": "Cloves",
+                    "quantity": "3 grams"
+                },
+                {
+                    "name": "Ground nutmeg",
+                    "quantity": "0.75 gram"
+                }
+            ],
+            "HowTo": [
+                "Add all ingredients to a saucepan and bring to a boil.",
+                "Remove from heat and let sit for at least a hour.",
+                "Strain and store in a clean container."
+            ]
         }
     ]
 }

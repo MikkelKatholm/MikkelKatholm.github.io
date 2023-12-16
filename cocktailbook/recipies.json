@@ -1618,7 +1618,7 @@
                     "unit": "cl"
                 },
                 {
-                    "name": "Milk",
+                    "name": "Whole Milk",
                     "quantity": 18,
                     "unit": "cl"
                 }
@@ -2846,6 +2846,57 @@
             "Notes": [
                 "We own the foto."
             ]
+        },
+        {
+            "Title": "Spiced Clear Apple",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Clarafied",
+            "Img": "/Images/Pending.jpg",
+            "Serves" : 2,
+            "Ingredients": [
+                {
+                    "name": "Gin",
+                    "quantity": 10,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Apple juice",
+                    "quantity": 10,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Rich Spiced Syrup",
+                    "quantity": 2.5,
+                    "unit": "cl",
+                    "link": "Syrup/Rich_Spiced_Syrup.html"
+                },
+                {
+                    "name": "Whole milk",
+                    "quantity": 8,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Dehydrated apple slice"
+            ],
+            "HowTo": [
+                "Add all the ingredients except the milk to a container.",
+                "Stir to incorporate.",
+                "Add the milk to a separate container.",
+                "Pour the mixture into the milk.",
+                "Let it sit for at least 1 hour.",
+                "Strain through a filter.",
+                "Pour into a steril bottle.",
+                "Store in the fridge indefinitely.",
+                "Serve in a rocks glass with a big ice cube.",
+                "Garnish with a dehydrated apple slice."
+            ]
         }
     ],
     "Comment": "All liquid ingredients are per 100 ml.",
@@ -3335,6 +3386,12 @@
             "Abv": 45,
             "Calories": 250,
             "Cost": 28.5
+        },
+        {
+            "Name": "Whole milk",
+            "Abv": 0,
+            "Calories": 60,
+            "Cost": 1.2
         },
         {
             "Name": "Yellow Chartreuse",
