@@ -98,12 +98,13 @@ function filterJsonBySpirit(spirit) {
             if (shouldMake) {
                 filteredData.Cocktails.push(cocktail)
             }
+
         }
     } else {
         for (cocktail of jsonData.Cocktails) {
             var containsMezcal = cocktail.Ingredients.some(ingredient => containsWord("Mezcal", ingredient.name))
             var containsTequila = cocktail.Ingredients.some(ingredient => containsWord(spirit, ingredient.name))
-            if (containsTequila || containsMezcal) {
+            if (containsTequila && !containsMezcal) {
                 filteredData.Cocktails.push(cocktail)
             }
         }
