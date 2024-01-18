@@ -138,7 +138,7 @@
         },
         {
             "Title": "Popcorn Syrup",
-            "Time": "10 days",
+            "Time": "20 min",
             "ShelfLife": "1 month",
             "Img": "/Images/Pending.jpg",
             "Ingredients": [
@@ -211,13 +211,13 @@
         },
         {
             "Title": "Acacia Honey Syrup",
-            "Time": "10 days",
+            "Time": "2 min",
             "ShelfLife": "1 month",
             "Img": "/Images/Pending.jpg",
             "Ingredients": [
                 {
                     "name": "Acacia honey",
-                    "quantity": "100 grams"
+                    "quantity": "150 grams"
                 },
                 {
                     "name": "Water",
@@ -342,7 +342,7 @@
             "Ingredients": [
                 {
                     "name": "Honey",
-                    "quantity": "50 grams"
+                    "quantity": "150 grams"
                 },
                 {
                     "name": "Water",
