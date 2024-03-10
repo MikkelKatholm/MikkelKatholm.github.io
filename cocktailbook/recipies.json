@@ -2953,6 +2953,86 @@
                 "Pour the ginger beer into the glass.",
                 "Garnish with 2 blackberry on a cocktail stick."
             ]
+        },
+        {
+            "Title": "Oompa Loompa",
+            "Type": "Alcoholic",
+            "Ice":"Ice cubes",
+            "Method": "Stir",
+            "Img": "/Images/Oompa_Loompa.jpg",
+            "Ingredients": [
+                {
+                    "name": "Bourbon",
+                    "quantity": 3.75,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Aperol",
+                    "quantity": 3,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Creme de cacao",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Cocoa bitters",
+                    "quantity": 2,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "Mint sprig"
+            ],
+            "HowTo": [
+                "Add all the ingredients to a mixing glass.",
+                "Stir with ice.",
+                "Strain into a chilled rocks glass with a big ice cube.",
+                "Garnish with a mint sprig."
+            ],
+            "About":[
+                "Made by the reddit user Winetequiladiscgolf for a Willy Wonka themed party in 2023. The drink came to life because he wanted to create a cocktail that looked like an Oompa Loompa."
+            ]
+
+        },
+        {
+            "Title": "Naked & Famous",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Naked_&_Famous.jpg",
+            "Ingredients": [
+                {
+                    "name": "Mezcal",
+                    "quantity": 2.25,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Yellow Chartreuse",
+                    "quantity": 2.25,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Aperol",
+                    "quantity": 2.25,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lime juice",
+                    "quantity": 2.25,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Lime twist"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled Nick & Nora glass.",
+                "Garnish with a lime twist."
+            ]
         }
     ],
     "Comment": "All liquid ingredients are per 100 ml.",
