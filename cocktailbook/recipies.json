@@ -582,7 +582,7 @@
                 }
             ],
             "Garnish": [
-                "Pineaaple leaf",
+                "Pineaple leaf",
                 "Lime wheel"
             ],
             "HowTo": [
@@ -3074,6 +3074,50 @@
                 "Shake with ice.",
                 "Strain into a chilled lowball with ice.",
                 "Garnish with a pineapple leaf."
+            ]
+        },
+        {
+            "Title": "Hood Winked",
+            "Type": "Alcoholic",
+            "Ice": "Ice cubes",
+            "Method": "Shake",
+            "Img": "/Images/Pending.jpg",
+            "Ingredients": [
+                {
+                    "name": "Mezcal",
+                    "quantity": 6,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Aperol",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Pineapple juice",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 0.75,
+                    "unit": "cl"
+                }
+            ],
+            "Garnish": [
+                "Pineaple leaf",
+                "Maraschino cherry"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled lowball with ice.",
+                "Garnish with a pineapple leaf and a maraschino cherry."
             ]
         }
     ],
