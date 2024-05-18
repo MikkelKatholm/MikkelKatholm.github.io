@@ -3119,6 +3119,49 @@
                 "Strain into a chilled lowball with ice.",
                 "Garnish with a pineapple leaf and a maraschino cherry."
             ]
+        },
+        {
+            "Title": "Champs Elysees",
+            "Type": "Alcoholic",
+            "Ice": "None",
+            "Method": "Shake",
+            "Img": "/Images/Champs_Elysees.jpg",
+            "Ingredients": [
+                {
+                    "name": "Cognac",
+                    "quantity": 4.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Green Chartreuse",
+                    "quantity": 1.5,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 2.25,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Simple syrup",
+                    "quantity": 0.75,
+                    "unit": "cl"
+                },
+                {
+                    "name": "Angostura bitters",
+                    "quantity": 2,
+                    "unit": "dash"
+                }
+            ],
+            "Garnish": [
+                "Lemon twist"
+            ],
+            "HowTo": [
+                "Add all the ingredients to the shaker.",
+                "Shake with ice.",
+                "Strain into a chilled Nick & Nora glass.",
+                "Garnish with a lemon twist."
+            ]
         }
     ],
     "Comment": "All liquid ingredients are per 100 ml.",
@@ -3242,6 +3285,12 @@
             "Abv": 21,
             "Calories": 250,
             "Cost": 13
+        },
+        {
+            "Name": "Cognac",
+            "Abv": 40,
+            "Calories": 220,
+            "Cost": 30
         },
         {
             "Name": "Cointreau",
