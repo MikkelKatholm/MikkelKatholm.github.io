@@ -1,3 +1,4 @@
+import random
 import folium
 from folium.plugins import TagFilterButton
 from load_notion_data import get_data
@@ -29,12 +30,16 @@ def generate_map():
 
     # Add markers
     for wine in wines:
-        if wine.latitude in latitudes and wine.longitude in longitudes:
-            location = [wine.latitude + 0.00001, wine.longitude + 0.00001]
-        else:
-            location = [wine.latitude, wine.longitude]
+        lat, lon = wine.latitude, wine.longitude
+
+        while lat in latitudes and lon in longitudes:
+            lat += random.uniform(-0.0001, 0.0001)
+            lon += random.uniform(-0.0001, 0.0001) 
+
+        location = [lat, lon]
         
-        latitudes.append(wine.latitude); longitudes.append(wine.longitude)
+        latitudes.append(lat)
+        longitudes.append(lon)
                 
         if location[0] and location[1]:
             popup_content = f"""

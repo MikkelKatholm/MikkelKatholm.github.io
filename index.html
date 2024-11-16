@@ -3,12 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
+    <style>
+        Body{display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;}.container{text-align: center;}
+        h1{margin-bottom: 20px;}.button{display: inline-block;
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;}.button:hover{background-color: #0056b3;}
+    </style>
 </head>
 <body>
-    <!-- Button to link to the index.html in the cocktailbook filder -->
-    <a href="cocktailbook/index.html">Cocktailbook</a>
-
-    <a href="Notion-Wine-Map/wine_map.html">Wine Map based on notion data</a>
+    <div class="container">
+        <h1>Welcome to my page</h1>
+        <a href="cocktailbook/index.html" class="button">Cocktail Book</a>
+        <a href="Notion-Wine-Map/wine_map.html" class="button">Wine Map</a>
+    </div>
 </body>
 </html>
