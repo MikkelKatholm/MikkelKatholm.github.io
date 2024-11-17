@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_2d3eb496fcca225ae6597cefcb27809d {
+                #map_c82cb8fe5beef6ac761122d99d436f29 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,6 +35,9 @@
                 .leaflet-container { font-size: 1rem; }
             </style>
         
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
     <script src="https://cdn.jsdelivr.net/npm/leaflet-tag-filter-button/src/leaflet-tag-filter-button.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-tag-filter-button/src/leaflet-tag-filter-button.css"/>
@@ -55,14 +58,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_2d3eb496fcca225ae6597cefcb27809d" ></div>
+            <div class="folium-map" id="map_c82cb8fe5beef6ac761122d99d436f29" ></div>
         
 </body>
 <script>
     
     
-            var map_2d3eb496fcca225ae6597cefcb27809d = L.map(
-                "map_2d3eb496fcca225ae6597cefcb27809d",
+            var map_c82cb8fe5beef6ac761122d99d436f29 = L.map(
+                "map_c82cb8fe5beef6ac761122d99d436f29",
                 {
                     center: [46.0, 15.0],
                     crs: L.CRS.EPSG3857,
@@ -76,1530 +79,1538 @@
 
         
     
-            var tile_layer_05bf07b5b5e95c681a88c156de8704c2 = L.tileLayer(
+            var tile_layer_b19a7f8dccc48c8e959f3c069ce807df = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_05bf07b5b5e95c681a88c156de8704c2.addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            tile_layer_b19a7f8dccc48c8e959f3c069ce807df.addTo(map_c82cb8fe5beef6ac761122d99d436f29);
         
     
-            var marker_c5c22e848a9be21b0ca38569f16a5eb9 = L.marker(
+            var marker_cluster_505aa25443794b4b988ab5ffb53eb217 = L.markerClusterGroup(
+                {"maxClusterRadius": 3, "showCoverageOnHover": false, "spiderfyOnMaxZoom": false, "zoomToBoundsOnClick": true}
+            );
+        
+    
+            var marker_37b311dcf7e22d3a0557548a2cb8e858 = L.marker(
                 [49.4374065, 8.1842796],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_0b5170e46bf8a2a4fdb2f2d3e3563b5a = L.AwesomeMarkers.icon(
+            var icon_2814a59aa8f3c2dba7907e8e2abcc21b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_c5c22e848a9be21b0ca38569f16a5eb9.setIcon(icon_0b5170e46bf8a2a4fdb2f2d3e3563b5a);
+            marker_37b311dcf7e22d3a0557548a2cb8e858.setIcon(icon_2814a59aa8f3c2dba7907e8e2abcc21b);
         
     
-        var popup_1fd323013e85e0311dbcd68c1513b9f7 = L.popup({"maxWidth": 300});
+        var popup_59ecf3338d1bbc4d89e1f30bb55242bc = L.popup({"maxWidth": 300});
 
         
             
-                var html_85fe5fafacaab65c2e05e187eef8be4f = $(`<div id="html_85fe5fafacaab65c2e05e187eef8be4f" style="width: 100.0%; height: 100.0%;">             <b>Dr. Bürklin-Wolf Wachenheimer Riesling</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 150 DKK<br>             </div>`)[0];
-                popup_1fd323013e85e0311dbcd68c1513b9f7.setContent(html_85fe5fafacaab65c2e05e187eef8be4f);
+                var html_9dc59af12e1599c4f96fb5a7ae3acdb1 = $(`<div id="html_9dc59af12e1599c4f96fb5a7ae3acdb1" style="width: 100.0%; height: 100.0%;">             <b>Dr. Bürklin-Wolf Wachenheimer Riesling</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 150 DKK<br>             </div>`)[0];
+                popup_59ecf3338d1bbc4d89e1f30bb55242bc.setContent(html_9dc59af12e1599c4f96fb5a7ae3acdb1);
             
         
 
-        marker_c5c22e848a9be21b0ca38569f16a5eb9.bindPopup(popup_1fd323013e85e0311dbcd68c1513b9f7)
+        marker_37b311dcf7e22d3a0557548a2cb8e858.bindPopup(popup_59ecf3338d1bbc4d89e1f30bb55242bc)
         ;
 
         
     
     
-            var marker_2f07f9c964cb135b8562c6e6fa269d9f = L.marker(
+            var marker_1642fb81c3ef3d7da67ad1a2a90d78ef = L.marker(
                 [46.0877604, 11.1086687],
                 {"tags": ["Type: Red", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_a095eff8bdb9705a607cacd0840734a9 = L.AwesomeMarkers.icon(
+            var icon_431a6583f67c730e68c3943a43c067f1 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_2f07f9c964cb135b8562c6e6fa269d9f.setIcon(icon_a095eff8bdb9705a607cacd0840734a9);
+            marker_1642fb81c3ef3d7da67ad1a2a90d78ef.setIcon(icon_431a6583f67c730e68c3943a43c067f1);
         
     
-        var popup_f7aef979b447d3f15b31ab9142f57813 = L.popup({"maxWidth": 300});
+        var popup_3dfb6d485a68b4a85a899933456bb54a = L.popup({"maxWidth": 300});
 
         
             
-                var html_87d6ba06a90423695a215fb794630a3e = $(`<div id="html_87d6ba06a90423695a215fb794630a3e" style="width: 100.0%; height: 100.0%;">             <b>Purato Siccari Appassimento </b><br>             Buy Again: 👍             Type: Red<br>             M Rating: 🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 129 DKK<br>             </div>`)[0];
-                popup_f7aef979b447d3f15b31ab9142f57813.setContent(html_87d6ba06a90423695a215fb794630a3e);
+                var html_e01ca30d6a57199481558d0c390890ea = $(`<div id="html_e01ca30d6a57199481558d0c390890ea" style="width: 100.0%; height: 100.0%;">             <b>Purato Siccari Appassimento </b><br>             Buy Again: 👍             Type: Red<br>             M Rating: 🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 129 DKK<br>             </div>`)[0];
+                popup_3dfb6d485a68b4a85a899933456bb54a.setContent(html_e01ca30d6a57199481558d0c390890ea);
             
         
 
-        marker_2f07f9c964cb135b8562c6e6fa269d9f.bindPopup(popup_f7aef979b447d3f15b31ab9142f57813)
+        marker_1642fb81c3ef3d7da67ad1a2a90d78ef.bindPopup(popup_3dfb6d485a68b4a85a899933456bb54a)
         ;
 
         
     
     
-            var marker_683968fdf4206a035d6a72be54e13c64 = L.marker(
+            var marker_b073c2d57d4e320f6916fcbb2eaf5fad = L.marker(
                 [49.8068229, 6.7704461],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_8dbbd5f48067ff9416fd6405db0f9ecd = L.AwesomeMarkers.icon(
+            var icon_4332bd95064254c5abbd7ae583f166ed = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_683968fdf4206a035d6a72be54e13c64.setIcon(icon_8dbbd5f48067ff9416fd6405db0f9ecd);
+            marker_b073c2d57d4e320f6916fcbb2eaf5fad.setIcon(icon_4332bd95064254c5abbd7ae583f166ed);
         
     
-        var popup_9babb2911be25603c82025fa55e33a02 = L.popup({"maxWidth": 300});
+        var popup_2236208c9ca143bbc76542cf084c9af1 = L.popup({"maxWidth": 300});
 
         
             
-                var html_772e9009e9dea07b48ecfde346049cc4 = $(`<div id="html_772e9009e9dea07b48ecfde346049cc4" style="width: 100.0%; height: 100.0%;">             <b>Rethink Riesling Schmitt Söhne</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 99 DKK<br>             </div>`)[0];
-                popup_9babb2911be25603c82025fa55e33a02.setContent(html_772e9009e9dea07b48ecfde346049cc4);
+                var html_bc9f4000d779d3d92d84d094e520660e = $(`<div id="html_bc9f4000d779d3d92d84d094e520660e" style="width: 100.0%; height: 100.0%;">             <b>Rethink Riesling Schmitt Söhne</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 99 DKK<br>             </div>`)[0];
+                popup_2236208c9ca143bbc76542cf084c9af1.setContent(html_bc9f4000d779d3d92d84d094e520660e);
             
         
 
-        marker_683968fdf4206a035d6a72be54e13c64.bindPopup(popup_9babb2911be25603c82025fa55e33a02)
+        marker_b073c2d57d4e320f6916fcbb2eaf5fad.bindPopup(popup_2236208c9ca143bbc76542cf084c9af1)
         ;
 
         
     
     
-            var marker_d8c2046ffa811a446ed6a2ef23445bb1 = L.marker(
+            var marker_66fd8564e91cc5d7822e084ea3904974 = L.marker(
                 [42.6010833122452, -6.761518915175378],
                 {"tags": ["Type: Red", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: Not Tasted"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_a76ce850b1311c307c7b8ce281a53599 = L.AwesomeMarkers.icon(
+            var icon_efaa9c043101a4fe4d93d58c9f031c3b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_d8c2046ffa811a446ed6a2ef23445bb1.setIcon(icon_a76ce850b1311c307c7b8ce281a53599);
+            marker_66fd8564e91cc5d7822e084ea3904974.setIcon(icon_efaa9c043101a4fe4d93d58c9f031c3b);
         
     
-        var popup_2d4f8bc8eef56498d6cdc57c788a734d = L.popup({"maxWidth": 300});
+        var popup_5a3670e42cd37fce492c7e4bdcb54083 = L.popup({"maxWidth": 300});
 
         
             
-                var html_42513e620fb7ee0ff21329c10c065cbb = $(`<div id="html_42513e620fb7ee0ff21329c10c065cbb" style="width: 100.0%; height: 100.0%;">             <b>La Vizcaína La Vitoriana Lomas De Valtuille</b><br>             Buy Again: 👎             Type: Red<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: Not Tasted<br>             Price: 349 DKK<br>             </div>`)[0];
-                popup_2d4f8bc8eef56498d6cdc57c788a734d.setContent(html_42513e620fb7ee0ff21329c10c065cbb);
+                var html_2b332fec3aa91e708faf2bad359db28a = $(`<div id="html_2b332fec3aa91e708faf2bad359db28a" style="width: 100.0%; height: 100.0%;">             <b>La Vizcaína La Vitoriana Lomas De Valtuille</b><br>             Buy Again: 👎             Type: Red<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: Not Tasted<br>             Price: 349 DKK<br>             </div>`)[0];
+                popup_5a3670e42cd37fce492c7e4bdcb54083.setContent(html_2b332fec3aa91e708faf2bad359db28a);
             
         
 
-        marker_d8c2046ffa811a446ed6a2ef23445bb1.bindPopup(popup_2d4f8bc8eef56498d6cdc57c788a734d)
+        marker_66fd8564e91cc5d7822e084ea3904974.bindPopup(popup_5a3670e42cd37fce492c7e4bdcb54083)
         ;
 
         
     
     
-            var marker_88cb1e9a3cb88f985046187953952924 = L.marker(
+            var marker_28c2dc07b8167c6161e5299885bfd810 = L.marker(
                 [48.392172893562034, 15.527227266895505],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_7db5aa9de824eea8cec185f6d7207af8 = L.AwesomeMarkers.icon(
+            var icon_832ee072400d1f2a7f6f0049471bb5f0 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_88cb1e9a3cb88f985046187953952924.setIcon(icon_7db5aa9de824eea8cec185f6d7207af8);
+            marker_28c2dc07b8167c6161e5299885bfd810.setIcon(icon_832ee072400d1f2a7f6f0049471bb5f0);
         
     
-        var popup_27527ccf81535bdf77e28d2523ef4cb4 = L.popup({"maxWidth": 300});
+        var popup_84d2f058fe4f740f90d71834c0b71137 = L.popup({"maxWidth": 300});
 
         
             
-                var html_f1147ce352638d99a7a75b1e5cac2881 = $(`<div id="html_f1147ce352638d99a7a75b1e5cac2881" style="width: 100.0%; height: 100.0%;">             <b>Domäne Wachau Prestige</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇<br>             P Rating: 🍇🍇<br>             Price: 89 DKK<br>             </div>`)[0];
-                popup_27527ccf81535bdf77e28d2523ef4cb4.setContent(html_f1147ce352638d99a7a75b1e5cac2881);
+                var html_5a47c077018ff426da458149c9a7588e = $(`<div id="html_5a47c077018ff426da458149c9a7588e" style="width: 100.0%; height: 100.0%;">             <b>Domäne Wachau Prestige</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇<br>             P Rating: 🍇🍇<br>             Price: 89 DKK<br>             </div>`)[0];
+                popup_84d2f058fe4f740f90d71834c0b71137.setContent(html_5a47c077018ff426da458149c9a7588e);
             
         
 
-        marker_88cb1e9a3cb88f985046187953952924.bindPopup(popup_27527ccf81535bdf77e28d2523ef4cb4)
+        marker_28c2dc07b8167c6161e5299885bfd810.bindPopup(popup_84d2f058fe4f740f90d71834c0b71137)
         ;
 
         
     
     
-            var marker_8179bafeea3d75f888c15562a227b325 = L.marker(
+            var marker_731a2485356df52eeaef701f78ba5765 = L.marker(
                 [47.33941773203863, 2.840133088291168],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_718dca103437d25a087dc69921dec1c5 = L.AwesomeMarkers.icon(
+            var icon_072516c5c48b36e733383ff6d8d439bd = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_8179bafeea3d75f888c15562a227b325.setIcon(icon_718dca103437d25a087dc69921dec1c5);
+            marker_731a2485356df52eeaef701f78ba5765.setIcon(icon_072516c5c48b36e733383ff6d8d439bd);
         
     
-        var popup_0a8c63b1d95e31d41ac430fba93bde3f = L.popup({"maxWidth": 300});
+        var popup_e52490f3457cdff3e67dd852e760021f = L.popup({"maxWidth": 300});
 
         
             
-                var html_f7d2ae73108a36c9c6be90312ffe6c6f = $(`<div id="html_f7d2ae73108a36c9c6be90312ffe6c6f" style="width: 100.0%; height: 100.0%;">             <b>Florian Mollet Sancerre Blanc</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 189 DKK<br>             </div>`)[0];
-                popup_0a8c63b1d95e31d41ac430fba93bde3f.setContent(html_f7d2ae73108a36c9c6be90312ffe6c6f);
+                var html_7d6bbc8c37558a80ee87ba97b09d3511 = $(`<div id="html_7d6bbc8c37558a80ee87ba97b09d3511" style="width: 100.0%; height: 100.0%;">             <b>Florian Mollet Sancerre Blanc</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 189 DKK<br>             </div>`)[0];
+                popup_e52490f3457cdff3e67dd852e760021f.setContent(html_7d6bbc8c37558a80ee87ba97b09d3511);
             
         
 
-        marker_8179bafeea3d75f888c15562a227b325.bindPopup(popup_0a8c63b1d95e31d41ac430fba93bde3f)
+        marker_731a2485356df52eeaef701f78ba5765.bindPopup(popup_e52490f3457cdff3e67dd852e760021f)
         ;
 
         
     
     
-            var marker_a785b932b73af8818f3a1ff08a6f7bb2 = L.marker(
+            var marker_fb60bd1cb19b380839916456054db86f = L.marker(
                 [49.299534, 3.850962],
                 {"tags": ["Type: Champagne", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_ae593f696ccb2db2aa97b92e3eefcdbf = L.AwesomeMarkers.icon(
+            var icon_4bb1ca58da40d730fc35a3b2733da000 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_a785b932b73af8818f3a1ff08a6f7bb2.setIcon(icon_ae593f696ccb2db2aa97b92e3eefcdbf);
+            marker_fb60bd1cb19b380839916456054db86f.setIcon(icon_4bb1ca58da40d730fc35a3b2733da000);
         
     
-        var popup_e7686832b4a19af6d23e4beef81eaa15 = L.popup({"maxWidth": 300});
+        var popup_10a0228881277eee007d4b6590f5cd17 = L.popup({"maxWidth": 300});
 
         
             
-                var html_5f2e39bc2261c03de0d889de40fc551a = $(`<div id="html_5f2e39bc2261c03de0d889de40fc551a" style="width: 100.0%; height: 100.0%;">             <b>Yves Loison Champagne Clovis Brut</b><br>             Buy Again: 🫳(Tilbud)             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 299 DKK<br>             </div>`)[0];
-                popup_e7686832b4a19af6d23e4beef81eaa15.setContent(html_5f2e39bc2261c03de0d889de40fc551a);
+                var html_130b5f30b74b20b4987e67aeba9e7fd0 = $(`<div id="html_130b5f30b74b20b4987e67aeba9e7fd0" style="width: 100.0%; height: 100.0%;">             <b>Yves Loison Champagne Clovis Brut</b><br>             Buy Again: 🫳(Tilbud)             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 299 DKK<br>             </div>`)[0];
+                popup_10a0228881277eee007d4b6590f5cd17.setContent(html_130b5f30b74b20b4987e67aeba9e7fd0);
             
         
 
-        marker_a785b932b73af8818f3a1ff08a6f7bb2.bindPopup(popup_e7686832b4a19af6d23e4beef81eaa15)
+        marker_fb60bd1cb19b380839916456054db86f.bindPopup(popup_10a0228881277eee007d4b6590f5cd17)
         ;
 
         
     
     
-            var marker_3b3911a053b94a8aef560f0e3d7129c7 = L.marker(
+            var marker_b7a535af5b8d6eae2f32e854f8a7653e = L.marker(
                 [43.7637222, 10.404111111111112],
                 {"tags": ["Type: Red", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_661da2616591b1f77c50c4e49cc16630 = L.AwesomeMarkers.icon(
+            var icon_ae5f184c0c109ab50a35a272f1636284 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_3b3911a053b94a8aef560f0e3d7129c7.setIcon(icon_661da2616591b1f77c50c4e49cc16630);
+            marker_b7a535af5b8d6eae2f32e854f8a7653e.setIcon(icon_ae5f184c0c109ab50a35a272f1636284);
         
     
-        var popup_1fde7004fd7ea2a853f9959886216b43 = L.popup({"maxWidth": 300});
+        var popup_85e585fb290d0c9cc2496a13b9bda47d = L.popup({"maxWidth": 300});
 
         
             
-                var html_358a68b13aaa099d66519b0a2c19d46a = $(`<div id="html_358a68b13aaa099d66519b0a2c19d46a" style="width: 100.0%; height: 100.0%;">             <b>Cecchi Storia di Famiglia Chianti Classico</b><br>             Buy Again: 👍             Type: Red<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 70 DKK<br>             </div>`)[0];
-                popup_1fde7004fd7ea2a853f9959886216b43.setContent(html_358a68b13aaa099d66519b0a2c19d46a);
+                var html_40ec51943fc2e62d7f7714b48d371bb8 = $(`<div id="html_40ec51943fc2e62d7f7714b48d371bb8" style="width: 100.0%; height: 100.0%;">             <b>Cecchi Storia di Famiglia Chianti Classico</b><br>             Buy Again: 👍             Type: Red<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 70 DKK<br>             </div>`)[0];
+                popup_85e585fb290d0c9cc2496a13b9bda47d.setContent(html_40ec51943fc2e62d7f7714b48d371bb8);
             
         
 
-        marker_3b3911a053b94a8aef560f0e3d7129c7.bindPopup(popup_1fde7004fd7ea2a853f9959886216b43)
+        marker_b7a535af5b8d6eae2f32e854f8a7653e.bindPopup(popup_85e585fb290d0c9cc2496a13b9bda47d)
         ;
 
         
     
     
-            var marker_654e8a14f9f99c8d9e075a78a6b2b08a = L.marker(
+            var marker_ded899b1a49eae51c004173c5dede14f = L.marker(
                 [49.943759, 7.108401],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_dd5ea240ecd0b0b7d62361c062ba20dc = L.AwesomeMarkers.icon(
+            var icon_dadce4d383ce6ce2cc98a9eb67593a70 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_654e8a14f9f99c8d9e075a78a6b2b08a.setIcon(icon_dd5ea240ecd0b0b7d62361c062ba20dc);
+            marker_ded899b1a49eae51c004173c5dede14f.setIcon(icon_dadce4d383ce6ce2cc98a9eb67593a70);
         
     
-        var popup_beb5446ce91cf9768001462372f487c1 = L.popup({"maxWidth": 300});
+        var popup_2a7447567ac018cdb970c2eb85911a36 = L.popup({"maxWidth": 300});
 
         
             
-                var html_ae381f3eb6ca87633fb69a4382f53c03 = $(`<div id="html_ae381f3eb6ca87633fb69a4382f53c03" style="width: 100.0%; height: 100.0%;">             <b>Oscar Haussmann OHO1 Semi sweet Riesling</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 39 DKK<br>             </div>`)[0];
-                popup_beb5446ce91cf9768001462372f487c1.setContent(html_ae381f3eb6ca87633fb69a4382f53c03);
+                var html_fc4e1fc3b26f63aea52f3d3ac921624f = $(`<div id="html_fc4e1fc3b26f63aea52f3d3ac921624f" style="width: 100.0%; height: 100.0%;">             <b>Oscar Haussmann OHO1 Semi sweet Riesling</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 39 DKK<br>             </div>`)[0];
+                popup_2a7447567ac018cdb970c2eb85911a36.setContent(html_fc4e1fc3b26f63aea52f3d3ac921624f);
             
         
 
-        marker_654e8a14f9f99c8d9e075a78a6b2b08a.bindPopup(popup_beb5446ce91cf9768001462372f487c1)
+        marker_ded899b1a49eae51c004173c5dede14f.bindPopup(popup_2a7447567ac018cdb970c2eb85911a36)
         ;
 
         
     
     
-            var marker_441d92b3b2103193a8ccbbc3ab378dca = L.marker(
+            var marker_2b332a4a651168cff99947364b917d46 = L.marker(
                 [49.161589, 4.148743],
                 {"tags": ["Type: Champagne", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_0709d90a23621918c501894b9d999dd9 = L.AwesomeMarkers.icon(
+            var icon_e5c0a33e52ba759755aec2679a19c292 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_441d92b3b2103193a8ccbbc3ab378dca.setIcon(icon_0709d90a23621918c501894b9d999dd9);
+            marker_2b332a4a651168cff99947364b917d46.setIcon(icon_e5c0a33e52ba759755aec2679a19c292);
         
     
-        var popup_e900c33ad7203192850349b59570652a = L.popup({"maxWidth": 300});
+        var popup_a5fc967891c72ee27eaa60664e7f17e9 = L.popup({"maxWidth": 300});
 
         
             
-                var html_4271eec8194b9eac4bd8213634dc4ee4 = $(`<div id="html_4271eec8194b9eac4bd8213634dc4ee4" style="width: 100.0%; height: 100.0%;">             <b>Béchet de Rochefontaine Demi-sec Grand Cru</b><br>             Buy Again: 👍             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇🍇<br>             Price: 160 DKK<br>             </div>`)[0];
-                popup_e900c33ad7203192850349b59570652a.setContent(html_4271eec8194b9eac4bd8213634dc4ee4);
+                var html_7273561d713fa2d091e819b3c3c87e68 = $(`<div id="html_7273561d713fa2d091e819b3c3c87e68" style="width: 100.0%; height: 100.0%;">             <b>Béchet de Rochefontaine Demi-sec Grand Cru</b><br>             Buy Again: 👍             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇🍇<br>             Price: 160 DKK<br>             </div>`)[0];
+                popup_a5fc967891c72ee27eaa60664e7f17e9.setContent(html_7273561d713fa2d091e819b3c3c87e68);
             
         
 
-        marker_441d92b3b2103193a8ccbbc3ab378dca.bindPopup(popup_e900c33ad7203192850349b59570652a)
+        marker_2b332a4a651168cff99947364b917d46.bindPopup(popup_a5fc967891c72ee27eaa60664e7f17e9)
         ;
 
         
     
     
-            var marker_83977acc6a2cb60dfa547f4fcabb6e4b = L.marker(
+            var marker_534bf80753baba7dc478f43d3fb630aa = L.marker(
                 [49.89984, 8.18938],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47", "P Rating: \ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_b93b891507b327c93d10323d670b9d29 = L.AwesomeMarkers.icon(
+            var icon_8caed75eac06c8efe040f471d3510daa = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_83977acc6a2cb60dfa547f4fcabb6e4b.setIcon(icon_b93b891507b327c93d10323d670b9d29);
+            marker_534bf80753baba7dc478f43d3fb630aa.setIcon(icon_8caed75eac06c8efe040f471d3510daa);
         
     
-        var popup_955457ccb17cd512b7e2a5dcf6f892d7 = L.popup({"maxWidth": 300});
+        var popup_38486b08a78f79db5c21a6b46b2cb3f0 = L.popup({"maxWidth": 300});
 
         
             
-                var html_5aa4e1f6e8218abecb719b1980764ebe = $(`<div id="html_5aa4e1f6e8218abecb719b1980764ebe" style="width: 100.0%; height: 100.0%;">             <b>Sumo man Riesling</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇<br>             P Rating: 🍇<br>             Price: 39 DKK<br>             </div>`)[0];
-                popup_955457ccb17cd512b7e2a5dcf6f892d7.setContent(html_5aa4e1f6e8218abecb719b1980764ebe);
+                var html_0c3edbe3a491222fe0798261b6e39f4e = $(`<div id="html_0c3edbe3a491222fe0798261b6e39f4e" style="width: 100.0%; height: 100.0%;">             <b>Sumo man Riesling</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇<br>             P Rating: 🍇<br>             Price: 39 DKK<br>             </div>`)[0];
+                popup_38486b08a78f79db5c21a6b46b2cb3f0.setContent(html_0c3edbe3a491222fe0798261b6e39f4e);
             
         
 
-        marker_83977acc6a2cb60dfa547f4fcabb6e4b.bindPopup(popup_955457ccb17cd512b7e2a5dcf6f892d7)
+        marker_534bf80753baba7dc478f43d3fb630aa.bindPopup(popup_38486b08a78f79db5c21a6b46b2cb3f0)
         ;
 
         
     
     
-            var marker_bb644483443b91afacfced2d69287fb1 = L.marker(
+            var marker_c5fc03f59798a110e7139326144be528 = L.marker(
                 [49.8228681, 6.8722075],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_ce6b020aa76a3a21675957f67a0ea11b = L.AwesomeMarkers.icon(
+            var icon_1d7a18e7ae3d389f4f53e955ef614091 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_bb644483443b91afacfced2d69287fb1.setIcon(icon_ce6b020aa76a3a21675957f67a0ea11b);
+            marker_c5fc03f59798a110e7139326144be528.setIcon(icon_1d7a18e7ae3d389f4f53e955ef614091);
         
     
-        var popup_c77d7d035d05bc1f1f5e536f4578ea79 = L.popup({"maxWidth": 300});
+        var popup_8db37424bac628b1c26fba08e65a71bd = L.popup({"maxWidth": 300});
 
         
             
-                var html_a13f1458c2b665a458b5f1f7a5eccf9a = $(`<div id="html_a13f1458c2b665a458b5f1f7a5eccf9a" style="width: 100.0%; height: 100.0%;">             <b>Nik Weis Mosel Urban Riesling</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇🍇<br>             Price: 100 DKK<br>             </div>`)[0];
-                popup_c77d7d035d05bc1f1f5e536f4578ea79.setContent(html_a13f1458c2b665a458b5f1f7a5eccf9a);
+                var html_ce2c9174ed6368ebc6a787a7c254b7ae = $(`<div id="html_ce2c9174ed6368ebc6a787a7c254b7ae" style="width: 100.0%; height: 100.0%;">             <b>Nik Weis Mosel Urban Riesling</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇🍇<br>             Price: 100 DKK<br>             </div>`)[0];
+                popup_8db37424bac628b1c26fba08e65a71bd.setContent(html_ce2c9174ed6368ebc6a787a7c254b7ae);
             
         
 
-        marker_bb644483443b91afacfced2d69287fb1.bindPopup(popup_c77d7d035d05bc1f1f5e536f4578ea79)
+        marker_c5fc03f59798a110e7139326144be528.bindPopup(popup_8db37424bac628b1c26fba08e65a71bd)
         ;
 
         
     
     
-            var marker_5312cc90612a0f470334ff58a51a75aa = L.marker(
+            var marker_6624ff35b7279897c3a4a260bb3a42b4 = L.marker(
                 [44.032616, 4.23758],
                 {"tags": ["Type: Red", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_86337e9923590e3ab4dcff494c897ca6 = L.AwesomeMarkers.icon(
+            var icon_5127e3a34dd5f93f8fa5733b725ac4d1 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_5312cc90612a0f470334ff58a51a75aa.setIcon(icon_86337e9923590e3ab4dcff494c897ca6);
+            marker_6624ff35b7279897c3a4a260bb3a42b4.setIcon(icon_5127e3a34dd5f93f8fa5733b725ac4d1);
         
     
-        var popup_7c8cdfcfcb19e9c40cf24bd5729213f0 = L.popup({"maxWidth": 300});
+        var popup_11847b1b43400dd383fd86817fad5344 = L.popup({"maxWidth": 300});
 
         
             
-                var html_43f429ee2bc19b4e8bbedc77bfd11fce = $(`<div id="html_43f429ee2bc19b4e8bbedc77bfd11fce" style="width: 100.0%; height: 100.0%;">             <b>Cave St Maurice Bel Air</b><br>             Buy Again: 👍             Type: Red<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇<br>             Price: 99 DKK<br>             </div>`)[0];
-                popup_7c8cdfcfcb19e9c40cf24bd5729213f0.setContent(html_43f429ee2bc19b4e8bbedc77bfd11fce);
+                var html_9c23bda62803455ba6c7765e72329ab7 = $(`<div id="html_9c23bda62803455ba6c7765e72329ab7" style="width: 100.0%; height: 100.0%;">             <b>Cave St Maurice Bel Air</b><br>             Buy Again: 👍             Type: Red<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇<br>             Price: 99 DKK<br>             </div>`)[0];
+                popup_11847b1b43400dd383fd86817fad5344.setContent(html_9c23bda62803455ba6c7765e72329ab7);
             
         
 
-        marker_5312cc90612a0f470334ff58a51a75aa.bindPopup(popup_7c8cdfcfcb19e9c40cf24bd5729213f0)
+        marker_6624ff35b7279897c3a4a260bb3a42b4.bindPopup(popup_11847b1b43400dd383fd86817fad5344)
         ;
 
         
     
     
-            var marker_613b7899d73bd012cea60b27ac2c8acf = L.marker(
+            var marker_62bdae625fdf6c22b6c14a8995534098 = L.marker(
                 [49.914488827736925, 7.075131857084758],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_f33faa5f9f861674152de3139669049a = L.AwesomeMarkers.icon(
+            var icon_8f97096d129f8da7d8481a22bca2c10d = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_613b7899d73bd012cea60b27ac2c8acf.setIcon(icon_f33faa5f9f861674152de3139669049a);
+            marker_62bdae625fdf6c22b6c14a8995534098.setIcon(icon_8f97096d129f8da7d8481a22bca2c10d);
         
     
-        var popup_3789595df813458771766a9e780141ec = L.popup({"maxWidth": 300});
+        var popup_666c2c9a47dc25acac144902da4f54ed = L.popup({"maxWidth": 300});
 
         
             
-                var html_17bc3418751b382e3b6298988202b073 = $(`<div id="html_17bc3418751b382e3b6298988202b073" style="width: 100.0%; height: 100.0%;">             <b>Dr Pauly-Bergweiler Premium Riesling Trocken</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 59 DKK<br>             </div>`)[0];
-                popup_3789595df813458771766a9e780141ec.setContent(html_17bc3418751b382e3b6298988202b073);
+                var html_4441ab39c4c16802ecda644858e5be4b = $(`<div id="html_4441ab39c4c16802ecda644858e5be4b" style="width: 100.0%; height: 100.0%;">             <b>Dr Pauly-Bergweiler Premium Riesling Trocken</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 59 DKK<br>             </div>`)[0];
+                popup_666c2c9a47dc25acac144902da4f54ed.setContent(html_4441ab39c4c16802ecda644858e5be4b);
             
         
 
-        marker_613b7899d73bd012cea60b27ac2c8acf.bindPopup(popup_3789595df813458771766a9e780141ec)
+        marker_62bdae625fdf6c22b6c14a8995534098.bindPopup(popup_666c2c9a47dc25acac144902da4f54ed)
         ;
 
         
     
     
-            var marker_925e5cd0ac8da1e69e59fe1aee5c1048 = L.marker(
+            var marker_e58682df1efc8baeba828626351276f6 = L.marker(
                 [48.19212082810233, 7.3273647411909035],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_7b5172d2054d82b720a0b07619da50c5 = L.AwesomeMarkers.icon(
+            var icon_474c901da94cd7a6c5ce49c37b1364b1 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_925e5cd0ac8da1e69e59fe1aee5c1048.setIcon(icon_7b5172d2054d82b720a0b07619da50c5);
+            marker_e58682df1efc8baeba828626351276f6.setIcon(icon_474c901da94cd7a6c5ce49c37b1364b1);
         
     
-        var popup_26d7d606b0056f3315a54c479b922f71 = L.popup({"maxWidth": 300});
+        var popup_c177bb9842d10ac5898bc69073dc1d60 = L.popup({"maxWidth": 300});
 
         
             
-                var html_cc6ce4494a15b8bf7b4f7e8dc40c23b0 = $(`<div id="html_cc6ce4494a15b8bf7b4f7e8dc40c23b0" style="width: 100.0%; height: 100.0%;">             <b>Cave De Ribeauville Riesling Alsace</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 64 DKK<br>             </div>`)[0];
-                popup_26d7d606b0056f3315a54c479b922f71.setContent(html_cc6ce4494a15b8bf7b4f7e8dc40c23b0);
+                var html_0201cdf026c477ef0515bb18a593a680 = $(`<div id="html_0201cdf026c477ef0515bb18a593a680" style="width: 100.0%; height: 100.0%;">             <b>Cave De Ribeauville Riesling Alsace</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 64 DKK<br>             </div>`)[0];
+                popup_c177bb9842d10ac5898bc69073dc1d60.setContent(html_0201cdf026c477ef0515bb18a593a680);
             
         
 
-        marker_925e5cd0ac8da1e69e59fe1aee5c1048.bindPopup(popup_26d7d606b0056f3315a54c479b922f71)
+        marker_e58682df1efc8baeba828626351276f6.bindPopup(popup_c177bb9842d10ac5898bc69073dc1d60)
         ;
 
         
     
     
-            var marker_e7eb9a3a7bbf67804ef86703f3051022 = L.marker(
+            var marker_98ad0cf25d288c5e59c4ccf57932690d = L.marker(
                 [48.02261187021838, 7.284741534129184],
                 {"tags": ["Type: White", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_81b7734483fe511dbd8cdd3c9420d572 = L.AwesomeMarkers.icon(
+            var icon_edea44c1321f98cd3569601c2935ce8d = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_e7eb9a3a7bbf67804ef86703f3051022.setIcon(icon_81b7734483fe511dbd8cdd3c9420d572);
+            marker_98ad0cf25d288c5e59c4ccf57932690d.setIcon(icon_edea44c1321f98cd3569601c2935ce8d);
         
     
-        var popup_400b7f93e12e39fdc633b479f9b2f1e2 = L.popup({"maxWidth": 300});
+        var popup_0b938e9747ff7ae8a973581581448fc3 = L.popup({"maxWidth": 300});
 
         
             
-                var html_542d26da3ef7fb040935d9a32f30b44c = $(`<div id="html_542d26da3ef7fb040935d9a32f30b44c" style="width: 100.0%; height: 100.0%;">             <b>Ginglinger-Fix Vieilles Vignes Riesling </b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 119 DKK<br>             </div>`)[0];
-                popup_400b7f93e12e39fdc633b479f9b2f1e2.setContent(html_542d26da3ef7fb040935d9a32f30b44c);
+                var html_7726dc91f158379ab2e1f722dac930cd = $(`<div id="html_7726dc91f158379ab2e1f722dac930cd" style="width: 100.0%; height: 100.0%;">             <b>Ginglinger-Fix Vieilles Vignes Riesling </b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 119 DKK<br>             </div>`)[0];
+                popup_0b938e9747ff7ae8a973581581448fc3.setContent(html_7726dc91f158379ab2e1f722dac930cd);
             
         
 
-        marker_e7eb9a3a7bbf67804ef86703f3051022.bindPopup(popup_400b7f93e12e39fdc633b479f9b2f1e2)
+        marker_98ad0cf25d288c5e59c4ccf57932690d.bindPopup(popup_0b938e9747ff7ae8a973581581448fc3)
         ;
 
         
     
     
-            var marker_500c37858725755d48363d1351a2b0f5 = L.marker(
+            var marker_b6ea635557ce395212b726749365b5c5 = L.marker(
                 [48.129101567255226, 7.299349075155157],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_1dd080c1fd227aee7f603b8706188c8a = L.AwesomeMarkers.icon(
+            var icon_b42688bd9108cf64c5eb2d9057741776 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_500c37858725755d48363d1351a2b0f5.setIcon(icon_1dd080c1fd227aee7f603b8706188c8a);
+            marker_b6ea635557ce395212b726749365b5c5.setIcon(icon_b42688bd9108cf64c5eb2d9057741776);
         
     
-        var popup_35db164fa981bfd2f30aa031c801df29 = L.popup({"maxWidth": 300});
+        var popup_484e5a53bc85fbdcdca5e59ff871601b = L.popup({"maxWidth": 300});
 
         
             
-                var html_85d73bcc85d447543d9b95e85211cc2d = $(`<div id="html_85d73bcc85d447543d9b95e85211cc2d" style="width: 100.0%; height: 100.0%;">             <b>Henri Ehrhart Réserve Particuliére Riesling</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇<br>             P Rating: 🍇🍇<br>             Price: 75 DKK<br>             </div>`)[0];
-                popup_35db164fa981bfd2f30aa031c801df29.setContent(html_85d73bcc85d447543d9b95e85211cc2d);
+                var html_9cd987e1e8e675d53e822409e200bcbf = $(`<div id="html_9cd987e1e8e675d53e822409e200bcbf" style="width: 100.0%; height: 100.0%;">             <b>Henri Ehrhart Réserve Particuliére Riesling</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇<br>             P Rating: 🍇🍇<br>             Price: 75 DKK<br>             </div>`)[0];
+                popup_484e5a53bc85fbdcdca5e59ff871601b.setContent(html_9cd987e1e8e675d53e822409e200bcbf);
             
         
 
-        marker_500c37858725755d48363d1351a2b0f5.bindPopup(popup_35db164fa981bfd2f30aa031c801df29)
+        marker_b6ea635557ce395212b726749365b5c5.bindPopup(popup_484e5a53bc85fbdcdca5e59ff871601b)
         ;
 
         
     
     
-            var marker_7989db5be9b7533877340c9e26eeb8be = L.marker(
+            var marker_cdd21fe002b0af6b3a857b9275b4e69c = L.marker(
                 [41.35326234068751, -7.063070453019864],
                 {"tags": ["Type: Porto", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: Not Tasted"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_b0d80d698e54f316bb7aff2b0bb3e6fb = L.AwesomeMarkers.icon(
+            var icon_f21f8187572cea6e987fdfa0c4a3be5b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_7989db5be9b7533877340c9e26eeb8be.setIcon(icon_b0d80d698e54f316bb7aff2b0bb3e6fb);
+            marker_cdd21fe002b0af6b3a857b9275b4e69c.setIcon(icon_f21f8187572cea6e987fdfa0c4a3be5b);
         
     
-        var popup_35a1f88d4f7fb746f44d553c453eb281 = L.popup({"maxWidth": 300});
+        var popup_b81ccba8fe4c30c5ab47e315969df5c0 = L.popup({"maxWidth": 300});
 
         
             
-                var html_dd80d0a0ef6c587f551893cd1ff98e31 = $(`<div id="html_dd80d0a0ef6c587f551893cd1ff98e31" style="width: 100.0%; height: 100.0%;">             <b>Barão De Vilar Reserve Tawny</b><br>             Buy Again: 👎             Type: Porto<br>             M Rating: 🍇🍇🍇<br>             P Rating: Not Tasted<br>             Price: 150 DKK<br>             </div>`)[0];
-                popup_35a1f88d4f7fb746f44d553c453eb281.setContent(html_dd80d0a0ef6c587f551893cd1ff98e31);
+                var html_7b93be3db6cf6d586def956e3e1896cc = $(`<div id="html_7b93be3db6cf6d586def956e3e1896cc" style="width: 100.0%; height: 100.0%;">             <b>Barão De Vilar Reserve Tawny</b><br>             Buy Again: 👎             Type: Porto<br>             M Rating: 🍇🍇🍇<br>             P Rating: Not Tasted<br>             Price: 150 DKK<br>             </div>`)[0];
+                popup_b81ccba8fe4c30c5ab47e315969df5c0.setContent(html_7b93be3db6cf6d586def956e3e1896cc);
             
         
 
-        marker_7989db5be9b7533877340c9e26eeb8be.bindPopup(popup_35a1f88d4f7fb746f44d553c453eb281)
+        marker_cdd21fe002b0af6b3a857b9275b4e69c.bindPopup(popup_b81ccba8fe4c30c5ab47e315969df5c0)
         ;
 
         
     
     
-            var marker_f8bc487c7df056ded0e44643541f167e = L.marker(
+            var marker_9813378dc3d5e67aff840cd207d3f0bb = L.marker(
                 [-34.52763238055742, 138.9643098512284],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_44326c5c97624c363d1ddaba744bf6f5 = L.AwesomeMarkers.icon(
+            var icon_a0646dfb9b8d5a17fc2319971af2376d = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_f8bc487c7df056ded0e44643541f167e.setIcon(icon_44326c5c97624c363d1ddaba744bf6f5);
+            marker_9813378dc3d5e67aff840cd207d3f0bb.setIcon(icon_a0646dfb9b8d5a17fc2319971af2376d);
         
     
-        var popup_00949a59e729d559917d8e5d62a9c10c = L.popup({"maxWidth": 300});
+        var popup_dd9a20f703761d921b450b58444b70e7 = L.popup({"maxWidth": 300});
 
         
             
-                var html_b85658d0b36ffa70aebf1c5f220cff18 = $(`<div id="html_b85658d0b36ffa70aebf1c5f220cff18" style="width: 100.0%; height: 100.0%;">             <b>Château Tanunda Grand Barossa Dry Riesling</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 90 DKK<br>             </div>`)[0];
-                popup_00949a59e729d559917d8e5d62a9c10c.setContent(html_b85658d0b36ffa70aebf1c5f220cff18);
+                var html_3c09cad80fe1c9eb7651483bcbcd42bd = $(`<div id="html_3c09cad80fe1c9eb7651483bcbcd42bd" style="width: 100.0%; height: 100.0%;">             <b>Château Tanunda Grand Barossa Dry Riesling</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 90 DKK<br>             </div>`)[0];
+                popup_dd9a20f703761d921b450b58444b70e7.setContent(html_3c09cad80fe1c9eb7651483bcbcd42bd);
             
         
 
-        marker_f8bc487c7df056ded0e44643541f167e.bindPopup(popup_00949a59e729d559917d8e5d62a9c10c)
+        marker_9813378dc3d5e67aff840cd207d3f0bb.bindPopup(popup_dd9a20f703761d921b450b58444b70e7)
         ;
 
         
     
     
-            var marker_1973056b075d186e8cb76278014f99ba = L.marker(
+            var marker_a1376b8d010aa68d28f408f5605736dc = L.marker(
                 [41.13269869169567, -8.599878921043338],
                 {"tags": ["Type: Porto", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: Not Tasted"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_d333fd1b92072b397159e7566be6a385 = L.AwesomeMarkers.icon(
+            var icon_9f91fe959a3ef3977a4f9cce3a5a5f23 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_1973056b075d186e8cb76278014f99ba.setIcon(icon_d333fd1b92072b397159e7566be6a385);
+            marker_a1376b8d010aa68d28f408f5605736dc.setIcon(icon_9f91fe959a3ef3977a4f9cce3a5a5f23);
         
     
-        var popup_1ef89572d4a588ad1a6ada87be7593d9 = L.popup({"maxWidth": 300});
+        var popup_b69a86dc7213e6c23b271dfb8bcdcfce = L.popup({"maxWidth": 300});
 
         
             
-                var html_a24f850e462625157bcf003fdd27d048 = $(`<div id="html_a24f850e462625157bcf003fdd27d048" style="width: 100.0%; height: 100.0%;">             <b>Delaforce Fine Tawny Port</b><br>             Buy Again: 👍             Type: Porto<br>             M Rating: 🍇🍇🍇<br>             P Rating: Not Tasted<br>             Price: 99 DKK<br>             </div>`)[0];
-                popup_1ef89572d4a588ad1a6ada87be7593d9.setContent(html_a24f850e462625157bcf003fdd27d048);
+                var html_092fb87a803ba06e0b8849c9d66fd858 = $(`<div id="html_092fb87a803ba06e0b8849c9d66fd858" style="width: 100.0%; height: 100.0%;">             <b>Delaforce Fine Tawny Port</b><br>             Buy Again: 👍             Type: Porto<br>             M Rating: 🍇🍇🍇<br>             P Rating: Not Tasted<br>             Price: 99 DKK<br>             </div>`)[0];
+                popup_b69a86dc7213e6c23b271dfb8bcdcfce.setContent(html_092fb87a803ba06e0b8849c9d66fd858);
             
         
 
-        marker_1973056b075d186e8cb76278014f99ba.bindPopup(popup_1ef89572d4a588ad1a6ada87be7593d9)
+        marker_a1376b8d010aa68d28f408f5605736dc.bindPopup(popup_b69a86dc7213e6c23b271dfb8bcdcfce)
         ;
 
         
     
     
-            var marker_9310827bb43bc2e985c1e3117fed6372 = L.marker(
+            var marker_f7eacd1a08c8d937ff19edd3981a3626 = L.marker(
                 [49.05443362664499, 4.01095119678614],
                 {"tags": ["Type: Champagne", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_21e9eff6b673cea2eea62f984a2f9666 = L.AwesomeMarkers.icon(
+            var icon_fd97fd9990e20dcc3d88c8e48cbb9101 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_9310827bb43bc2e985c1e3117fed6372.setIcon(icon_21e9eff6b673cea2eea62f984a2f9666);
+            marker_f7eacd1a08c8d937ff19edd3981a3626.setIcon(icon_fd97fd9990e20dcc3d88c8e48cbb9101);
         
     
-        var popup_26daa112bb9cfbc7673ad4d3806b72b6 = L.popup({"maxWidth": 300});
+        var popup_8acae775b376f50f77299b43ad8c3f98 = L.popup({"maxWidth": 300});
 
         
             
-                var html_d04b9551829a946ff66ac5b6fea66ba0 = $(`<div id="html_d04b9551829a946ff66ac5b6fea66ba0" style="width: 100.0%; height: 100.0%;">             <b>Bollinger Special Cuver</b><br>             Buy Again: 🫳(Tilbud)             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇🍇<br>             Price: 317 DKK<br>             </div>`)[0];
-                popup_26daa112bb9cfbc7673ad4d3806b72b6.setContent(html_d04b9551829a946ff66ac5b6fea66ba0);
+                var html_a2315e66167d6142ee2b26714971653b = $(`<div id="html_a2315e66167d6142ee2b26714971653b" style="width: 100.0%; height: 100.0%;">             <b>Bollinger Special Cuver</b><br>             Buy Again: 🫳(Tilbud)             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇🍇<br>             Price: 317 DKK<br>             </div>`)[0];
+                popup_8acae775b376f50f77299b43ad8c3f98.setContent(html_a2315e66167d6142ee2b26714971653b);
             
         
 
-        marker_9310827bb43bc2e985c1e3117fed6372.bindPopup(popup_26daa112bb9cfbc7673ad4d3806b72b6)
+        marker_f7eacd1a08c8d937ff19edd3981a3626.bindPopup(popup_8acae775b376f50f77299b43ad8c3f98)
         ;
 
         
     
     
-            var marker_08aa0b041637e809adccf25b82abefe6 = L.marker(
+            var marker_880733aeb31cd6c6f1c4bf2686ace118 = L.marker(
                 [47.30755099352021, 2.9488754361433798],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_72390eab17a934e8b9fc060da061e424 = L.AwesomeMarkers.icon(
+            var icon_7e414d69ddcd2dcebdeb886fd1643a14 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_08aa0b041637e809adccf25b82abefe6.setIcon(icon_72390eab17a934e8b9fc060da061e424);
+            marker_880733aeb31cd6c6f1c4bf2686ace118.setIcon(icon_7e414d69ddcd2dcebdeb886fd1643a14);
         
     
-        var popup_20c56edd745f561a05e86e9cd38b8d62 = L.popup({"maxWidth": 300});
+        var popup_970c48333f05fce0ce50cbb9df0dbfd2 = L.popup({"maxWidth": 300});
 
         
             
-                var html_fdf92dc9abc17717fc4f4637bf0ef8a9 = $(`<div id="html_fdf92dc9abc17717fc4f4637bf0ef8a9" style="width: 100.0%; height: 100.0%;">             <b>Domaine Chatelain Prestige Pouilly-Fume</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇🍇<br>             Price: 99 DKK<br>             </div>`)[0];
-                popup_20c56edd745f561a05e86e9cd38b8d62.setContent(html_fdf92dc9abc17717fc4f4637bf0ef8a9);
+                var html_4082d0338eb584047071cbbff4ae1deb = $(`<div id="html_4082d0338eb584047071cbbff4ae1deb" style="width: 100.0%; height: 100.0%;">             <b>Domaine Chatelain Prestige Pouilly-Fume</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇🍇<br>             Price: 99 DKK<br>             </div>`)[0];
+                popup_970c48333f05fce0ce50cbb9df0dbfd2.setContent(html_4082d0338eb584047071cbbff4ae1deb);
             
         
 
-        marker_08aa0b041637e809adccf25b82abefe6.bindPopup(popup_20c56edd745f561a05e86e9cd38b8d62)
+        marker_880733aeb31cd6c6f1c4bf2686ace118.bindPopup(popup_970c48333f05fce0ce50cbb9df0dbfd2)
         ;
 
         
     
     
-            var marker_d171ae68ba540375877da5733c9edd68 = L.marker(
+            var marker_9543f8ac517f75330a8b17e943de8b17 = L.marker(
                 [48.62217907736152, 7.483926194155203],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_f5da830cea46e83ccda781b1f461af78 = L.AwesomeMarkers.icon(
+            var icon_d3c273543614b02e191899dd38df6377 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_d171ae68ba540375877da5733c9edd68.setIcon(icon_f5da830cea46e83ccda781b1f461af78);
+            marker_9543f8ac517f75330a8b17e943de8b17.setIcon(icon_d3c273543614b02e191899dd38df6377);
         
     
-        var popup_e2032761be8eae2e2097bf3c517f90cc = L.popup({"maxWidth": 300});
+        var popup_39ec1305e97c623ca1352dbe74844e34 = L.popup({"maxWidth": 300});
 
         
             
-                var html_a783862fc94d223dbe57223ea35b15d7 = $(`<div id="html_a783862fc94d223dbe57223ea35b15d7" style="width: 100.0%; height: 100.0%;">             <b>Helfrich Riesling Alsace</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇🍇<br>             Price: 70 DKK<br>             </div>`)[0];
-                popup_e2032761be8eae2e2097bf3c517f90cc.setContent(html_a783862fc94d223dbe57223ea35b15d7);
+                var html_ac66abb54edcd842ff9ff9f846cf1d9f = $(`<div id="html_ac66abb54edcd842ff9ff9f846cf1d9f" style="width: 100.0%; height: 100.0%;">             <b>Helfrich Riesling Alsace</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇🍇<br>             Price: 70 DKK<br>             </div>`)[0];
+                popup_39ec1305e97c623ca1352dbe74844e34.setContent(html_ac66abb54edcd842ff9ff9f846cf1d9f);
             
         
 
-        marker_d171ae68ba540375877da5733c9edd68.bindPopup(popup_e2032761be8eae2e2097bf3c517f90cc)
+        marker_9543f8ac517f75330a8b17e943de8b17.bindPopup(popup_39ec1305e97c623ca1352dbe74844e34)
         ;
 
         
     
     
-            var marker_9ee89c1a7bef34f3c7ffadf84887254c = L.marker(
+            var marker_e9aebecfb3afc6307b69157f763bca10 = L.marker(
                 [42.46428852748877, -2.4439858002250023],
                 {"tags": ["Type: Red", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_6017211a830caafd796b8d1f63680e3e = L.AwesomeMarkers.icon(
+            var icon_f550d6da16d9f5d4776b106943886c7f = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_9ee89c1a7bef34f3c7ffadf84887254c.setIcon(icon_6017211a830caafd796b8d1f63680e3e);
+            marker_e9aebecfb3afc6307b69157f763bca10.setIcon(icon_f550d6da16d9f5d4776b106943886c7f);
         
     
-        var popup_aa2c16043261ac4e303d3b2d183b35ed = L.popup({"maxWidth": 300});
+        var popup_0c5acab6ebafad1d4eabbbb414bf14bd = L.popup({"maxWidth": 300});
 
         
             
-                var html_2d186aa966ad5fae177e626ad6df3968 = $(`<div id="html_2d186aa966ad5fae177e626ad6df3968" style="width: 100.0%; height: 100.0%;">             <b>Bodega de bardos Reserva</b><br>             Buy Again: 🫳(Tilbud)             Type: Red<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 150 DKK<br>             </div>`)[0];
-                popup_aa2c16043261ac4e303d3b2d183b35ed.setContent(html_2d186aa966ad5fae177e626ad6df3968);
+                var html_710af9183cab5edccd4e5878b82f4a80 = $(`<div id="html_710af9183cab5edccd4e5878b82f4a80" style="width: 100.0%; height: 100.0%;">             <b>Bodega de bardos Reserva</b><br>             Buy Again: 🫳(Tilbud)             Type: Red<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 150 DKK<br>             </div>`)[0];
+                popup_0c5acab6ebafad1d4eabbbb414bf14bd.setContent(html_710af9183cab5edccd4e5878b82f4a80);
             
         
 
-        marker_9ee89c1a7bef34f3c7ffadf84887254c.bindPopup(popup_aa2c16043261ac4e303d3b2d183b35ed)
+        marker_e9aebecfb3afc6307b69157f763bca10.bindPopup(popup_0c5acab6ebafad1d4eabbbb414bf14bd)
         ;
 
         
     
     
-            var marker_dce9e0e552339661572484ca2dd3db96 = L.marker(
+            var marker_174f8a0e8839a18c635a9c6d6a45b048 = L.marker(
                 [53.79364383799628, 10.135619269412],
                 {"tags": ["Type: White", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_11504b6d333d5a1288fcc9f3e2d5b41c = L.AwesomeMarkers.icon(
+            var icon_4b040fcd030fb389073ac77a34041db1 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_dce9e0e552339661572484ca2dd3db96.setIcon(icon_11504b6d333d5a1288fcc9f3e2d5b41c);
+            marker_174f8a0e8839a18c635a9c6d6a45b048.setIcon(icon_4b040fcd030fb389073ac77a34041db1);
         
     
-        var popup_6359ed9d5c7912e8fa1da1cafc09b956 = L.popup({"maxWidth": 300});
+        var popup_b1de001f226065bbf4ed2ad76c7a9aba = L.popup({"maxWidth": 300});
 
         
             
-                var html_0fc45fdd04f2a6ce27bcaeb3526b9fc0 = $(`<div id="html_0fc45fdd04f2a6ce27bcaeb3526b9fc0" style="width: 100.0%; height: 100.0%;">             <b>Pieroth Riesling Qualitätswein Nahe</b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 86 DKK<br>             </div>`)[0];
-                popup_6359ed9d5c7912e8fa1da1cafc09b956.setContent(html_0fc45fdd04f2a6ce27bcaeb3526b9fc0);
+                var html_4410a6d0388d842f88dcc14ec61c76dc = $(`<div id="html_4410a6d0388d842f88dcc14ec61c76dc" style="width: 100.0%; height: 100.0%;">             <b>Pieroth Riesling Qualitätswein Nahe</b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 86 DKK<br>             </div>`)[0];
+                popup_b1de001f226065bbf4ed2ad76c7a9aba.setContent(html_4410a6d0388d842f88dcc14ec61c76dc);
             
         
 
-        marker_dce9e0e552339661572484ca2dd3db96.bindPopup(popup_6359ed9d5c7912e8fa1da1cafc09b956)
+        marker_174f8a0e8839a18c635a9c6d6a45b048.bindPopup(popup_b1de001f226065bbf4ed2ad76c7a9aba)
         ;
 
         
     
     
-            var marker_92dfc7b6439f0da861b6dd3c8f8a8c55 = L.marker(
+            var marker_9b28982ebb99056628bb848412e89bda = L.marker(
                 [43.39051313637965, 3.491600240653241],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_895695520ace58b2ce38a2e78dce3fec = L.AwesomeMarkers.icon(
+            var icon_0451316d97c681a1aa3538f240c8fc43 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_92dfc7b6439f0da861b6dd3c8f8a8c55.setIcon(icon_895695520ace58b2ce38a2e78dce3fec);
+            marker_9b28982ebb99056628bb848412e89bda.setIcon(icon_0451316d97c681a1aa3538f240c8fc43);
         
     
-        var popup_f5b11564c531f1573c7bbb51d32e6159 = L.popup({"maxWidth": 300});
+        var popup_f1907e53b0ba4ea7bd411ac7867991f2 = L.popup({"maxWidth": 300});
 
         
             
-                var html_5992a32cd5b3ff2d832157fa8939dcb3 = $(`<div id="html_5992a32cd5b3ff2d832157fa8939dcb3" style="width: 100.0%; height: 100.0%;">             <b>Saint Peyre Côtes De Thau Chardonnay</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 89 DKK<br>             </div>`)[0];
-                popup_f5b11564c531f1573c7bbb51d32e6159.setContent(html_5992a32cd5b3ff2d832157fa8939dcb3);
+                var html_86b34bd508ac41af7a1d3e685267ca99 = $(`<div id="html_86b34bd508ac41af7a1d3e685267ca99" style="width: 100.0%; height: 100.0%;">             <b>Saint Peyre Côtes De Thau Chardonnay</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 89 DKK<br>             </div>`)[0];
+                popup_f1907e53b0ba4ea7bd411ac7867991f2.setContent(html_86b34bd508ac41af7a1d3e685267ca99);
             
         
 
-        marker_92dfc7b6439f0da861b6dd3c8f8a8c55.bindPopup(popup_f5b11564c531f1573c7bbb51d32e6159)
+        marker_9b28982ebb99056628bb848412e89bda.bindPopup(popup_f1907e53b0ba4ea7bd411ac7867991f2)
         ;
 
         
     
     
-            var marker_87b9eb10ed16d410d490252a0beee37f = L.marker(
+            var marker_2fcd0b9aceef7fa782fc6a1c84ce53f9 = L.marker(
                 [39.48954877399, -0.6878950769928913],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_cbe263ff0262132b83c5b645ae99465f = L.AwesomeMarkers.icon(
+            var icon_1563660ef506d9969429b3f7adf5a9d4 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_87b9eb10ed16d410d490252a0beee37f.setIcon(icon_cbe263ff0262132b83c5b645ae99465f);
+            marker_2fcd0b9aceef7fa782fc6a1c84ce53f9.setIcon(icon_1563660ef506d9969429b3f7adf5a9d4);
         
     
-        var popup_f27cb62d414b0714b9212d8ca96f0357 = L.popup({"maxWidth": 300});
+        var popup_6bf8049634c641a2e3d353ed4ec409f6 = L.popup({"maxWidth": 300});
 
         
             
-                var html_21e934f2a1885cb1d461f317c1838924 = $(`<div id="html_21e934f2a1885cb1d461f317c1838924" style="width: 100.0%; height: 100.0%;">             <b>Cheste Agraria La Cova Negra</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 80 DKK<br>             </div>`)[0];
-                popup_f27cb62d414b0714b9212d8ca96f0357.setContent(html_21e934f2a1885cb1d461f317c1838924);
+                var html_b14edacd10388146ff828b76963a3f56 = $(`<div id="html_b14edacd10388146ff828b76963a3f56" style="width: 100.0%; height: 100.0%;">             <b>Cheste Agraria La Cova Negra</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 80 DKK<br>             </div>`)[0];
+                popup_6bf8049634c641a2e3d353ed4ec409f6.setContent(html_b14edacd10388146ff828b76963a3f56);
             
         
 
-        marker_87b9eb10ed16d410d490252a0beee37f.bindPopup(popup_f27cb62d414b0714b9212d8ca96f0357)
+        marker_2fcd0b9aceef7fa782fc6a1c84ce53f9.bindPopup(popup_6bf8049634c641a2e3d353ed4ec409f6)
         ;
 
         
     
     
-            var marker_2b727999de7b79066eced86c824ad707 = L.marker(
+            var marker_0d5efaf3d7b19f01e73cce13169d3020 = L.marker(
                 [41.724440880039865, -3.768422634573044],
                 {"tags": ["Type: Red", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_f44a360b343fabb9654b94034cc37f87 = L.AwesomeMarkers.icon(
+            var icon_536136f7c5be59f16ca3c3e54fa86366 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_2b727999de7b79066eced86c824ad707.setIcon(icon_f44a360b343fabb9654b94034cc37f87);
+            marker_0d5efaf3d7b19f01e73cce13169d3020.setIcon(icon_536136f7c5be59f16ca3c3e54fa86366);
         
     
-        var popup_289c10f8b8819c8ce5c494db9f84ee20 = L.popup({"maxWidth": 300});
+        var popup_cf9dea4565acc300fc9eba456aefcb4f = L.popup({"maxWidth": 300});
 
         
             
-                var html_fb28baeecc87c52ee15d7cf962f359ca = $(`<div id="html_fb28baeecc87c52ee15d7cf962f359ca" style="width: 100.0%; height: 100.0%;">             <b>Dominio De Cair Cair Cuvée</b><br>             Buy Again: 🫳(Tilbud)             Type: Red<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 80 DKK<br>             </div>`)[0];
-                popup_289c10f8b8819c8ce5c494db9f84ee20.setContent(html_fb28baeecc87c52ee15d7cf962f359ca);
+                var html_a2d6b0b7d80c5a1eb0a875faa439a7ae = $(`<div id="html_a2d6b0b7d80c5a1eb0a875faa439a7ae" style="width: 100.0%; height: 100.0%;">             <b>Dominio De Cair Cair Cuvée</b><br>             Buy Again: 🫳(Tilbud)             Type: Red<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 80 DKK<br>             </div>`)[0];
+                popup_cf9dea4565acc300fc9eba456aefcb4f.setContent(html_a2d6b0b7d80c5a1eb0a875faa439a7ae);
             
         
 
-        marker_2b727999de7b79066eced86c824ad707.bindPopup(popup_289c10f8b8819c8ce5c494db9f84ee20)
+        marker_0d5efaf3d7b19f01e73cce13169d3020.bindPopup(popup_cf9dea4565acc300fc9eba456aefcb4f)
         ;
 
         
     
     
-            var marker_b69fe1c0cd8076c48d4b9c9116efd677 = L.marker(
+            var marker_5262bcd8b62c2bc9bbbb88ee32bc9b53 = L.marker(
                 [-34.4346920823547, 146.0431642944697],
                 {"tags": ["Type: White", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_854ee01c5a8d4c3793558216f708bec3 = L.AwesomeMarkers.icon(
+            var icon_29a161f79fd1a88a62c6a569f8196e4d = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_b69fe1c0cd8076c48d4b9c9116efd677.setIcon(icon_854ee01c5a8d4c3793558216f708bec3);
+            marker_5262bcd8b62c2bc9bbbb88ee32bc9b53.setIcon(icon_29a161f79fd1a88a62c6a569f8196e4d);
         
     
-        var popup_2063b4aca0284041783bb2ff975c8616 = L.popup({"maxWidth": 300});
+        var popup_4e2cb9bdf71e94ae56fcccccf9b146c6 = L.popup({"maxWidth": 300});
 
         
             
-                var html_2e90659f0a201c11dd9698b0f32674f7 = $(`<div id="html_2e90659f0a201c11dd9698b0f32674f7" style="width: 100.0%; height: 100.0%;">             <b>Nugan Bright and Bold Chardonnay</b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 80 DKK<br>             </div>`)[0];
-                popup_2063b4aca0284041783bb2ff975c8616.setContent(html_2e90659f0a201c11dd9698b0f32674f7);
+                var html_9abb1b5b2af8dbeab8e9cf63717b290a = $(`<div id="html_9abb1b5b2af8dbeab8e9cf63717b290a" style="width: 100.0%; height: 100.0%;">             <b>Nugan Bright and Bold Chardonnay</b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 80 DKK<br>             </div>`)[0];
+                popup_4e2cb9bdf71e94ae56fcccccf9b146c6.setContent(html_9abb1b5b2af8dbeab8e9cf63717b290a);
             
         
 
-        marker_b69fe1c0cd8076c48d4b9c9116efd677.bindPopup(popup_2063b4aca0284041783bb2ff975c8616)
+        marker_5262bcd8b62c2bc9bbbb88ee32bc9b53.bindPopup(popup_4e2cb9bdf71e94ae56fcccccf9b146c6)
         ;
 
         
     
     
-            var marker_d2188a8b4dfa8178ba4bbf18caf89201 = L.marker(
+            var marker_e7a4c80e2eafc5504b059e07e6e77d1a = L.marker(
                 [48.47350615160288, 15.661217092428972],
                 {"tags": ["Type: White", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_a37273dc8c9cbfff449aca37ff1b5451 = L.AwesomeMarkers.icon(
+            var icon_398c7b8dde7805f1b0cb705db71f19aa = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_d2188a8b4dfa8178ba4bbf18caf89201.setIcon(icon_a37273dc8c9cbfff449aca37ff1b5451);
+            marker_e7a4c80e2eafc5504b059e07e6e77d1a.setIcon(icon_398c7b8dde7805f1b0cb705db71f19aa);
         
     
-        var popup_d4b24317bdc95a1aaff44c2bb6c346d2 = L.popup({"maxWidth": 300});
+        var popup_77b1c5407b633e9fc6bd6d9b464fa007 = L.popup({"maxWidth": 300});
 
         
             
-                var html_06622594dd184c4dfa52014e5ea49037 = $(`<div id="html_06622594dd184c4dfa52014e5ea49037" style="width: 100.0%; height: 100.0%;">             <b>Rabl Riesling Urgestein</b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 75 DKK<br>             </div>`)[0];
-                popup_d4b24317bdc95a1aaff44c2bb6c346d2.setContent(html_06622594dd184c4dfa52014e5ea49037);
+                var html_d37dcc202ed1b113495bdd21f5bf8514 = $(`<div id="html_d37dcc202ed1b113495bdd21f5bf8514" style="width: 100.0%; height: 100.0%;">             <b>Rabl Riesling Urgestein</b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 75 DKK<br>             </div>`)[0];
+                popup_77b1c5407b633e9fc6bd6d9b464fa007.setContent(html_d37dcc202ed1b113495bdd21f5bf8514);
             
         
 
-        marker_d2188a8b4dfa8178ba4bbf18caf89201.bindPopup(popup_d4b24317bdc95a1aaff44c2bb6c346d2)
+        marker_e7a4c80e2eafc5504b059e07e6e77d1a.bindPopup(popup_77b1c5407b633e9fc6bd6d9b464fa007)
         ;
 
         
     
     
-            var marker_ba8f5c607d5bd575519d228d892a4b62 = L.marker(
-                [48.47359953116707, 15.661096789085061],
+            var marker_1b7014563928c7dd7a71aea650d3b323 = L.marker(
+                [48.47353100189276, 15.661139555162324],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_509656283e5bc85971a48053cf4bbb57 = L.AwesomeMarkers.icon(
+            var icon_0b70656c9c264896fb8e323dbf13375f = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_ba8f5c607d5bd575519d228d892a4b62.setIcon(icon_509656283e5bc85971a48053cf4bbb57);
+            marker_1b7014563928c7dd7a71aea650d3b323.setIcon(icon_0b70656c9c264896fb8e323dbf13375f);
         
     
-        var popup_1c761f8b0bc62a7074af0ade182f8e4a = L.popup({"maxWidth": 300});
+        var popup_aea62887ce9579523d8bcccb68c19bdc = L.popup({"maxWidth": 300});
 
         
             
-                var html_10be5112dc1bb6f35ffe4e6e45aba33d = $(`<div id="html_10be5112dc1bb6f35ffe4e6e45aba33d" style="width: 100.0%; height: 100.0%;">             <b>Rabl Grüner Veltliner Terrassen </b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 56 DKK<br>             </div>`)[0];
-                popup_1c761f8b0bc62a7074af0ade182f8e4a.setContent(html_10be5112dc1bb6f35ffe4e6e45aba33d);
+                var html_13f98b619da564b5854377aec749f133 = $(`<div id="html_13f98b619da564b5854377aec749f133" style="width: 100.0%; height: 100.0%;">             <b>Rabl Grüner Veltliner Terrassen </b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 56 DKK<br>             </div>`)[0];
+                popup_aea62887ce9579523d8bcccb68c19bdc.setContent(html_13f98b619da564b5854377aec749f133);
             
         
 
-        marker_ba8f5c607d5bd575519d228d892a4b62.bindPopup(popup_1c761f8b0bc62a7074af0ade182f8e4a)
+        marker_1b7014563928c7dd7a71aea650d3b323.bindPopup(popup_aea62887ce9579523d8bcccb68c19bdc)
         ;
 
         
     
     
-            var marker_c8305b24606525f566c47dd2b44c3054 = L.marker(
-                [48.47362144301244, 15.661208496696203],
+            var marker_765882a6b25d52b3259d47cd107d8169 = L.marker(
+                [48.4735894370286, 15.661204403937493],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_d107b5a96eab2e6be47aa755d78c4533 = L.AwesomeMarkers.icon(
+            var icon_0bd9f226d6016ba51f3461d4382ef3dd = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_c8305b24606525f566c47dd2b44c3054.setIcon(icon_d107b5a96eab2e6be47aa755d78c4533);
+            marker_765882a6b25d52b3259d47cd107d8169.setIcon(icon_0bd9f226d6016ba51f3461d4382ef3dd);
         
     
-        var popup_3d9591255acaa12135019ce5f8832a6c = L.popup({"maxWidth": 300});
+        var popup_ca1e8ff68b20ef4f5584b736621f020b = L.popup({"maxWidth": 300});
 
         
             
-                var html_042f9443cebe7460f8c60631fff760f6 = $(`<div id="html_042f9443cebe7460f8c60631fff760f6" style="width: 100.0%; height: 100.0%;">             <b>Rabl Riesling Terrassen Niederösterreich</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 64 DKK<br>             </div>`)[0];
-                popup_3d9591255acaa12135019ce5f8832a6c.setContent(html_042f9443cebe7460f8c60631fff760f6);
+                var html_e33e58707a8e1ed3d4f4b72063da7665 = $(`<div id="html_e33e58707a8e1ed3d4f4b72063da7665" style="width: 100.0%; height: 100.0%;">             <b>Rabl Riesling Terrassen Niederösterreich</b><br>             Buy Again: 👍             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 64 DKK<br>             </div>`)[0];
+                popup_ca1e8ff68b20ef4f5584b736621f020b.setContent(html_e33e58707a8e1ed3d4f4b72063da7665);
             
         
 
-        marker_c8305b24606525f566c47dd2b44c3054.bindPopup(popup_3d9591255acaa12135019ce5f8832a6c)
+        marker_765882a6b25d52b3259d47cd107d8169.bindPopup(popup_ca1e8ff68b20ef4f5584b736621f020b)
         ;
 
         
     
     
-            var marker_0c6b6e4cc69fda41edc055f5767aed2b = L.marker(
+            var marker_e1216593a9c29063ca87d28738060bbf = L.marker(
                 [46.71178076120125, 15.59697362397198],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_cbe4f092dc7d9cbe40703bff7be0ba14 = L.AwesomeMarkers.icon(
+            var icon_340ff6d5af316ec0963430d00db915dc = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_0c6b6e4cc69fda41edc055f5767aed2b.setIcon(icon_cbe4f092dc7d9cbe40703bff7be0ba14);
+            marker_e1216593a9c29063ca87d28738060bbf.setIcon(icon_340ff6d5af316ec0963430d00db915dc);
         
     
-        var popup_7053efe9b60d94da84e3041137857d4f = L.popup({"maxWidth": 300});
+        var popup_76165a94d3fa35b9c601b810f6ce37eb = L.popup({"maxWidth": 300});
 
         
             
-                var html_05f9e93cf2c09ccf48abecabae2b605a = $(`<div id="html_05f9e93cf2c09ccf48abecabae2b605a" style="width: 100.0%; height: 100.0%;">             <b>Regele Welschriesling </b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇<br>             P Rating: 🍇🍇<br>             Price: 63 DKK<br>             </div>`)[0];
-                popup_7053efe9b60d94da84e3041137857d4f.setContent(html_05f9e93cf2c09ccf48abecabae2b605a);
+                var html_26bab960192dd92688e6fd45aa468f03 = $(`<div id="html_26bab960192dd92688e6fd45aa468f03" style="width: 100.0%; height: 100.0%;">             <b>Regele Welschriesling </b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇<br>             P Rating: 🍇🍇<br>             Price: 63 DKK<br>             </div>`)[0];
+                popup_76165a94d3fa35b9c601b810f6ce37eb.setContent(html_26bab960192dd92688e6fd45aa468f03);
             
         
 
-        marker_0c6b6e4cc69fda41edc055f5767aed2b.bindPopup(popup_7053efe9b60d94da84e3041137857d4f)
+        marker_e1216593a9c29063ca87d28738060bbf.bindPopup(popup_76165a94d3fa35b9c601b810f6ce37eb)
         ;
 
         
     
     
-            var marker_72b47b0825ca6c9a29cf86344cc45a3e = L.marker(
+            var marker_1037cf800b26a6bcd016b4cc6d9425a6 = L.marker(
                 [46.705160093771596, 15.548906887163819],
                 {"tags": ["Type: White", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_d778b2d72e1e0e386ee92cf7316ae820 = L.AwesomeMarkers.icon(
+            var icon_a8a2c329a445756cd448ac8abd3e6d5c = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_72b47b0825ca6c9a29cf86344cc45a3e.setIcon(icon_d778b2d72e1e0e386ee92cf7316ae820);
+            marker_1037cf800b26a6bcd016b4cc6d9425a6.setIcon(icon_a8a2c329a445756cd448ac8abd3e6d5c);
         
     
-        var popup_3522fd5457f91b221552e30afb78d37a = L.popup({"maxWidth": 300});
+        var popup_e29603932eb418f1068a840d68e8b071 = L.popup({"maxWidth": 300});
 
         
             
-                var html_f13fd07ba495e9adc2c9c5e445e40e05 = $(`<div id="html_f13fd07ba495e9adc2c9c5e445e40e05" style="width: 100.0%; height: 100.0%;">             <b>Walter Skoff Welschriesling Steiermark</b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 67.5 DKK<br>             </div>`)[0];
-                popup_3522fd5457f91b221552e30afb78d37a.setContent(html_f13fd07ba495e9adc2c9c5e445e40e05);
+                var html_82ea1d80d42436f0e98ab2309119f0bb = $(`<div id="html_82ea1d80d42436f0e98ab2309119f0bb" style="width: 100.0%; height: 100.0%;">             <b>Walter Skoff Welschriesling Steiermark</b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 67.5 DKK<br>             </div>`)[0];
+                popup_e29603932eb418f1068a840d68e8b071.setContent(html_82ea1d80d42436f0e98ab2309119f0bb);
             
         
 
-        marker_72b47b0825ca6c9a29cf86344cc45a3e.bindPopup(popup_3522fd5457f91b221552e30afb78d37a)
+        marker_1037cf800b26a6bcd016b4cc6d9425a6.bindPopup(popup_e29603932eb418f1068a840d68e8b071)
         ;
 
         
     
     
-            var marker_c07be050eb1d5959c4be45be688129c8 = L.marker(
+            var marker_317db26683f4eecf354a03675ef8f21c = L.marker(
                 [48.47394067368391, 15.665124012422643],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_08015b8c1c05c244395c775c363131dd = L.AwesomeMarkers.icon(
+            var icon_6dbc593aaf45ec330922c8fb1e462792 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_c07be050eb1d5959c4be45be688129c8.setIcon(icon_08015b8c1c05c244395c775c363131dd);
+            marker_317db26683f4eecf354a03675ef8f21c.setIcon(icon_6dbc593aaf45ec330922c8fb1e462792);
         
     
-        var popup_cd07b0a9745469785505f5b5211756b2 = L.popup({"maxWidth": 300});
+        var popup_b82e6044ef057a5084de8f3a68eba24f = L.popup({"maxWidth": 300});
 
         
             
-                var html_8601126f4ddbce7f21e19085c006ab9d = $(`<div id="html_8601126f4ddbce7f21e19085c006ab9d" style="width: 100.0%; height: 100.0%;">             <b>Weingut Bründlmayer Riesling Trocken</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇<br>             Price: 85.5 DKK<br>             </div>`)[0];
-                popup_cd07b0a9745469785505f5b5211756b2.setContent(html_8601126f4ddbce7f21e19085c006ab9d);
+                var html_c818e851310368c2cb96eccd8c9b0074 = $(`<div id="html_c818e851310368c2cb96eccd8c9b0074" style="width: 100.0%; height: 100.0%;">             <b>Weingut Bründlmayer Riesling Trocken</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇<br>             Price: 85.5 DKK<br>             </div>`)[0];
+                popup_b82e6044ef057a5084de8f3a68eba24f.setContent(html_c818e851310368c2cb96eccd8c9b0074);
             
         
 
-        marker_c07be050eb1d5959c4be45be688129c8.bindPopup(popup_cd07b0a9745469785505f5b5211756b2)
+        marker_317db26683f4eecf354a03675ef8f21c.bindPopup(popup_b82e6044ef057a5084de8f3a68eba24f)
         ;
 
         
     
     
-            var marker_f24f59875f054389505182557768d4dc = L.marker(
+            var marker_7ed9dc1e7e41d212e451c7030629068f = L.marker(
                 [48.38082412981345, 15.641421965407815],
                 {"tags": ["Type: White", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_6032a9239f55fd4a9e30e9c627238cb3 = L.AwesomeMarkers.icon(
+            var icon_20ff8a9b5128ec62d3a15e176d145407 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_f24f59875f054389505182557768d4dc.setIcon(icon_6032a9239f55fd4a9e30e9c627238cb3);
+            marker_7ed9dc1e7e41d212e451c7030629068f.setIcon(icon_20ff8a9b5128ec62d3a15e176d145407);
         
     
-        var popup_a28aa3af7d9b26e437bdc24b4d136e27 = L.popup({"maxWidth": 300});
+        var popup_87db37f7608444a3e86388c15ef51d0b = L.popup({"maxWidth": 300});
 
         
             
-                var html_345567cde353476e18a7e1dcbb58d257 = $(`<div id="html_345567cde353476e18a7e1dcbb58d257" style="width: 100.0%; height: 100.0%;">             <b>Josef Dockner Riesling Antonius </b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 75 DKK<br>             </div>`)[0];
-                popup_a28aa3af7d9b26e437bdc24b4d136e27.setContent(html_345567cde353476e18a7e1dcbb58d257);
+                var html_ca9274bf795656c0a27551e72b431f0d = $(`<div id="html_ca9274bf795656c0a27551e72b431f0d" style="width: 100.0%; height: 100.0%;">             <b>Josef Dockner Riesling Antonius </b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 75 DKK<br>             </div>`)[0];
+                popup_87db37f7608444a3e86388c15ef51d0b.setContent(html_ca9274bf795656c0a27551e72b431f0d);
             
         
 
-        marker_f24f59875f054389505182557768d4dc.bindPopup(popup_a28aa3af7d9b26e437bdc24b4d136e27)
+        marker_7ed9dc1e7e41d212e451c7030629068f.bindPopup(popup_87db37f7608444a3e86388c15ef51d0b)
         ;
 
         
     
     
-            var marker_2f0ebea254052e33d3e66ae7e3ea31c9 = L.marker(
+            var marker_a22b443f199a9a4625db2ccbf353d1d2 = L.marker(
                 [44.8247960862944, 8.013863313745546],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_ae0419d87c0198948b1a7f77a6ab022d = L.AwesomeMarkers.icon(
+            var icon_fc944c6290d766f8a3f69994daf0460e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_2f0ebea254052e33d3e66ae7e3ea31c9.setIcon(icon_ae0419d87c0198948b1a7f77a6ab022d);
+            marker_a22b443f199a9a4625db2ccbf353d1d2.setIcon(icon_fc944c6290d766f8a3f69994daf0460e);
         
     
-        var popup_da98b53db186be726d75f36198556917 = L.popup({"maxWidth": 300});
+        var popup_b207c724f8fe0992f80576d57825ba3c = L.popup({"maxWidth": 300});
 
         
             
-                var html_583e76472c92be83c3729cfbfbd59e65 = $(`<div id="html_583e76472c92be83c3729cfbfbd59e65" style="width: 100.0%; height: 100.0%;">             <b>Cantine Povero II Sendallo Chardonnay</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 72 DKK<br>             </div>`)[0];
-                popup_da98b53db186be726d75f36198556917.setContent(html_583e76472c92be83c3729cfbfbd59e65);
+                var html_54784fdcb93af5ac5b7cf3560c573012 = $(`<div id="html_54784fdcb93af5ac5b7cf3560c573012" style="width: 100.0%; height: 100.0%;">             <b>Cantine Povero II Sendallo Chardonnay</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 72 DKK<br>             </div>`)[0];
+                popup_b207c724f8fe0992f80576d57825ba3c.setContent(html_54784fdcb93af5ac5b7cf3560c573012);
             
         
 
-        marker_2f0ebea254052e33d3e66ae7e3ea31c9.bindPopup(popup_da98b53db186be726d75f36198556917)
+        marker_a22b443f199a9a4625db2ccbf353d1d2.bindPopup(popup_b207c724f8fe0992f80576d57825ba3c)
         ;
 
         
     
     
-            var marker_320923e178c7687315928e47c3aead9b = L.marker(
+            var marker_8d45c6919454e222076371c000466819 = L.marker(
                 [49.260362339816005, 4.036281055840245],
                 {"tags": ["Type: Champagne", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: Not Tasted"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_b6adc46d088971d645ac7260f2dd71d0 = L.AwesomeMarkers.icon(
+            var icon_2b3a26e034e83c39ee1d2c7db7d5c5dc = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_320923e178c7687315928e47c3aead9b.setIcon(icon_b6adc46d088971d645ac7260f2dd71d0);
+            marker_8d45c6919454e222076371c000466819.setIcon(icon_2b3a26e034e83c39ee1d2c7db7d5c5dc);
         
     
-        var popup_dbb249e706bbcc1344f6446c2a805fc5 = L.popup({"maxWidth": 300});
+        var popup_18424670746d4e4fc406aa850881e414 = L.popup({"maxWidth": 300});
 
         
             
-                var html_9c32ee3dc63412593dc8fcef8860028e = $(`<div id="html_9c32ee3dc63412593dc8fcef8860028e" style="width: 100.0%; height: 100.0%;">             <b>Jacquart Mosaïque Demi-Sec Champagne</b><br>             Buy Again: 👎             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: Not Tasted<br>             Price: None DKK<br>             </div>`)[0];
-                popup_dbb249e706bbcc1344f6446c2a805fc5.setContent(html_9c32ee3dc63412593dc8fcef8860028e);
+                var html_010d7045a9735027ee7caa33c723ba8b = $(`<div id="html_010d7045a9735027ee7caa33c723ba8b" style="width: 100.0%; height: 100.0%;">             <b>Jacquart Mosaïque Demi-Sec Champagne</b><br>             Buy Again: 👎             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: Not Tasted<br>             Price: None DKK<br>             </div>`)[0];
+                popup_18424670746d4e4fc406aa850881e414.setContent(html_010d7045a9735027ee7caa33c723ba8b);
             
         
 
-        marker_320923e178c7687315928e47c3aead9b.bindPopup(popup_dbb249e706bbcc1344f6446c2a805fc5)
+        marker_8d45c6919454e222076371c000466819.bindPopup(popup_18424670746d4e4fc406aa850881e414)
         ;
 
         
     
     
-            var marker_3657dfa0d11ba46670b7b8d8960afab3 = L.marker(
+            var marker_7a752ffeb597c2683b4a702b8ba405c4 = L.marker(
                 [46.068239150744546, -118.33493181160128],
                 {"tags": ["Type: White", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_33a5764c08c7278757ce0ea90332e443 = L.AwesomeMarkers.icon(
+            var icon_44f784dce7e9a6713b52350e2d62dcff = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_3657dfa0d11ba46670b7b8d8960afab3.setIcon(icon_33a5764c08c7278757ce0ea90332e443);
+            marker_7a752ffeb597c2683b4a702b8ba405c4.setIcon(icon_44f784dce7e9a6713b52350e2d62dcff);
         
     
-        var popup_17e8892de75361a144b0ec02a8040d2a = L.popup({"maxWidth": 300});
+        var popup_a0442d1e50d1ac197a0f31deca1698be = L.popup({"maxWidth": 300});
 
         
             
-                var html_7fde79204a17abfa202ea4d695bcae70 = $(`<div id="html_7fde79204a17abfa202ea4d695bcae70" style="width: 100.0%; height: 100.0%;">             <b>Charles Smith Kung Fu Girl Riesling</b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 80 DKK<br>             </div>`)[0];
-                popup_17e8892de75361a144b0ec02a8040d2a.setContent(html_7fde79204a17abfa202ea4d695bcae70);
+                var html_5ef2c93637e3d3306d55fc0b82e8b8cc = $(`<div id="html_5ef2c93637e3d3306d55fc0b82e8b8cc" style="width: 100.0%; height: 100.0%;">             <b>Charles Smith Kung Fu Girl Riesling</b><br>             Buy Again: 🫳(Tilbud)             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 80 DKK<br>             </div>`)[0];
+                popup_a0442d1e50d1ac197a0f31deca1698be.setContent(html_5ef2c93637e3d3306d55fc0b82e8b8cc);
             
         
 
-        marker_3657dfa0d11ba46670b7b8d8960afab3.bindPopup(popup_17e8892de75361a144b0ec02a8040d2a)
+        marker_7a752ffeb597c2683b4a702b8ba405c4.bindPopup(popup_a0442d1e50d1ac197a0f31deca1698be)
         ;
 
         
     
     
-            var marker_13f4c6891c7dae4635902397e624090c = L.marker(
+            var marker_80370160462ee45a28aea885e4122411 = L.marker(
                 [45.530347820749604, 11.443593955640841],
                 {"tags": ["Type: Red", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_6df6a46d8aa3efeaba931b100d46c9f5 = L.AwesomeMarkers.icon(
+            var icon_0696eb0bf2895c744446487858689209 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_13f4c6891c7dae4635902397e624090c.setIcon(icon_6df6a46d8aa3efeaba931b100d46c9f5);
+            marker_80370160462ee45a28aea885e4122411.setIcon(icon_0696eb0bf2895c744446487858689209);
         
     
-        var popup_c5b3e93fb71b6d4624aec30823c49938 = L.popup({"maxWidth": 300});
+        var popup_5420cb46cfb6bcdb3b671aab50514cf5 = L.popup({"maxWidth": 300});
 
         
             
-                var html_1b61caffbb4427964e7a53c61b7aced0 = $(`<div id="html_1b61caffbb4427964e7a53c61b7aced0" style="width: 100.0%; height: 100.0%;">             <b>Cielo e Terra Appassionante Veneto</b><br>             Buy Again: 👍             Type: Red<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 76 DKK<br>             </div>`)[0];
-                popup_c5b3e93fb71b6d4624aec30823c49938.setContent(html_1b61caffbb4427964e7a53c61b7aced0);
+                var html_49e8474bc5f01e5cee77cbe0c49ffb1f = $(`<div id="html_49e8474bc5f01e5cee77cbe0c49ffb1f" style="width: 100.0%; height: 100.0%;">             <b>Cielo e Terra Appassionante Veneto</b><br>             Buy Again: 👍             Type: Red<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 76 DKK<br>             </div>`)[0];
+                popup_5420cb46cfb6bcdb3b671aab50514cf5.setContent(html_49e8474bc5f01e5cee77cbe0c49ffb1f);
             
         
 
-        marker_13f4c6891c7dae4635902397e624090c.bindPopup(popup_c5b3e93fb71b6d4624aec30823c49938)
+        marker_80370160462ee45a28aea885e4122411.bindPopup(popup_5420cb46cfb6bcdb3b671aab50514cf5)
         ;
 
         
     
     
-            var marker_0580cfbadfb58393ccc58a20176548d1 = L.marker(
+            var marker_ebd791e80a54ebdd0528f301e32cb5cf = L.marker(
                 [49.076803594512924, 4.143669639115398],
                 {"tags": ["Type: Champagne", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_a6087115f4651c38cee36e3a05ef021e = L.AwesomeMarkers.icon(
+            var icon_4a66b90dd3ec4ec6b62687e58171ec38 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_0580cfbadfb58393ccc58a20176548d1.setIcon(icon_a6087115f4651c38cee36e3a05ef021e);
+            marker_ebd791e80a54ebdd0528f301e32cb5cf.setIcon(icon_4a66b90dd3ec4ec6b62687e58171ec38);
         
     
-        var popup_12d20fcd2ccdc8aafacfe1cdaa70a271 = L.popup({"maxWidth": 300});
+        var popup_161ca4acf28bc7308b81348856da2e51 = L.popup({"maxWidth": 300});
 
         
             
-                var html_1f545eab7825fb30afcb43ebdebcf30b = $(`<div id="html_1f545eab7825fb30afcb43ebdebcf30b" style="width: 100.0%; height: 100.0%;">             <b>Fromentin Leclapart Brut Millésime Champagne Grand Cru ‘Á Bouzy’</b><br>             Buy Again: 🫳(Tilbud)             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 209 DKK<br>             </div>`)[0];
-                popup_12d20fcd2ccdc8aafacfe1cdaa70a271.setContent(html_1f545eab7825fb30afcb43ebdebcf30b);
+                var html_1216898e4ed972535f24651c7aca54e3 = $(`<div id="html_1216898e4ed972535f24651c7aca54e3" style="width: 100.0%; height: 100.0%;">             <b>Fromentin Leclapart Brut Millésime Champagne Grand Cru ‘Á Bouzy’</b><br>             Buy Again: 🫳(Tilbud)             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 209 DKK<br>             </div>`)[0];
+                popup_161ca4acf28bc7308b81348856da2e51.setContent(html_1216898e4ed972535f24651c7aca54e3);
             
         
 
-        marker_0580cfbadfb58393ccc58a20176548d1.bindPopup(popup_12d20fcd2ccdc8aafacfe1cdaa70a271)
+        marker_ebd791e80a54ebdd0528f301e32cb5cf.bindPopup(popup_161ca4acf28bc7308b81348856da2e51)
         ;
 
         
     
     
-            var marker_673c9673f2d46a8400a8310547f78451 = L.marker(
+            var marker_2cd1193692280b6da7976899d1bf7d67 = L.marker(
                 [48.952573052022146, 4.344123807967021],
                 {"tags": ["Type: Champagne", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_29431b5cb62ecf2a2705090e8a3a8ff1 = L.AwesomeMarkers.icon(
+            var icon_0dd4f2a49781158311992e04425ade90 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_673c9673f2d46a8400a8310547f78451.setIcon(icon_29431b5cb62ecf2a2705090e8a3a8ff1);
+            marker_2cd1193692280b6da7976899d1bf7d67.setIcon(icon_0dd4f2a49781158311992e04425ade90);
         
     
-        var popup_2f8417cac34d0da0b596de6a02c67f8e = L.popup({"maxWidth": 300});
+        var popup_1e605149e660eb20310b34f5235a8d57 = L.popup({"maxWidth": 300});
 
         
             
-                var html_cb322d6d5d1f06924bd784252f810d97 = $(`<div id="html_cb322d6d5d1f06924bd784252f810d97" style="width: 100.0%; height: 100.0%;">             <b>Joseph Perrier Brut Vintage Champagne (Cuvée Royale)</b><br>             Buy Again: 🫳(Tilbud)             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇🍇<br>             Price: 1000 DKK<br>             </div>`)[0];
-                popup_2f8417cac34d0da0b596de6a02c67f8e.setContent(html_cb322d6d5d1f06924bd784252f810d97);
+                var html_6c965ed6dda2cb7e11c0b36f903417ef = $(`<div id="html_6c965ed6dda2cb7e11c0b36f903417ef" style="width: 100.0%; height: 100.0%;">             <b>Joseph Perrier Brut Vintage Champagne (Cuvée Royale)</b><br>             Buy Again: 🫳(Tilbud)             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇🍇<br>             Price: 1000 DKK<br>             </div>`)[0];
+                popup_1e605149e660eb20310b34f5235a8d57.setContent(html_6c965ed6dda2cb7e11c0b36f903417ef);
             
         
 
-        marker_673c9673f2d46a8400a8310547f78451.bindPopup(popup_2f8417cac34d0da0b596de6a02c67f8e)
+        marker_2cd1193692280b6da7976899d1bf7d67.bindPopup(popup_1e605149e660eb20310b34f5235a8d57)
         ;
 
         
     
     
-            var marker_b74abc12cbd33cee803e8e9e1d5e26ac = L.marker(
+            var marker_dd7fc2cd829ec95ae7079d0fedafbb72 = L.marker(
                 [44.34932129520802, 9.231660606300823],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_9c1f6267d5cdccd976fd6f839b7a232f = L.AwesomeMarkers.icon(
+            var icon_b8e6213a3914c6d00c41690622dbd29a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_b74abc12cbd33cee803e8e9e1d5e26ac.setIcon(icon_9c1f6267d5cdccd976fd6f839b7a232f);
+            marker_dd7fc2cd829ec95ae7079d0fedafbb72.setIcon(icon_b8e6213a3914c6d00c41690622dbd29a);
         
     
-        var popup_1222bacba36c5cc4a1b7083759a814d4 = L.popup({"maxWidth": 300});
+        var popup_7a2bdd10f522cafa91f0367c02959d1b = L.popup({"maxWidth": 300});
 
         
             
-                var html_f84e48a74787576a38216c0b459617fb = $(`<div id="html_f84e48a74787576a38216c0b459617fb" style="width: 100.0%; height: 100.0%;">             <b>Menicucci Ginesia Pecorino Terre Di Chirti</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 130 DKK<br>             </div>`)[0];
-                popup_1222bacba36c5cc4a1b7083759a814d4.setContent(html_f84e48a74787576a38216c0b459617fb);
+                var html_1861a49a46876d2537e28f7080858c1a = $(`<div id="html_1861a49a46876d2537e28f7080858c1a" style="width: 100.0%; height: 100.0%;">             <b>Menicucci Ginesia Pecorino Terre Di Chirti</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 130 DKK<br>             </div>`)[0];
+                popup_7a2bdd10f522cafa91f0367c02959d1b.setContent(html_1861a49a46876d2537e28f7080858c1a);
             
         
 
-        marker_b74abc12cbd33cee803e8e9e1d5e26ac.bindPopup(popup_1222bacba36c5cc4a1b7083759a814d4)
+        marker_dd7fc2cd829ec95ae7079d0fedafbb72.bindPopup(popup_7a2bdd10f522cafa91f0367c02959d1b)
         ;
 
         
     
     
-            var marker_4790d88910cca779b535466854931c85 = L.marker(
-                [49.26018353588816, 4.036400386733137],
+            var marker_0bd971f337298de6292aba0d4100000e = L.marker(
+                [49.26046229831125, 4.036246909427317],
                 {"tags": ["Type: Champagne", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_774300a8416a4f95b704d402ab61fc09 = L.AwesomeMarkers.icon(
+            var icon_e67303b9748c54bbdc63a9e4af940e37 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_4790d88910cca779b535466854931c85.setIcon(icon_774300a8416a4f95b704d402ab61fc09);
+            marker_0bd971f337298de6292aba0d4100000e.setIcon(icon_e67303b9748c54bbdc63a9e4af940e37);
         
     
-        var popup_10b61188b53f87aa410319273b3765b6 = L.popup({"maxWidth": 300});
+        var popup_a38f59dc7b96406afe0c74fb5784e5a2 = L.popup({"maxWidth": 300});
 
         
             
-                var html_59ac1bf76204b52dd08f24ef4e5a2b84 = $(`<div id="html_59ac1bf76204b52dd08f24ef4e5a2b84" style="width: 100.0%; height: 100.0%;">             <b>Jacquart Mosaïque Rosé Champagne</b><br>             Buy Again: 👎             Type: Champagne<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇<br>             Price: 250 DKK<br>             </div>`)[0];
-                popup_10b61188b53f87aa410319273b3765b6.setContent(html_59ac1bf76204b52dd08f24ef4e5a2b84);
+                var html_27b9e9f8241de6e86ab5a32c094f44ce = $(`<div id="html_27b9e9f8241de6e86ab5a32c094f44ce" style="width: 100.0%; height: 100.0%;">             <b>Jacquart Mosaïque Rosé Champagne</b><br>             Buy Again: 👎             Type: Champagne<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇<br>             Price: 250 DKK<br>             </div>`)[0];
+                popup_a38f59dc7b96406afe0c74fb5784e5a2.setContent(html_27b9e9f8241de6e86ab5a32c094f44ce);
             
         
 
-        marker_4790d88910cca779b535466854931c85.bindPopup(popup_10b61188b53f87aa410319273b3765b6)
+        marker_0bd971f337298de6292aba0d4100000e.bindPopup(popup_a38f59dc7b96406afe0c74fb5784e5a2)
         ;
 
         
     
     
-            var marker_2b1311b54e3d8e9738eb132580a8437f = L.marker(
+            var marker_3b36bbd75e9a083e62c9d13518c0d300 = L.marker(
                 [48.16982473526811, 4.6530664525549446],
                 {"tags": ["Type: Champagne", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_46419a46f86f716aad4326b9a5dab404 = L.AwesomeMarkers.icon(
+            var icon_92f7749a64b97d391ffb77a3a8b01fca = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_2b1311b54e3d8e9738eb132580a8437f.setIcon(icon_46419a46f86f716aad4326b9a5dab404);
+            marker_3b36bbd75e9a083e62c9d13518c0d300.setIcon(icon_92f7749a64b97d391ffb77a3a8b01fca);
         
     
-        var popup_e0a2a704bc53985f845f4620f3abe095 = L.popup({"maxWidth": 300});
+        var popup_7e1ce24bb361ec396ef307c793124eab = L.popup({"maxWidth": 300});
 
         
             
-                var html_ef80e8790fe4de3ba00c65005ba42148 = $(`<div id="html_ef80e8790fe4de3ba00c65005ba42148" style="width: 100.0%; height: 100.0%;">             <b>Drappier Charles De Gaulle Brut Champagne</b><br>             Buy Again: 👍             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 279 DKK<br>             </div>`)[0];
-                popup_e0a2a704bc53985f845f4620f3abe095.setContent(html_ef80e8790fe4de3ba00c65005ba42148);
+                var html_58d23e4ee7fe48bd96cc5c4542c99c56 = $(`<div id="html_58d23e4ee7fe48bd96cc5c4542c99c56" style="width: 100.0%; height: 100.0%;">             <b>Drappier Charles De Gaulle Brut Champagne</b><br>             Buy Again: 👍             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 279 DKK<br>             </div>`)[0];
+                popup_7e1ce24bb361ec396ef307c793124eab.setContent(html_58d23e4ee7fe48bd96cc5c4542c99c56);
             
         
 
-        marker_2b1311b54e3d8e9738eb132580a8437f.bindPopup(popup_e0a2a704bc53985f845f4620f3abe095)
+        marker_3b36bbd75e9a083e62c9d13518c0d300.bindPopup(popup_7e1ce24bb361ec396ef307c793124eab)
         ;
 
         
     
     
-            var marker_eaf3dbabbe5c96007b9ede995c27e442 = L.marker(
+            var marker_61d036e700222e1ac702c1bad92e5431 = L.marker(
                 [45.50683906145054, 10.914294607688014],
                 {"tags": ["Type: Red", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_ace1fac0362ba31540b5a892185154f4 = L.AwesomeMarkers.icon(
+            var icon_d44369f4388f0fba98457faca25ac047 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_eaf3dbabbe5c96007b9ede995c27e442.setIcon(icon_ace1fac0362ba31540b5a892185154f4);
+            marker_61d036e700222e1ac702c1bad92e5431.setIcon(icon_d44369f4388f0fba98457faca25ac047);
         
     
-        var popup_390cc3cc19011fd270c900c53f762606 = L.popup({"maxWidth": 300});
+        var popup_f6ac4b346095205bfdf9a54a5cc42612 = L.popup({"maxWidth": 300});
 
         
             
-                var html_2af804d8aa0041c195bf6bf04ed755d2 = $(`<div id="html_2af804d8aa0041c195bf6bf04ed755d2" style="width: 100.0%; height: 100.0%;">             <b>Le Arche Amarone della Valpolicella</b><br>             Buy Again: 👎             Type: Red<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 270 DKK<br>             </div>`)[0];
-                popup_390cc3cc19011fd270c900c53f762606.setContent(html_2af804d8aa0041c195bf6bf04ed755d2);
+                var html_4a8eb310ac0a4ad942912f55f770de8d = $(`<div id="html_4a8eb310ac0a4ad942912f55f770de8d" style="width: 100.0%; height: 100.0%;">             <b>Le Arche Amarone della Valpolicella</b><br>             Buy Again: 👎             Type: Red<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 270 DKK<br>             </div>`)[0];
+                popup_f6ac4b346095205bfdf9a54a5cc42612.setContent(html_4a8eb310ac0a4ad942912f55f770de8d);
             
         
 
-        marker_eaf3dbabbe5c96007b9ede995c27e442.bindPopup(popup_390cc3cc19011fd270c900c53f762606)
+        marker_61d036e700222e1ac702c1bad92e5431.bindPopup(popup_f6ac4b346095205bfdf9a54a5cc42612)
         ;
 
         
     
     
-            var marker_51779d3bfc83e600198964593b090f0c = L.marker(
+            var marker_d3f8ad6931fcbe8beb20bd5df2ac4c60 = L.marker(
                 [39.47382609080392, -0.3756664200959953],
                 {"tags": ["Type: Cava", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_0526332a743781f84221c97dfebee923 = L.AwesomeMarkers.icon(
+            var icon_4c4d3a68689498497d4b3873ee2b2ccf = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_51779d3bfc83e600198964593b090f0c.setIcon(icon_0526332a743781f84221c97dfebee923);
+            marker_d3f8ad6931fcbe8beb20bd5df2ac4c60.setIcon(icon_4c4d3a68689498497d4b3873ee2b2ccf);
         
     
-        var popup_ebfed335f9e4998e72863f32f5d7e311 = L.popup({"maxWidth": 300});
+        var popup_6fbc9f279157933d09f7f795c8744259 = L.popup({"maxWidth": 300});
 
         
             
-                var html_9f8792f9dd37c90637cc9de08389b3b9 = $(`<div id="html_9f8792f9dd37c90637cc9de08389b3b9" style="width: 100.0%; height: 100.0%;">             <b>Loina By Christiane Cava</b><br>             Buy Again: 🫳(Tilbud)             Type: Cava<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 80 DKK<br>             </div>`)[0];
-                popup_ebfed335f9e4998e72863f32f5d7e311.setContent(html_9f8792f9dd37c90637cc9de08389b3b9);
+                var html_e9a7ccd8999822c0dedf2440195b3a95 = $(`<div id="html_e9a7ccd8999822c0dedf2440195b3a95" style="width: 100.0%; height: 100.0%;">             <b>Loina By Christiane Cava</b><br>             Buy Again: 🫳(Tilbud)             Type: Cava<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 80 DKK<br>             </div>`)[0];
+                popup_6fbc9f279157933d09f7f795c8744259.setContent(html_e9a7ccd8999822c0dedf2440195b3a95);
             
         
 
-        marker_51779d3bfc83e600198964593b090f0c.bindPopup(popup_ebfed335f9e4998e72863f32f5d7e311)
+        marker_d3f8ad6931fcbe8beb20bd5df2ac4c60.bindPopup(popup_6fbc9f279157933d09f7f795c8744259)
         ;
 
         
     
     
-            var marker_4b5c48fa817a238e326a1e610f6de1f4 = L.marker(
+            var marker_6194c5c642aa8fead09310b0c42b4c5d = L.marker(
                 [49.05040480910769, 4.123027471977595],
                 {"tags": ["Type: Champagne", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_7a05503a19dbef35ef3775c05ab087f3 = L.AwesomeMarkers.icon(
+            var icon_34749b2dc730792edf047643711814d9 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_4b5c48fa817a238e326a1e610f6de1f4.setIcon(icon_7a05503a19dbef35ef3775c05ab087f3);
+            marker_6194c5c642aa8fead09310b0c42b4c5d.setIcon(icon_34749b2dc730792edf047643711814d9);
         
     
-        var popup_396059120374f50ac78df346e7944fd3 = L.popup({"maxWidth": 300});
+        var popup_9d4962555fe93571782583b3d2b44f8d = L.popup({"maxWidth": 300});
 
         
             
-                var html_62b382682573b98402faa480da74817a = $(`<div id="html_62b382682573b98402faa480da74817a" style="width: 100.0%; height: 100.0%;">             <b>Laurent-Perrier Harmony Demi-Sec Champagne</b><br>             Buy Again: 👍             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 400 DKK<br>             </div>`)[0];
-                popup_396059120374f50ac78df346e7944fd3.setContent(html_62b382682573b98402faa480da74817a);
+                var html_4a755cc57559a0833b32df6f3f64c43c = $(`<div id="html_4a755cc57559a0833b32df6f3f64c43c" style="width: 100.0%; height: 100.0%;">             <b>Laurent-Perrier Harmony Demi-Sec Champagne</b><br>             Buy Again: 👍             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 400 DKK<br>             </div>`)[0];
+                popup_9d4962555fe93571782583b3d2b44f8d.setContent(html_4a755cc57559a0833b32df6f3f64c43c);
             
         
 
-        marker_4b5c48fa817a238e326a1e610f6de1f4.bindPopup(popup_396059120374f50ac78df346e7944fd3)
+        marker_6194c5c642aa8fead09310b0c42b4c5d.bindPopup(popup_9d4962555fe93571782583b3d2b44f8d)
         ;
 
         
     
     
-            var marker_c74769fed20f9bec79bedd9e91b50b7e = L.marker(
+            var marker_ec2b828237e1bccd6050777ad2317406 = L.marker(
                 [36.684208609247825, -6.130890776480428],
                 {"tags": ["Type: Sherry", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_9d95f0f740a3b81f15a3c9f7aba2eca3 = L.AwesomeMarkers.icon(
+            var icon_5c52bbc478f9cb38c556225a0b0bf72d = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
             );
-            marker_c74769fed20f9bec79bedd9e91b50b7e.setIcon(icon_9d95f0f740a3b81f15a3c9f7aba2eca3);
+            marker_ec2b828237e1bccd6050777ad2317406.setIcon(icon_5c52bbc478f9cb38c556225a0b0bf72d);
         
     
-        var popup_e5ac03c0b07b6e6e12fcd7265c38e069 = L.popup({"maxWidth": 300});
+        var popup_bb27a407ee3955a560962674df88311d = L.popup({"maxWidth": 300});
 
         
             
-                var html_b9060c6689a0e4ddd74c6374bc3194cf = $(`<div id="html_b9060c6689a0e4ddd74c6374bc3194cf" style="width: 100.0%; height: 100.0%;">             <b>Lustau Old East India Solera Sherry</b><br>             Buy Again: 🫳(Tilbud)             Type: Sherry<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 160 DKK<br>             </div>`)[0];
-                popup_e5ac03c0b07b6e6e12fcd7265c38e069.setContent(html_b9060c6689a0e4ddd74c6374bc3194cf);
+                var html_3845a416cd38bb37159316bf0045f30c = $(`<div id="html_3845a416cd38bb37159316bf0045f30c" style="width: 100.0%; height: 100.0%;">             <b>Lustau Old East India Solera Sherry</b><br>             Buy Again: 🫳(Tilbud)             Type: Sherry<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 160 DKK<br>             </div>`)[0];
+                popup_bb27a407ee3955a560962674df88311d.setContent(html_3845a416cd38bb37159316bf0045f30c);
             
         
 
-        marker_c74769fed20f9bec79bedd9e91b50b7e.bindPopup(popup_e5ac03c0b07b6e6e12fcd7265c38e069)
+        marker_ec2b828237e1bccd6050777ad2317406.bindPopup(popup_bb27a407ee3955a560962674df88311d)
         ;
 
         
     
     
-            var marker_3c4d7cb3a3bbd8ec6aa08ee4cc4212e2 = L.marker(
+            var marker_0f3d61b23eb7afef079595c2b312690c = L.marker(
                 [-32.88627497258917, -68.86301881774381],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_4ad71cca2ee9ee2b08b3a95238c9cc00 = L.AwesomeMarkers.icon(
+            var icon_86233637373d22daae918fa02db1fa6a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_3c4d7cb3a3bbd8ec6aa08ee4cc4212e2.setIcon(icon_4ad71cca2ee9ee2b08b3a95238c9cc00);
+            marker_0f3d61b23eb7afef079595c2b312690c.setIcon(icon_86233637373d22daae918fa02db1fa6a);
         
     
-        var popup_db65c632890fab18ae99944068e32420 = L.popup({"maxWidth": 300});
+        var popup_4c8a77d6ac1e62b0a2bb705d0d8c591b = L.popup({"maxWidth": 300});
 
         
             
-                var html_5e8b8f7d417c821eaf3b9b720cc3474d = $(`<div id="html_5e8b8f7d417c821eaf3b9b720cc3474d" style="width: 100.0%; height: 100.0%;">             <b>Alamos Viognier Chardonnay </b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 60 DKK<br>             </div>`)[0];
-                popup_db65c632890fab18ae99944068e32420.setContent(html_5e8b8f7d417c821eaf3b9b720cc3474d);
+                var html_a85607021cf2d8b64739dd082b719001 = $(`<div id="html_a85607021cf2d8b64739dd082b719001" style="width: 100.0%; height: 100.0%;">             <b>Alamos Viognier Chardonnay </b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 60 DKK<br>             </div>`)[0];
+                popup_4c8a77d6ac1e62b0a2bb705d0d8c591b.setContent(html_a85607021cf2d8b64739dd082b719001);
             
         
 
-        marker_3c4d7cb3a3bbd8ec6aa08ee4cc4212e2.bindPopup(popup_db65c632890fab18ae99944068e32420)
+        marker_0f3d61b23eb7afef079595c2b312690c.bindPopup(popup_4c8a77d6ac1e62b0a2bb705d0d8c591b)
         ;
 
         
     
     
-            var marker_63c9317bc5ca6a05f568d33dea604937 = L.marker(
+            var marker_6a7860593838450bdbf7dddce30c9275 = L.marker(
                 [-33.00378002846075, -68.85553178467543],
                 {"tags": ["Type: Red", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_edf6ed5415bf1209d2f7b97423d8091e = L.AwesomeMarkers.icon(
+            var icon_8d73728a55a42170170d4a0d2b34e7b6 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_63c9317bc5ca6a05f568d33dea604937.setIcon(icon_edf6ed5415bf1209d2f7b97423d8091e);
+            marker_6a7860593838450bdbf7dddce30c9275.setIcon(icon_8d73728a55a42170170d4a0d2b34e7b6);
         
     
-        var popup_ac809b882ce9e3f34ea98d7634275fc8 = L.popup({"maxWidth": 300});
+        var popup_6cc5091983af735eb3701fe70b017a82 = L.popup({"maxWidth": 300});
 
         
             
-                var html_9cd7c3d84adef05390e666ad34258d99 = $(`<div id="html_9cd7c3d84adef05390e666ad34258d99" style="width: 100.0%; height: 100.0%;">             <b>Altaland historico</b><br>             Buy Again: 👎             Type: Red<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇<br>             Price: 99 DKK<br>             </div>`)[0];
-                popup_ac809b882ce9e3f34ea98d7634275fc8.setContent(html_9cd7c3d84adef05390e666ad34258d99);
+                var html_42778b3fd158b1c8fd8e6799bb286726 = $(`<div id="html_42778b3fd158b1c8fd8e6799bb286726" style="width: 100.0%; height: 100.0%;">             <b>Altaland historico</b><br>             Buy Again: 👎             Type: Red<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇<br>             Price: 99 DKK<br>             </div>`)[0];
+                popup_6cc5091983af735eb3701fe70b017a82.setContent(html_42778b3fd158b1c8fd8e6799bb286726);
             
         
 
-        marker_63c9317bc5ca6a05f568d33dea604937.bindPopup(popup_ac809b882ce9e3f34ea98d7634275fc8)
+        marker_6a7860593838450bdbf7dddce30c9275.bindPopup(popup_6cc5091983af735eb3701fe70b017a82)
         ;
 
         
     
     
-            var marker_40c2c2aebf887dc4579c194bcde96851 = L.marker(
+            var marker_9918aaaca6ef6720d3790c287f4bde6c = L.marker(
                 [-41.507472587380214, 173.94443025080875],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_4fba799f9442626d106b1f3e67ce3898 = L.AwesomeMarkers.icon(
+            var icon_5eacd90b8550121d6d34c306fc67881b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_40c2c2aebf887dc4579c194bcde96851.setIcon(icon_4fba799f9442626d106b1f3e67ce3898);
+            marker_9918aaaca6ef6720d3790c287f4bde6c.setIcon(icon_5eacd90b8550121d6d34c306fc67881b);
         
     
-        var popup_97ae217a8a77da5a6431a792ead9e227 = L.popup({"maxWidth": 300});
+        var popup_9b15675fdaae347b48cd4f21ce7a6e88 = L.popup({"maxWidth": 300});
 
         
             
-                var html_13e47d81d8c08ec527108eef6c3803da = $(`<div id="html_13e47d81d8c08ec527108eef6c3803da" style="width: 100.0%; height: 100.0%;">             <b>Herringbone Hills Sauvignon Blanc 2022</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 129 DKK<br>             </div>`)[0];
-                popup_97ae217a8a77da5a6431a792ead9e227.setContent(html_13e47d81d8c08ec527108eef6c3803da);
+                var html_ae5f32a64501c7269f13ce873bf92570 = $(`<div id="html_ae5f32a64501c7269f13ce873bf92570" style="width: 100.0%; height: 100.0%;">             <b>Herringbone Hills Sauvignon Blanc 2022</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 129 DKK<br>             </div>`)[0];
+                popup_9b15675fdaae347b48cd4f21ce7a6e88.setContent(html_ae5f32a64501c7269f13ce873bf92570);
             
         
 
-        marker_40c2c2aebf887dc4579c194bcde96851.bindPopup(popup_97ae217a8a77da5a6431a792ead9e227)
+        marker_9918aaaca6ef6720d3790c287f4bde6c.bindPopup(popup_9b15675fdaae347b48cd4f21ce7a6e88)
         ;
 
         
     
     
-            var marker_98b809993ba47ccca7e0e2261f3f29a6 = L.marker(
-                [49.07667280436595, 4.143513749406897],
+            var marker_5585fff163646c8ec603c1523b462338 = L.marker(
+                [49.07681884448798, 4.143683474183956],
                 {"tags": ["Type: Champagne", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_bc8e1b9e0d1d7b3675015720c1e4d9c8 = L.AwesomeMarkers.icon(
+            var icon_7ce7c18088937c8159f8c68a84c94694 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_98b809993ba47ccca7e0e2261f3f29a6.setIcon(icon_bc8e1b9e0d1d7b3675015720c1e4d9c8);
+            marker_5585fff163646c8ec603c1523b462338.setIcon(icon_7ce7c18088937c8159f8c68a84c94694);
         
     
-        var popup_305e47bbf91dfc99168097500ee3c72d = L.popup({"maxWidth": 300});
+        var popup_0d3fb805d182b3f29642c35b0efab886 = L.popup({"maxWidth": 300});
 
         
             
-                var html_fba03b9b4ece2c427717a60566054f4d = $(`<div id="html_fba03b9b4ece2c427717a60566054f4d" style="width: 100.0%; height: 100.0%;">             <b>Fromentin Leclapart Champagne Grand Cru A bouzy Brut</b><br>             Buy Again: 👍             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 350 DKK<br>             </div>`)[0];
-                popup_305e47bbf91dfc99168097500ee3c72d.setContent(html_fba03b9b4ece2c427717a60566054f4d);
+                var html_e0ae5945c377412cff161a2f560f4bfb = $(`<div id="html_e0ae5945c377412cff161a2f560f4bfb" style="width: 100.0%; height: 100.0%;">             <b>Fromentin Leclapart Champagne Grand Cru A bouzy Brut</b><br>             Buy Again: 👍             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇<br>             P Rating: 🍇🍇🍇🍇<br>             Price: 350 DKK<br>             </div>`)[0];
+                popup_0d3fb805d182b3f29642c35b0efab886.setContent(html_e0ae5945c377412cff161a2f560f4bfb);
             
         
 
-        marker_98b809993ba47ccca7e0e2261f3f29a6.bindPopup(popup_305e47bbf91dfc99168097500ee3c72d)
+        marker_5585fff163646c8ec603c1523b462338.bindPopup(popup_0d3fb805d182b3f29642c35b0efab886)
         ;
 
         
     
     
-            var marker_743a69f7d9903d69a9340e5b5722269d = L.marker(
+            var marker_0f7e4b751fc9145690dfb5e30cf56cf3 = L.marker(
                 [47.59999607907368, 28.470324947087228],
                 {"tags": ["Type: White", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47", "P Rating: Not Tasted"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_dd6d8999721a439eb1c0b374d3bfa7b7 = L.AwesomeMarkers.icon(
+            var icon_f550eb0bd70d394c759e86621662a984 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_743a69f7d9903d69a9340e5b5722269d.setIcon(icon_dd6d8999721a439eb1c0b374d3bfa7b7);
+            marker_0f7e4b751fc9145690dfb5e30cf56cf3.setIcon(icon_f550eb0bd70d394c759e86621662a984);
         
     
-        var popup_2fc6cf5cdecf812d5f79f85264b4f559 = L.popup({"maxWidth": 300});
+        var popup_6bb565af7279fff49edc1da23ad07754 = L.popup({"maxWidth": 300});
 
         
             
-                var html_75c25330f01b320e7243b0e75cad82af = $(`<div id="html_75c25330f01b320e7243b0e75cad82af" style="width: 100.0%; height: 100.0%;">             <b>Soul Wine Riesling</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇<br>             P Rating: Not Tasted<br>             Price: 39 DKK<br>             </div>`)[0];
-                popup_2fc6cf5cdecf812d5f79f85264b4f559.setContent(html_75c25330f01b320e7243b0e75cad82af);
+                var html_85482918d7f4b0b9f7fc2f9237d951fd = $(`<div id="html_85482918d7f4b0b9f7fc2f9237d951fd" style="width: 100.0%; height: 100.0%;">             <b>Soul Wine Riesling</b><br>             Buy Again: 👎             Type: White<br>             M Rating: 🍇🍇<br>             P Rating: Not Tasted<br>             Price: 39 DKK<br>             </div>`)[0];
+                popup_6bb565af7279fff49edc1da23ad07754.setContent(html_85482918d7f4b0b9f7fc2f9237d951fd);
             
         
 
-        marker_743a69f7d9903d69a9340e5b5722269d.bindPopup(popup_2fc6cf5cdecf812d5f79f85264b4f559)
+        marker_0f7e4b751fc9145690dfb5e30cf56cf3.bindPopup(popup_6bb565af7279fff49edc1da23ad07754)
         ;
 
         
     
     
-            var marker_e025cda5141ed5a0ffe72976acbd0bb4 = L.marker(
-                [48.170017944658895, 4.653251556625236],
+            var marker_f7f20af8270d7a154596c1186680ffdb = L.marker(
+                [48.16972630541503, 4.653109949645178],
                 {"tags": ["Type: Champagne", "Buy Again: \ud83d\udc4d", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: Not Tasted"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_fded9d21ba0e29ccfbafa851635630c6 = L.AwesomeMarkers.icon(
+            var icon_6e2a639ebd4976ef27cf284dad52fbf1 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_e025cda5141ed5a0ffe72976acbd0bb4.setIcon(icon_fded9d21ba0e29ccfbafa851635630c6);
+            marker_f7f20af8270d7a154596c1186680ffdb.setIcon(icon_6e2a639ebd4976ef27cf284dad52fbf1);
         
     
-        var popup_d6ec97c048306998cc86d9d2a016928f = L.popup({"maxWidth": 300});
+        var popup_3a541f80b767ef434fd1721d49a87feb = L.popup({"maxWidth": 300});
 
         
             
-                var html_55835bd7aeae7c05f1dab07d089dfd6a = $(`<div id="html_55835bd7aeae7c05f1dab07d089dfd6a" style="width: 100.0%; height: 100.0%;">             <b>Drappier Brut Champagne Premier Cru N.V.</b><br>             Buy Again: 👍             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: Not Tasted<br>             Price: 350 DKK<br>             </div>`)[0];
-                popup_d6ec97c048306998cc86d9d2a016928f.setContent(html_55835bd7aeae7c05f1dab07d089dfd6a);
+                var html_a33919060012aa7c10ec8ee0766d2f4f = $(`<div id="html_a33919060012aa7c10ec8ee0766d2f4f" style="width: 100.0%; height: 100.0%;">             <b>Drappier Brut Champagne Premier Cru N.V.</b><br>             Buy Again: 👍             Type: Champagne<br>             M Rating: 🍇🍇🍇🍇🍇<br>             P Rating: Not Tasted<br>             Price: 350 DKK<br>             </div>`)[0];
+                popup_3a541f80b767ef434fd1721d49a87feb.setContent(html_a33919060012aa7c10ec8ee0766d2f4f);
             
         
 
-        marker_e025cda5141ed5a0ffe72976acbd0bb4.bindPopup(popup_d6ec97c048306998cc86d9d2a016928f)
+        marker_f7f20af8270d7a154596c1186680ffdb.bindPopup(popup_3a541f80b767ef434fd1721d49a87feb)
         ;
 
         
     
     
-            var marker_92357236013d39ad125feeac9ebac95c = L.marker(
+            var marker_26bacc42fc44d74364bed8a037baa846 = L.marker(
                 [41.616865389598594, -4.1667606326093996],
                 {"tags": ["Type: Red", "Buy Again: \ud83d\udc4e", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47"]}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(marker_cluster_505aa25443794b4b988ab5ffb53eb217);
         
     
-            var icon_300474db2a6cd59f37f9b984c0b5ea07 = L.AwesomeMarkers.icon(
+            var icon_5e7202dc2d2dd4dc158392a03339daab = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
             );
-            marker_92357236013d39ad125feeac9ebac95c.setIcon(icon_300474db2a6cd59f37f9b984c0b5ea07);
+            marker_26bacc42fc44d74364bed8a037baa846.setIcon(icon_5e7202dc2d2dd4dc158392a03339daab);
         
     
-        var popup_0cff6a137616ad5742063420036a19a6 = L.popup({"maxWidth": 300});
+        var popup_96318aa7986f6c796dc21e7d9e3bc71b = L.popup({"maxWidth": 300});
 
         
             
-                var html_b1edb00cd78eee05011b2b07e41b065b = $(`<div id="html_b1edb00cd78eee05011b2b07e41b065b" style="width: 100.0%; height: 100.0%;">             <b>Pena Roble Ribera del Duero</b><br>             Buy Again: 👎             Type: Red<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 139 DKK<br>             </div>`)[0];
-                popup_0cff6a137616ad5742063420036a19a6.setContent(html_b1edb00cd78eee05011b2b07e41b065b);
+                var html_26200eea70f796455f4fff496f08fae8 = $(`<div id="html_26200eea70f796455f4fff496f08fae8" style="width: 100.0%; height: 100.0%;">             <b>Pena Roble Ribera del Duero</b><br>             Buy Again: 👎             Type: Red<br>             M Rating: 🍇🍇🍇<br>             P Rating: 🍇🍇🍇<br>             Price: 139 DKK<br>             </div>`)[0];
+                popup_96318aa7986f6c796dc21e7d9e3bc71b.setContent(html_26200eea70f796455f4fff496f08fae8);
             
         
 
-        marker_92357236013d39ad125feeac9ebac95c.bindPopup(popup_0cff6a137616ad5742063420036a19a6)
+        marker_26bacc42fc44d74364bed8a037baa846.bindPopup(popup_96318aa7986f6c796dc21e7d9e3bc71b)
         ;
 
         
     
     
-            var tag_filter_button_8af0ce9c5b8db40799484efd23fdbb74 = L.control.tagFilterButton(
+            marker_cluster_505aa25443794b4b988ab5ffb53eb217.addTo(map_c82cb8fe5beef6ac761122d99d436f29);
+        
+    
+            var tag_filter_button_7bdd5fef2cc5dc8fdc59bbc5bffded49 = L.control.tagFilterButton(
                 {"clearText": "clear", "data": ["Buy Again: \ud83d\udc4d", "Buy Again: \ud83d\udc4e", "Buy Again: \ud83e\udef3(Tilbud)", "M Rating: \ud83c\udf47", "M Rating: \ud83c\udf47\ud83c\udf47", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "M Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: Not Tasted", "P Rating: \ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "P Rating: \ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47\ud83c\udf47", "Type: Cava", "Type: Champagne", "Type: Porto", "Type: Red", "Type: Sherry", "Type: White"], "filterOnEveryClick": true, "icon": "fa-filter", "openPopupOnHover": false}
-            ).addTo(map_2d3eb496fcca225ae6597cefcb27809d);
+            ).addTo(map_c82cb8fe5beef6ac761122d99d436f29);
         
 </script>
 </html>

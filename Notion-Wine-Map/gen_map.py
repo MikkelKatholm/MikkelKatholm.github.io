@@ -1,6 +1,7 @@
 import random
 import folium
 from folium.plugins import TagFilterButton
+from folium.plugins import MarkerCluster
 from load_notion_data import get_data
 
 
@@ -27,14 +28,17 @@ def generate_map():
         tiles="CartoDB Positron", 
         zoom_start=4)
 
+    # Add a marker cluster
+    marker_cluster = MarkerCluster(options={'spiderfyOnMaxZoom': False, 'showCoverageOnHover': False, 'zoomToBoundsOnClick': True, 'maxClusterRadius': 3}).add_to(wine_map)
 
     # Add markers
     for wine in wines:
         lat, lon = wine.latitude, wine.longitude
 
         while lat in latitudes and lon in longitudes:
-            lat += random.uniform(-0.0001, 0.0001)
-            lon += random.uniform(-0.0001, 0.0001) 
+            lat = wine.latitude + random.uniform(-0.0001, 0.0001)
+            lon = wine.longitude + random.uniform(-0.0001, 0.0001)
+
 
         location = [lat, lon]
         
@@ -63,7 +67,8 @@ def generate_map():
                 popup=folium.Popup(popup_content, max_width=300),
                 icon=folium.Icon(color=color_icon(wine.buyAgain)),
                 tags=["Type: " + wine.typeWine, "Buy Again: " + wine.buyAgain, "M Rating: " + wine.mRating, "P Rating: " + wine.pRating]
-            ).add_to(wine_map)
+            ).add_to(marker_cluster)
+            
         else:
             print(f"Could not find location for {wine.name}")
 

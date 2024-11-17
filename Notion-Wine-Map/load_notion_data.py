@@ -2,7 +2,7 @@ from notion_client import Client
 from pprint import pprint
 import json
 
-debug = True
+debug = False
 notion_token = open('api_key.txt', 'r').read().strip()
 notion_page_id = '9f6919e413244cd7884f22f39f1eb5e0'
 notion_database_id = 'f58f50cd6a1e47a98d0ac773963fe95a'
