@@ -87,7 +87,7 @@ def get_data():
         buyAgain = get_database_content(row, 'properties.Buy again.select.name')
         country = '' 
         region = ''
-        etiquette = ''
+        etiquette = get_database_content(row, 'properties.Etiquette.files.0.file.url')
         grape = get_database_content_all_vals(row, 'properties.Grape.multi_select.name')
         mRating = get_database_content(row, 'properties.M Rating.select.name')
         openDay = get_database_content(row, 'properties.Open Day.date.start')
@@ -105,3 +105,11 @@ def get_data():
 
     return wines
 
+
+
+
+if __name__ == '__main__':
+    if debug:
+        wines = get_data()
+        for w in wines:
+            print(w)

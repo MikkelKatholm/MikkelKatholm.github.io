@@ -7,3 +7,5 @@
 ############################################
 Notion-Wine-Map/api_key.txt
 Notion-Wine-Map/__pycache__
+Notion-Wine-Map/database_metadata.json
+Notion-Wine-Map/database_content.json

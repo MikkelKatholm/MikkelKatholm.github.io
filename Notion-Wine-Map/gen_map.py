@@ -1,7 +1,7 @@
 import random
 import folium
 from folium.plugins import TagFilterButton
-from folium.plugins import MarkerCluster
+from folium.plugins import HeatMap
 from load_notion_data import get_data
 
 
@@ -28,9 +28,6 @@ def generate_map():
         tiles="CartoDB Positron", 
         zoom_start=4)
 
-    # Add a marker cluster
-    marker_cluster = MarkerCluster(options={'spiderfyOnMaxZoom': False, 'showCoverageOnHover': False, 'zoomToBoundsOnClick': True, 'maxClusterRadius': 3}).add_to(wine_map)
-
     # Add markers
     for wine in wines:
         lat, lon = wine.latitude, wine.longitude
@@ -40,19 +37,19 @@ def generate_map():
             lon = wine.longitude + random.uniform(-0.0001, 0.0001)
 
 
-        location = [lat, lon]
-        
+        location = [lat, lon]        
         latitudes.append(lat)
         longitudes.append(lon)
                 
         if location[0] and location[1]:
             popup_content = f"""
-            <b>{wine.name}</b><br>
+            <b><a href={wine.etiquette} target="_blank">{wine.name}</a></b><br>
             Buy Again: {wine.buyAgain}
             Type: {wine.typeWine}<br>
             M Rating: {wine.mRating}<br>
             P Rating: {wine.pRating}<br>
             Price: {wine.price} DKK<br>
+            Vintage: {'Non Vintage' if wine.year == 0 else wine.year}<br>
             """
             
             filterCategories.append("Type: " + wine.typeWine)
@@ -67,7 +64,7 @@ def generate_map():
                 popup=folium.Popup(popup_content, max_width=300),
                 icon=folium.Icon(color=color_icon(wine.buyAgain)),
                 tags=["Type: " + wine.typeWine, "Buy Again: " + wine.buyAgain, "M Rating: " + wine.mRating, "P Rating: " + wine.pRating]
-            ).add_to(marker_cluster)
+            ).add_to(wine_map)
             
         else:
             print(f"Could not find location for {wine.name}")
@@ -75,6 +72,7 @@ def generate_map():
     filterCategories = list(dict.fromkeys(filterCategories))
     filterCategories.sort()
     TagFilterButton(filterCategories).add_to(wine_map)
+    HeatMap([[wine.latitude, wine.longitude] for wine in wines], radius=15).add_to(wine_map)
 
     # Save map to an HTML file
     wine_map.save("wine_map.html")
