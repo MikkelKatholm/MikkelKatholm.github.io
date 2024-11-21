@@ -43,8 +43,8 @@ def generate_map():
                 
         if location[0] and location[1]:
             popup_content = f"""
-            <b><a href={wine.etiquette} target="_blank">{wine.name}</a></b><br>
-            Buy Again: {wine.buyAgain}
+            <b><a href=image.html?image=images/wineEttiqettes/{wine.etiquette}.jpg target="_blank">{wine.name}</a></b><br>
+            Buy Again: {wine.buyAgain}<br>
             Type: {wine.typeWine}<br>
             M Rating: {wine.mRating}<br>
             P Rating: {wine.pRating}<br>

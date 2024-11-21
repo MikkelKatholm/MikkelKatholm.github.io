@@ -71,6 +71,20 @@ def get_database_content_all_vals(data,dot_chained_keys):
 
     return [item[last_key] for item in data]
 
+def download_image(url, file_name):
+    import requests
+    import os.path
+    # Check if the image is already downloaded
+    if os.path.isfile("images/wineEttiqettes/"+file_name+".jpg"):
+        return
+
+    print(f"Downloading {file_name}")
+    response = requests.get(url)
+    with open("images/wineEttiqettes/"+file_name+".jpg", 'wb') as f:
+        f.write(response.content)
+
+
+
 def get_data():
     client = Client(auth=notion_token)
 
@@ -87,7 +101,7 @@ def get_data():
         buyAgain = get_database_content(row, 'properties.Buy again.select.name')
         country = '' 
         region = ''
-        etiquette = get_database_content(row, 'properties.Etiquette.files.0.file.url')
+        etiquetteUrl = get_database_content(row, 'properties.Etiquette.files.0.file.url')
         grape = get_database_content_all_vals(row, 'properties.Grape.multi_select.name')
         mRating = get_database_content(row, 'properties.M Rating.select.name')
         openDay = get_database_content(row, 'properties.Open Day.date.start')
@@ -98,6 +112,10 @@ def get_data():
         producer = ''
         latitude = get_database_content(row, 'properties.Latitude.rollup.array.0.number')
         longitude = get_database_content(row, 'properties.Longitude.rollup.array.0.number')
+
+        etiquette = name.replace(" ", "_")
+
+        download_image(etiquetteUrl, etiquette)
 
         vin = wine(name, buyAgain, etiquette, grape, mRating, openDay, pRating, price, typeWine, year, latitude, longitude)
         wines.append(vin)
