@@ -1,7 +1,6 @@
 import random
 import folium
-from folium.plugins import TagFilterButton
-from folium.plugins import HeatMap
+from folium.plugins import TagFilterButton, HeatMap, Search
 from load_notion_data import get_data
 
 
@@ -26,9 +25,15 @@ def generate_map():
     wine_map = folium.Map(
         location=[46.0, 15.0], 
         tiles="CartoDB Positron", 
-        zoom_start=4)
+        zoom_start=4,
+        )
+
+
 
     # Add markers
+    marker_cluster = folium.FeatureGroup(name="Wine Markers")
+
+
     for wine in wines:
         lat, lon = wine.latitude, wine.longitude
 
@@ -49,6 +54,7 @@ def generate_map():
             M Rating: {wine.mRating}<br>
             P Rating: {wine.pRating}<br>
             Price: {wine.price} DKK<br>
+            Region: {wine.region}<br>
             Vintage: {'Non Vintage' if wine.year == 0 else wine.year}<br>
             """
             
@@ -59,20 +65,25 @@ def generate_map():
             
 
 
-            folium.Marker(
+            marker = folium.Marker(
                 location=location,
                 popup=folium.Popup(popup_content, max_width=300),
                 icon=folium.Icon(color=color_icon(wine.buyAgain)),
                 tags=["Type: " + wine.typeWine, "Buy Again: " + wine.buyAgain, "M Rating: " + wine.mRating, "P Rating: " + wine.pRating]
-            ).add_to(wine_map)
-            
+            )
+            marker.add_to(marker_cluster)
+        
         else:
             print(f"Could not find location for {wine.name}")
+    
+    marker_cluster.add_to(wine_map)
+
 
     filterCategories = list(dict.fromkeys(filterCategories))
     filterCategories.sort()
     TagFilterButton(filterCategories).add_to(wine_map)
     HeatMap([[wine.latitude, wine.longitude] for wine in wines], radius=15).add_to(wine_map)
+
 
     # Save map to an HTML file
     wine_map.save("wine_map.html")

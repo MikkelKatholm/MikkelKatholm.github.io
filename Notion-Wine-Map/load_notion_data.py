@@ -1,5 +1,4 @@
 from notion_client import Client
-from pprint import pprint
 import json
 
 debug = False
@@ -9,10 +8,11 @@ notion_database_id = 'f58f50cd6a1e47a98d0ac773963fe95a'
 
 
 class wine:
-    def __init__(self, name, buyAgain, etiquette, grape, mRating, openDay, pRating, price, typeWine, year, latitude, longitude):
+    def __init__(self, name, buyAgain, etiquette, region, grape, mRating, openDay, pRating, price, typeWine, year, latitude, longitude):
         self.name = name
         self.buyAgain = buyAgain
         self.etiquette = etiquette
+        self.region = region
         self.grape = grape
         self.mRating = mRating
         self.openDay = openDay
@@ -24,13 +24,12 @@ class wine:
         self.longitude = longitude
 
     def __str__(self):
-        return f"Name: {self.name}\nBuy Again: {self.buyAgain}\nEtiquette: {self.etiquette}\nGrape: {self.grape}\nM Rating {self.mRating}\nOpen Day: {self.openDay}\nP Rating: {self.pRating}\nPrice: {self.price}\nType: {self.typeWine}\nYear: {self.year}\nLatitude: {self.latitude}\nLongitude: {self.longitude}\n"
+        return f"Name: {self.name}\nBuy Again: {self.buyAgain}\nEtiquette: {self.etiquette}\nRegion: {self.region}\nGrape: {self.grape}\nM Rating {self.mRating}\nOpen Day: {self.openDay}\nP Rating: {self.pRating}\nPrice: {self.price}\nType: {self.typeWine}\nYear: {self.year}\nLatitude: {self.latitude}\nLongitude: {self.longitude}\n"
 
 
 def save_as_json(content, file_name):
     if debug:        
         content_as_json_str = json.dumps(content)
-
         with open(file_name, 'w') as f:
             f.write(content_as_json_str)
 
@@ -78,7 +77,7 @@ def download_image(url, file_name):
     if os.path.isfile("images/wineEttiqettes/"+file_name+".jpg"):
         return
 
-    print(f"Downloading {file_name}")
+    print(f"Downloading {file_name.replace('_', ' ')}")
     response = requests.get(url)
     with open("images/wineEttiqettes/"+file_name+".jpg", 'wb') as f:
         f.write(response.content)
@@ -100,7 +99,7 @@ def get_data():
         name = get_database_content(row, 'properties.Name.title.0.plain_text')            
         buyAgain = get_database_content(row, 'properties.Buy again.select.name')
         country = '' 
-        region = ''
+        region = get_database_content(row, 'properties.Region for Map.formula.string')
         etiquetteUrl = get_database_content(row, 'properties.Etiquette.files.0.file.url')
         grape = get_database_content_all_vals(row, 'properties.Grape.multi_select.name')
         mRating = get_database_content(row, 'properties.M Rating.select.name')
@@ -117,7 +116,7 @@ def get_data():
 
         download_image(etiquetteUrl, etiquette)
 
-        vin = wine(name, buyAgain, etiquette, grape, mRating, openDay, pRating, price, typeWine, year, latitude, longitude)
+        vin = wine(name, buyAgain, etiquette, region, grape, mRating, openDay, pRating, price, typeWine, year, latitude, longitude)
         wines.append(vin)
 
 
@@ -127,7 +126,7 @@ def get_data():
 
 
 if __name__ == '__main__':
-    if debug:
-        wines = get_data()
-        for w in wines:
-            print(w)
+    debug = True
+    wines = get_data()
+    for w in wines:
+        print(w)
